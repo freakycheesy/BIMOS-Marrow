@@ -51,11 +51,14 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3a21ade80c594fe4ba3b241ba4bc23a3, type: 2}
   - {fileID: 11400000, guid: 4e536188a74a0e74e95c18fc64883e38, type: 2}
   - {fileID: 11400000, guid: 02cbd6ee0b841af4e90a9a0f6151c55a, type: 2}
-  _dataCards: []
+  - {fileID: 11400000, guid: 52d9406905999b84eafe95b8dbeb5e94, type: 2}
+  - {fileID: 11400000, guid: e74d807c9826e9f44aafef22a9e27906, type: 2}
+  - {fileID: 11400000, guid: 777fd531b1bafac49bd451b69d7679ab, type: 2}
+  _dataCards:
+  - {fileID: 11400000, guid: e74e0cba467629b4aa16455a90b26f84, type: 2}
   _tags: []
   _changeLogs: []
   _crateTitles:
-  - Spawnable  Axe
   - Spawnable  Ball Crate
   - Spawnable  Block Tower
   - Spawnable  Capsule
@@ -64,7 +67,6 @@ MonoBehaviour:
   - Spawnable  Drawbridge
   - Spawnable  Empty
   - Spawnable  Grapple Gun
-  - Spawnable  Hammer
   - Spawnable  Hook
   - Spawnable  Key
   - Spawnable  Key Door
@@ -73,15 +75,16 @@ MonoBehaviour:
   - Spawnable  Light Cube
   - Spawnable  Moving Platform
   - Spawnable  Pedestal Button
-  - Spawnable  Pistol
   - Spawnable  Pooey
   - Spawnable  Ragdoll
   - Spawnable  Sphere
   - Spawnable  Table
   - Spawnable  Target
-  - Spawnable  Thruster
-  - Spawnable  Thruster Reversed
   - Spawnable  Tower
   - Level  Sample
-  _datacardTitles: []
+  - Spawnable  Lil Pooey
+  - Avatar  Human
+  - Spawnable  Tower (Section)
+  _datacardTitles:
+  - MonoDisc  Sample Music
   _palletDependencies: []

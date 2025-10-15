@@ -1,0 +1,382 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1181003926814534882
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1037457821718122870}
+  m_Layer: 0
+  m_Name: Eye
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1037457821718122870
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1181003926814534882}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.67, z: 0.067}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3346229768216082725}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5262128757276016113
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3346229768216082725}
+  m_Layer: 0
+  m_Name: Human
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3346229768216082725
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5262128757276016113}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3806456123297299361}
+  - {fileID: 1037457821718122870}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &3700136797922368586
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3346229768216082725}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 603fa28e41e4d1e4e935f05e8e122d6e, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 603fa28e41e4d1e4e935f05e8e122d6e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 603fa28e41e4d1e4e935f05e8e122d6e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 603fa28e41e4d1e4e935f05e8e122d6e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 603fa28e41e4d1e4e935f05e8e122d6e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 603fa28e41e4d1e4e935f05e8e122d6e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 603fa28e41e4d1e4e935f05e8e122d6e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 603fa28e41e4d1e4e935f05e8e122d6e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 603fa28e41e4d1e4e935f05e8e122d6e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 603fa28e41e4d1e4e935f05e8e122d6e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 603fa28e41e4d1e4e935f05e8e122d6e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 603fa28e41e4d1e4e935f05e8e122d6e, type: 3}
+      propertyPath: m_Name
+      value: Human
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 603fa28e41e4d1e4e935f05e8e122d6e, type: 3}
+--- !u!137 &1740105359187390706 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 3134397908663512248, guid: 603fa28e41e4d1e4e935f05e8e122d6e, type: 3}
+  m_PrefabInstance: {fileID: 3700136797922368586}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3806456123297299361 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 603fa28e41e4d1e4e935f05e8e122d6e, type: 3}
+  m_PrefabInstance: {fileID: 3700136797922368586}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4582675411117187355 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 603fa28e41e4d1e4e935f05e8e122d6e, type: 3}
+  m_PrefabInstance: {fileID: 3700136797922368586}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4142869003945773084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4582675411117187355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36b0701fa2155054992fd13cc16abcfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 7076020853149999579}
+  requiredBonesOrRefsMissing: 0
+  eyeCenterOverride: {fileID: 1037457821718122870}
+  bodyMeshes:
+  - {fileID: 1740105359187390706}
+  headMeshes: []
+  hairMeshes: []
+  eyeOffset: 0.02
+  wristLf: {fileID: 8820102420012207287}
+  wristRt: {fileID: 5225971703165173883}
+  neck2: {fileID: 0}
+  scapulaLf: {fileID: 0}
+  scapulaRt: {fileID: 0}
+  carpalLf: {fileID: 0}
+  carpalRt: {fileID: 0}
+  twistUpperArmLf: {fileID: 0}
+  twistUpperArmRt: {fileID: 0}
+  twistForearmLf: {fileID: 0}
+  twistForearmRt: {fileID: 0}
+  twistUpperThighLf: {fileID: 0}
+  twistUpperThighRt: {fileID: 0}
+  _headTop: 0.068
+  _chinY: 0.068
+  _underbustY: 0.35
+  _waistY: 0.62
+  _highHipY: 0.81
+  _crotchBottom: 0.04
+  _headEllipseX: 0.044
+  _jawEllipseX: 0.044
+  _neckEllipseX: 0.035
+  _chestEllipseX: 0.1
+  _waistEllipseX: 0.091
+  _highHipsEllipseX: 0.091
+  _hipsEllipseX: 0.091
+  _headEllipseZ: 0.06
+  _jawEllipseZ: 0.06
+  _neckEllipseZ: 0.04
+  _sternumEllipseZ: 0.052
+  _chestEllipseZ: 0.076
+  _waistEllipseZ: 0.075
+  _highHipsEllipseZ: 0.07
+  _hipsEllipseZ: 0.07
+  _headEllipseNegZ: 0.06
+  _jawEllipseNegZ: 0.06
+  _neckEllipseNegZ: 0.03
+  _sternumEllipseNegZ: 0.052
+  _chestEllipseNegZ: 0.07
+  _waistEllipseNegZ: 0.06
+  _highHipsEllipseNegZ: 0.07
+  _hipsEllipseNegZ: 0.08
+  _thighUpperEllipse:
+    XRadius: 0.03
+    XBias: 0
+    ZRadius: 0.03
+    ZBias: 0
+  _kneeEllipse:
+    XRadius: 0.03
+    XBias: 0
+    ZRadius: 0.03
+    ZBias: 0
+  _calfEllipse:
+    XRadius: 0.03
+    XBias: 0
+    ZRadius: 0.03
+    ZBias: 0
+  _ankleEllipse:
+    XRadius: 0.03
+    XBias: 0
+    ZRadius: 0.03
+    ZBias: 0
+  _upperarmEllipse:
+    XRadius: 0.03
+    XBias: 0
+    ZRadius: 0.03
+    ZBias: 0
+  _elbowEllipse:
+    XRadius: 0.03
+    XBias: 0
+    ZRadius: 0.03
+    ZBias: 0
+  _forearmEllipse:
+    XRadius: 0.03
+    XBias: 0
+    ZRadius: 0.03
+    ZBias: 0
+  _wristEllipse:
+    XRadius: 0.03
+    XBias: 0
+    ZRadius: 0.03
+    ZBias: 0
+  bulgeBreast:
+    apexX: 26
+    apexY: 0.5
+    apexZ: 0
+    upperY: 1
+    lowerY: 1
+    innerX: 26
+    outerX: 32
+    roundUpperInner: 0.1
+    roundUpperOuter: 0
+    roundLowerInner: 0.9
+    roundLowerOuter: 0.4
+    swellUpper: 0.1
+    swellLower: 0.2
+    swellInner: 0.2
+    swellOuter: 0.1
+    rigidity: 0.5
+    primaryRt: {fileID: 0}
+    secondaryLf: {fileID: 0}
+  bulgeUpperBack:
+    apexX: 26
+    apexY: 0.5
+    apexZ: 0
+    upperY: 1
+    lowerY: 1
+    innerX: 26
+    outerX: 32
+    roundUpperInner: 0.1
+    roundUpperOuter: 0
+    roundLowerInner: 0.9
+    roundLowerOuter: 0.4
+    swellUpper: 0.1
+    swellLower: 0.2
+    swellInner: 0.2
+    swellOuter: 0.1
+    rigidity: 0.5
+    primaryRt: {fileID: 0}
+    secondaryLf: {fileID: 0}
+  bulgeAbdomen:
+    apexX: 26
+    apexY: 0.5
+    apexZ: 0
+    upperY: 1
+    lowerY: 1
+    innerX: 26
+    outerX: 32
+    roundUpperInner: 0.1
+    roundUpperOuter: 0
+    roundLowerInner: 0.9
+    roundLowerOuter: 0.4
+    swellUpper: 0.1
+    swellLower: 0.2
+    swellInner: 0.2
+    swellOuter: 0.1
+    rigidity: 0.5
+    primaryRt: {fileID: 0}
+    secondaryLf: {fileID: 0}
+  bulgeLowerBack:
+    apexX: 26
+    apexY: 0.5
+    apexZ: 0
+    upperY: 1
+    lowerY: 1
+    innerX: 26
+    outerX: 32
+    roundUpperInner: 0.1
+    roundUpperOuter: 0
+    roundLowerInner: 0.9
+    roundLowerOuter: 0.4
+    swellUpper: 0.1
+    swellLower: 0.2
+    swellInner: 0.2
+    swellOuter: 0.1
+    rigidity: 0.5
+    primaryRt: {fileID: 0}
+    secondaryLf: {fileID: 0}
+  bulgeGroin:
+    apexX: 26
+    apexY: 0.5
+    apexZ: 0
+    upperY: 1
+    lowerY: 1
+    innerX: 26
+    outerX: 32
+    roundUpperInner: 0.1
+    roundUpperOuter: 0
+    roundLowerInner: 0.9
+    roundLowerOuter: 0.4
+    swellUpper: 0.1
+    swellLower: 0.2
+    swellInner: 0.2
+    swellOuter: 0.1
+    rigidity: 0.5
+    primaryRt: {fileID: 0}
+    secondaryLf: {fileID: 0}
+  bulgeButt:
+    apexX: 26
+    apexY: 0.5
+    apexZ: 0
+    upperY: 1
+    lowerY: 1
+    innerX: 26
+    outerX: 32
+    roundUpperInner: 0.1
+    roundUpperOuter: 0
+    roundLowerInner: 0.9
+    roundLowerOuter: 0.4
+    swellUpper: 0.1
+    swellLower: 0.2
+    swellInner: 0.2
+    swellOuter: 0.1
+    rigidity: 0.5
+    primaryRt: {fileID: 0}
+    secondaryLf: {fileID: 0}
+  footstepsWalk: {fileID: 11400000, guid: 98ec1d71fa8e22e4e873158ddf00da44, type: 2}
+  footstepsJog: {fileID: 0}
+  highFallOntoFeet: {fileID: 0}
+  smallEffort: {fileID: 0}
+  bigEffort: {fileID: 0}
+  smallPain: {fileID: 0}
+  bigPain: {fileID: 0}
+  dying: {fileID: 0}
+  dead: {fileID: 0}
+  recovery: {fileID: 0}
+  surfaceDataCard:
+    _barcode:
+      _id: null.empty.barcode
+--- !u!4 &5225971703165173883 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -297264774999909327, guid: 603fa28e41e4d1e4e935f05e8e122d6e, type: 3}
+  m_PrefabInstance: {fileID: 3700136797922368586}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &7076020853149999579 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 603fa28e41e4d1e4e935f05e8e122d6e, type: 3}
+  m_PrefabInstance: {fileID: 3700136797922368586}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8820102420012207287 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5277878721320554749, guid: 603fa28e41e4d1e4e935f05e8e122d6e, type: 3}
+  m_PrefabInstance: {fileID: 3700136797922368586}
+  m_PrefabAsset: {fileID: 0}
