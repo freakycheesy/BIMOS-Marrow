@@ -15,9 +15,9 @@ MonoBehaviour:
   m_DefaultGroup: 4d882dacb0cf54c449d94345cde2d533
   m_currentHash:
     serializedVersion: 2
-    Hash: 00000000000000000000000000000000
+    Hash: 5f9923fe8589665ade84859c770d08aa
   m_OptimizeCatalogSize: 0
-  m_BuildRemoteCatalog: 0
+  m_BuildRemoteCatalog: 1
   m_BundleLocalCatalog: 0
   m_CatalogRequestsTimeout: 0
   m_DisableCatalogUpdateOnStart: 0
@@ -30,21 +30,26 @@ MonoBehaviour:
   m_StripUnityVersionFromBundleBuild: 0
   m_DisableVisibleSubAssetRepresentations: 0
   m_ShaderBundleNaming: 2
-  m_ShaderBundleCustomNaming: PALLET_NAME_HERE
+  m_ShaderBundleCustomNaming: freakycheesy.BIMOS
   m_MonoScriptBundleNaming: 3
   m_CheckForContentUpdateRestrictionsOption: 0
-  m_MonoScriptBundleCustomNaming: MARROW
+  m_MonoScriptBundleCustomNaming: freakycheesy.BIMOS
   m_RemoteCatalogBuildPath:
-    m_Id: f03d2a55457fa6e4f8d499c42217628e
+    m_Id: BuiltPallets/StandaloneWindows64/freakycheesy.BIMOS
   m_RemoteCatalogLoadPath:
-    m_Id: c379e54b5a3413b4e95ede99b7df5856
+    m_Id: 'PALLET_BARCODE:freakycheesy.BIMOS:'
   m_ContentStateBuildPathProfileVariableName: <default settings path>
   m_CustomContentStateBuildPath: 
   m_ContentStateBuildPath: 
   m_BuildAddressablesWithPlayerBuild: 2
-  m_overridePlayerVersion: 
+  m_overridePlayerVersion: freakycheesy.BIMOS
   m_GroupAssets:
   - {fileID: 11400000, guid: 8b5ee8ae1bae6794692e05c65f209650, type: 2}
+  - {fileID: 11400000, guid: 2f9443496605c9a49a8f2173b38d3b38, type: 2}
+  - {fileID: 11400000, guid: 94efcf4dbdc288b448f32bfdbb2c8c01, type: 2}
+  - {fileID: 11400000, guid: 7f88fa3cf0561bf48a3212c41b37b6a4, type: 2}
+  - {fileID: 11400000, guid: 12a36968458b171498f47bd8a1ac06b8, type: 2}
+  - {fileID: 11400000, guid: 25fecbe3bd3b45e47a278851333b0222, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -176,7 +181,7 @@ MonoBehaviour:
   m_ActiveProfileId: fbad295727b3dec49ba750485b9465e7
   m_HostingServicesManager:
     m_HostingServiceInfos: []
-    m_Settings: {fileID: 0}
+    m_Settings: {fileID: 11400000}
     m_NextInstanceId: 0
     m_RegisteredServiceTypeRefs: []
     m_PingTimeoutInMilliseconds: 5000

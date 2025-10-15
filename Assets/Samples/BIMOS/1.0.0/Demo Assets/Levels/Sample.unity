@@ -133,8 +133,10 @@ GameObject:
   m_Component:
   - component: {fileID: 6426219}
   - component: {fileID: 6426221}
-  - component: {fileID: 6426220}
-  m_Layer: 0
+  - component: {fileID: 6426224}
+  - component: {fileID: 6426223}
+  - component: {fileID: 6426222}
+  m_Layer: 29
   m_Name: SpawnPointTrigger (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -156,88 +158,6 @@ Transform:
   m_Father: {fileID: 955154954}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &6426220
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6426218}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9afac3daf92428143a785e80be74c48b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _layerMask:
-    serializedVersion: 2
-    m_Bits: 64
-  _enterEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: BIMOS.SpawnPointManager, kadenzombie8.bimos
-        m_MethodName: SetSpawnPoint
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: BIMOS.SpawnPoint, kadenzombie8.bimos
-          m_IntArgument: 0
-          m_FloatArgument: -9.81
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: BIMOS.SpawnPointManager, kadenzombie8.bimos
-        m_MethodName: SetStarterProp
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 4341489784411468778, guid: 82e71acf7d783a54f9f49d839b212b90, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: -9.81
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.Rigidbody, UnityEngine
-        m_MethodName: set_isKinematic
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: -9.81
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.ArticulationBody, UnityEngine
-        m_MethodName: set_immovable
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: -9.81
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.Rigidbody, UnityEngine
-        m_MethodName: set_isKinematic
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: -9.81
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _exitEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  _destroyOnTouch: 1
 --- !u!65 &6426221
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -251,6 +171,58 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 2, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6426222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6426218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46cae1fb5eba9bc4ab3327d50dbc215d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _zone: {fileID: 6426224}
+  activatorTags:
+    _tags:
+    - _boneTag:
+        _barcode:
+          _id: SLZ.Marrow.BoneTag.Player
+      _invert: 0
+    _operator: 0
+    _crates: []
+  zoneLinks: []
+  priority: 0
+--- !u!114 &6426223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6426218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3618bd0fad2683823a1578bbfc1724d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _zoneLink: {fileID: 6426222}
+  _eventTypes: 3
+  onlySetOnce: 1
+  setOnEnter: 1
+  setOnExit: 0
+--- !u!114 &6426224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6426218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a962da5fc71992f46afb090f9802ddc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7436730
 GameObject:
   m_ObjectHideFlags: 0
@@ -2583,8 +2555,10 @@ GameObject:
   m_Component:
   - component: {fileID: 262867329}
   - component: {fileID: 262867331}
-  - component: {fileID: 262867330}
-  m_Layer: 0
+  - component: {fileID: 262867332}
+  - component: {fileID: 262867334}
+  - component: {fileID: 262867333}
+  m_Layer: 29
   m_Name: SpawnPointTrigger (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2606,40 +2580,6 @@ Transform:
   m_Father: {fileID: 955154954}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &262867330
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 262867328}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9afac3daf92428143a785e80be74c48b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _layerMask:
-    serializedVersion: 2
-    m_Bits: 64
-  _enterEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: BIMOS.SpawnPointManager, kadenzombie8.bimos
-        m_MethodName: SetSpawnPoint
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: BIMOS.SpawnPoint, kadenzombie8.bimos
-          m_IntArgument: 0
-          m_FloatArgument: -9.81
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _exitEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  _destroyOnTouch: 1
 --- !u!65 &262867331
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2651,8 +2591,60 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2, y: 2, z: 2}
+  m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &262867332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262867328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3618bd0fad2683823a1578bbfc1724d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _zoneLink: {fileID: 262867333}
+  _eventTypes: 3
+  onlySetOnce: 1
+  setOnEnter: 1
+  setOnExit: 0
+--- !u!114 &262867333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262867328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46cae1fb5eba9bc4ab3327d50dbc215d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _zone: {fileID: 262867334}
+  activatorTags:
+    _tags:
+    - _boneTag:
+        _barcode:
+          _id: SLZ.Marrow.BoneTag.Player
+      _invert: 0
+    _operator: 0
+    _crates: []
+  zoneLinks: []
+  priority: 0
+--- !u!114 &262867334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262867328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a962da5fc71992f46afb090f9802ddc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &275273628
 GameObject:
   m_ObjectHideFlags: 0
@@ -4195,11 +4187,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6041050937587664739, guid: 23551db1864d95d4f9531401c9a0098f, type: 3}
   m_PrefabInstance: {fileID: 556548576}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &556548578 stripped
-Rigidbody:
-  m_CorrespondingSourceObject: {fileID: 930067523557207696, guid: 23551db1864d95d4f9531401c9a0098f, type: 3}
-  m_PrefabInstance: {fileID: 556548576}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &559014904
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4356,8 +4343,9 @@ GameObject:
   m_Component:
   - component: {fileID: 591654061}
   - component: {fileID: 591654063}
-  - component: {fileID: 591654062}
-  m_Layer: 0
+  - component: {fileID: 591654065}
+  - component: {fileID: 591654066}
+  m_Layer: 29
   m_Name: RagdollTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4379,40 +4367,6 @@ Transform:
   m_Father: {fileID: 955154954}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &591654062
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 591654060}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9afac3daf92428143a785e80be74c48b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _layerMask:
-    serializedVersion: 2
-    m_Bits: 64
-  _enterEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1586247300}
-        m_TargetAssemblyTypeName: UnityEngine.Rigidbody, UnityEngine
-        m_MethodName: set_isKinematic
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _exitEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  _destroyOnTouch: 0
 --- !u!65 &591654063
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4424,8 +4378,50 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2, y: 2, z: 2}
+  m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &591654065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 591654060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a962da5fc71992f46afb090f9802ddc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &591654066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 591654060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f09b2ccf4b31f654c9cb6a42ebaac59a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _zone: {fileID: 591654065}
+  activatorTags:
+    _tags:
+    - _boneTag:
+        _barcode:
+          _id: SLZ.Marrow.BoneTag.Player
+      _invert: 0
+    _operator: 0
+    _crates: []
+  onZoneEnter:
+    _PersistentCalls:
+    - _Target: {fileID: 869083123}
+      _MethodName: SpawnSpawnable
+      _PersistentArguments: []
+  onZoneEnterOneShot:
+    _PersistentCalls: []
+  onZoneExit:
+    _PersistentCalls: []
 --- !u!1 &597573810
 GameObject:
   m_ObjectHideFlags: 0
@@ -6831,6 +6827,63 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isKillingPlayer: 1
   isKillingNPCs: 1
+--- !u!1 &869083121
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 869083122}
+  - component: {fileID: 869083123}
+  m_Layer: 2
+  m_Name: CrateSpawner (Ragdoll)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &869083122
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 869083121}
+  m_LocalRotation: {x: 0.9238795, y: -0, z: -0, w: 0.38268346}
+  m_LocalPosition: {x: -29.991, y: 13.7, z: 59.37}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1360677400}
+  m_RootOrder: 26
+  m_LocalEulerAnglesHint: {x: 135, y: 0, z: 0}
+--- !u!114 &869083123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 869083121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380a92c3490d7f240b2abf1a2a24839a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnableCrateReference:
+    _barcode:
+      _id: freakycheesy.BIMOS.Spawnable.Ragdoll
+  policyData: {fileID: 0}
+  crateQuery:
+    _barcode:
+      _id: null.empty.barcode
+    tagFilter: 
+    titleFilter: 
+  useQuery: 0
+  manualMode: 1
+  onSpawnEvent:
+    _PersistentCalls: []
 --- !u!1 &870384904
 GameObject:
   m_ObjectHideFlags: 0
@@ -7719,8 +7772,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_Father: {fileID: 1360677400}
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -79.908}
 --- !u!1 &908860108
 GameObject:
@@ -9771,8 +9824,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1093975926}
   - component: {fileID: 1093975928}
-  - component: {fileID: 1093975927}
-  m_Layer: 0
+  - component: {fileID: 1093975931}
+  - component: {fileID: 1093975930}
+  - component: {fileID: 1093975929}
+  m_Layer: 29
   m_Name: SpawnPointTrigger (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9794,112 +9849,6 @@ Transform:
   m_Father: {fileID: 955154954}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1093975927
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1093975925}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9afac3daf92428143a785e80be74c48b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _layerMask:
-    serializedVersion: 2
-    m_Bits: 64
-  _enterEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: BIMOS.SpawnPointManager, kadenzombie8.bimos
-        m_MethodName: SetSpawnPoint
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: BIMOS.SpawnPoint, kadenzombie8.bimos
-          m_IntArgument: 0
-          m_FloatArgument: -9.81
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1742165442}
-        m_TargetAssemblyTypeName: UnityEngine.Rigidbody, UnityEngine
-        m_MethodName: set_isKinematic
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: -9.81
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1426595469}
-        m_TargetAssemblyTypeName: UnityEngine.Rigidbody, UnityEngine
-        m_MethodName: set_isKinematic
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: -9.81
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1733959215}
-        m_TargetAssemblyTypeName: BIMOS.Stopwatch, Assembly-CSharp
-        m_MethodName: EndStopwatch
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: -9.81
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: -9.81
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: BIMOS.SpawnPointManager, kadenzombie8.bimos
-        m_MethodName: SetStarterProp
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 6937372081795755630, guid: 62d4d6a75c8687d4ebf5241d206d8289, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: -9.81
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: BIMOS.SpawnPointManager, kadenzombie8.bimos
-        m_MethodName: Respawn
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: -9.81
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _exitEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  _destroyOnTouch: 1
 --- !u!65 &1093975928
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9913,6 +9862,58 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 2, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1093975929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1093975925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3618bd0fad2683823a1578bbfc1724d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _zoneLink: {fileID: 1093975930}
+  _eventTypes: 3
+  onlySetOnce: 1
+  setOnEnter: 1
+  setOnExit: 0
+--- !u!114 &1093975930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1093975925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46cae1fb5eba9bc4ab3327d50dbc215d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _zone: {fileID: 1093975931}
+  activatorTags:
+    _tags:
+    - _boneTag:
+        _barcode:
+          _id: SLZ.Marrow.BoneTag.Player
+      _invert: 0
+    _operator: 0
+    _crates: []
+  zoneLinks: []
+  priority: 0
+--- !u!114 &1093975931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1093975925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a962da5fc71992f46afb090f9802ddc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1099851918
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10023,6 +10024,87 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6394812560078151914, guid: 2d13b8eb5888a9748b13279c301c3f54, type: 3}
   m_PrefabInstance: {fileID: 1099851918}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1141867441
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1141867443}
+  - component: {fileID: 1141867442}
+  - component: {fileID: 1141867444}
+  - component: {fileID: 1141867445}
+  m_Layer: 2
+  m_Name: Player Marker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1141867442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1141867441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ea3c14f4494a979246e65ba61c6b39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1141867443
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1141867441}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 60, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1141867444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1141867441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1c897eac5e3aa21138bc76b7ec0fc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerMarker: {fileID: 1141867442}
+  _reloadLevelOnDeath: 0
+  _healthMode: 2
+  deathTime: 0
+  OnPlayerDeath:
+    _PersistentCalls: []
+--- !u!114 &1141867445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1141867441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bcdcd6b6959634ed2e3500af1b27e68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerMarker: {fileID: 1141867442}
+  overrideAvatar:
+    _barcode:
+      _id: freakycheesy.BIMOS.Avatar.Human
+  preventSwap: 0
 --- !u!1 &1147197186
 GameObject:
   m_ObjectHideFlags: 0
@@ -10236,8 +10318,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1171929005}
   - component: {fileID: 1171929007}
-  - component: {fileID: 1171929006}
-  m_Layer: 0
+  - component: {fileID: 1171929010}
+  - component: {fileID: 1171929009}
+  - component: {fileID: 1171929008}
+  m_Layer: 29
   m_Name: SpawnPointTrigger (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10259,40 +10343,6 @@ Transform:
   m_Father: {fileID: 955154954}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1171929006
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1171929004}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9afac3daf92428143a785e80be74c48b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _layerMask:
-    serializedVersion: 2
-    m_Bits: 64
-  _enterEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: BIMOS.SpawnPointManager, kadenzombie8.bimos
-        m_MethodName: SetSpawnPoint
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: BIMOS.SpawnPoint, kadenzombie8.bimos
-          m_IntArgument: 0
-          m_FloatArgument: -9.81
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _exitEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  _destroyOnTouch: 1
 --- !u!65 &1171929007
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10306,6 +10356,58 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 2, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1171929008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171929004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3618bd0fad2683823a1578bbfc1724d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _zoneLink: {fileID: 1171929009}
+  _eventTypes: 3
+  onlySetOnce: 1
+  setOnEnter: 1
+  setOnExit: 0
+--- !u!114 &1171929009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171929004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46cae1fb5eba9bc4ab3327d50dbc215d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _zone: {fileID: 1171929010}
+  activatorTags:
+    _tags:
+    - _boneTag:
+        _barcode:
+          _id: SLZ.Marrow.BoneTag.Player
+      _invert: 0
+    _operator: 0
+    _crates: []
+  zoneLinks: []
+  priority: 0
+--- !u!114 &1171929010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171929004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a962da5fc71992f46afb090f9802ddc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &1185882491 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5008076746817497442, guid: ec842c7373db32e4e973c8ba5c3965fe, type: 3}
@@ -10366,8 +10468,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1205458189}
   - component: {fileID: 1205458191}
-  - component: {fileID: 1205458190}
-  m_Layer: 0
+  - component: {fileID: 1205458194}
+  - component: {fileID: 1205458193}
+  - component: {fileID: 1205458192}
+  m_Layer: 29
   m_Name: SpawnPointTrigger (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10389,76 +10493,6 @@ Transform:
   m_Father: {fileID: 955154954}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1205458190
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1205458188}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9afac3daf92428143a785e80be74c48b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _layerMask:
-    serializedVersion: 2
-    m_Bits: 64
-  _enterEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: BIMOS.SpawnPointManager, kadenzombie8.bimos
-        m_MethodName: SetSpawnPoint
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: BIMOS.SpawnPoint, kadenzombie8.bimos
-          m_IntArgument: 0
-          m_FloatArgument: -9.81
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: BIMOS.SpawnPointManager, kadenzombie8.bimos
-        m_MethodName: SetStarterProp
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 4929446416404991574, guid: 692b3f377ab991b4eb093103d97a6dd1, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: -9.81
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 556548578}
-        m_TargetAssemblyTypeName: UnityEngine.Rigidbody, UnityEngine
-        m_MethodName: set_isKinematic
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: -9.81
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.Rigidbody, UnityEngine
-        m_MethodName: set_isKinematic
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: -9.81
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _exitEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  _destroyOnTouch: 1
 --- !u!65 &1205458191
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10472,6 +10506,58 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 2, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1205458192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205458188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46cae1fb5eba9bc4ab3327d50dbc215d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _zone: {fileID: 1205458194}
+  activatorTags:
+    _tags:
+    - _boneTag:
+        _barcode:
+          _id: SLZ.Marrow.BoneTag.Player
+      _invert: 0
+    _operator: 0
+    _crates: []
+  zoneLinks: []
+  priority: 0
+--- !u!114 &1205458193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205458188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3618bd0fad2683823a1578bbfc1724d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _zoneLink: {fileID: 1205458192}
+  _eventTypes: 3
+  onlySetOnce: 1
+  setOnEnter: 1
+  setOnExit: 0
+--- !u!114 &1205458194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205458188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a962da5fc71992f46afb090f9802ddc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1216661245
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12068,6 +12154,8 @@ Transform:
   - {fileID: 1291623765}
   - {fileID: 845309011}
   - {fileID: 377595865}
+  - {fileID: 905430694}
+  - {fileID: 869083122}
   m_Father: {fileID: 1323679233}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12566,11 +12654,6 @@ Transform:
   m_Father: {fileID: 1960055490}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: -33.199, y: -40.154, z: 16.911}
---- !u!54 &1426595469 stripped
-Rigidbody:
-  m_CorrespondingSourceObject: {fileID: 404583972642603789, guid: 7073b2e6e3b3f7649abd05e5aefa040a, type: 3}
-  m_PrefabInstance: {fileID: 236282580}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1468383980
 GameObject:
   m_ObjectHideFlags: 0
@@ -12932,8 +13015,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1494428824}
   - component: {fileID: 1494428826}
-  - component: {fileID: 1494428825}
-  m_Layer: 0
+  - component: {fileID: 1494428829}
+  - component: {fileID: 1494428828}
+  - component: {fileID: 1494428827}
+  m_Layer: 29
   m_Name: SpawnPointTrigger (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12955,64 +13040,6 @@ Transform:
   m_Father: {fileID: 955154954}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1494428825
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1494428823}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9afac3daf92428143a785e80be74c48b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _layerMask:
-    serializedVersion: 2
-    m_Bits: 64
-  _enterEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: BIMOS.SpawnPointManager, kadenzombie8.bimos
-        m_MethodName: SetSpawnPoint
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: BIMOS.SpawnPoint, kadenzombie8.bimos
-          m_IntArgument: 0
-          m_FloatArgument: -9.81
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: BIMOS.SpawnPointManager, kadenzombie8.bimos
-        m_MethodName: SetStarterProp
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1333864368141665207, guid: 5ffc2b6068b8342429d6386a90811a9a, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: -9.81
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1575449602}
-        m_TargetAssemblyTypeName: UnityEngine.Rigidbody, UnityEngine
-        m_MethodName: set_isKinematic
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: -9.81
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _exitEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  _destroyOnTouch: 1
 --- !u!65 &1494428826
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13026,6 +13053,58 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 2, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1494428827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494428823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46cae1fb5eba9bc4ab3327d50dbc215d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _zone: {fileID: 1494428828}
+  activatorTags:
+    _tags:
+    - _boneTag:
+        _barcode:
+          _id: SLZ.Marrow.BoneTag.Player
+      _invert: 0
+    _operator: 0
+    _crates: []
+  zoneLinks: []
+  priority: 0
+--- !u!114 &1494428828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494428823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a962da5fc71992f46afb090f9802ddc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1494428829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494428823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3618bd0fad2683823a1578bbfc1724d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _zoneLink: {fileID: 1494428827}
+  _eventTypes: 3
+  onlySetOnce: 1
+  setOnEnter: 1
+  setOnExit: 0
 --- !u!1 &1498738604
 GameObject:
   m_ObjectHideFlags: 0
@@ -13529,11 +13608,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ffc2b6068b8342429d6386a90811a9a, type: 3}
---- !u!54 &1575449602 stripped
-Rigidbody:
-  m_CorrespondingSourceObject: {fileID: 4184244221564938301, guid: 5ffc2b6068b8342429d6386a90811a9a, type: 3}
-  m_PrefabInstance: {fileID: 1575449601}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1575449603 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8504819250452698346, guid: 5ffc2b6068b8342429d6386a90811a9a, type: 3}
@@ -13619,77 +13693,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 2, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1001 &1586247299
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1743594154}
-    m_Modifications:
-    - target: {fileID: 1508414611722424290, guid: 74a7455d9660df144adc62385230b3b3, type: 3}
-      propertyPath: m_Name
-      value: Ragdoll
-      objectReference: {fileID: 0}
-    - target: {fileID: 2280272442176378200, guid: 74a7455d9660df144adc62385230b3b3, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2280272442176378200, guid: 74a7455d9660df144adc62385230b3b3, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -29.991
-      objectReference: {fileID: 0}
-    - target: {fileID: 2280272442176378200, guid: 74a7455d9660df144adc62385230b3b3, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 13.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 2280272442176378200, guid: 74a7455d9660df144adc62385230b3b3, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 59.37
-      objectReference: {fileID: 0}
-    - target: {fileID: 2280272442176378200, guid: 74a7455d9660df144adc62385230b3b3, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.38268346
-      objectReference: {fileID: 0}
-    - target: {fileID: 2280272442176378200, guid: 74a7455d9660df144adc62385230b3b3, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.9238795
-      objectReference: {fileID: 0}
-    - target: {fileID: 2280272442176378200, guid: 74a7455d9660df144adc62385230b3b3, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2280272442176378200, guid: 74a7455d9660df144adc62385230b3b3, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2280272442176378200, guid: 74a7455d9660df144adc62385230b3b3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 135
-      objectReference: {fileID: 0}
-    - target: {fileID: 2280272442176378200, guid: 74a7455d9660df144adc62385230b3b3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2280272442176378200, guid: 74a7455d9660df144adc62385230b3b3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4502728816616114864, guid: 74a7455d9660df144adc62385230b3b3, type: 3}
-      propertyPath: m_IsKinematic
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 74a7455d9660df144adc62385230b3b3, type: 3}
---- !u!54 &1586247300 stripped
-Rigidbody:
-  m_CorrespondingSourceObject: {fileID: 4502728816616114864, guid: 74a7455d9660df144adc62385230b3b3, type: 3}
-  m_PrefabInstance: {fileID: 1586247299}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1586247301 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2280272442176378200, guid: 74a7455d9660df144adc62385230b3b3, type: 3}
-  m_PrefabInstance: {fileID: 1586247299}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1588726612
 GameObject:
   m_ObjectHideFlags: 0
@@ -15106,11 +15109,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6394812560078151914, guid: 2d13b8eb5888a9748b13279c301c3f54, type: 3}
   m_PrefabInstance: {fileID: 1738435949}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &1742165442 stripped
-Rigidbody:
-  m_CorrespondingSourceObject: {fileID: 930067523557207696, guid: 23551db1864d95d4f9531401c9a0098f, type: 3}
-  m_PrefabInstance: {fileID: 1324814594}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1743594153
 GameObject:
   m_ObjectHideFlags: 0
@@ -15141,7 +15139,6 @@ Transform:
   m_Children:
   - {fileID: 7300989150176892050}
   - {fileID: 2125129492}
-  - {fileID: 1586247301}
   - {fileID: 1575449603}
   - {fileID: 1324814595}
   - {fileID: 1295458959}
@@ -18281,7 +18278,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6916019452137274874, guid: 8853841a8fa293e42b39789a294e6310, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6916019452137274874, guid: 8853841a8fa293e42b39789a294e6310, type: 3}
       propertyPath: m_LocalPosition.x

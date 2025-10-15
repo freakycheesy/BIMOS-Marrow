@@ -1,0 +1,266 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: BIMOS_Spawnables
+  m_EditorClassIdentifier: 
+  m_GroupName: BIMOS_Spawnables
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 12a36968458b171498f47bd8a1ac06b8
+  m_SerializeEntries:
+  - m_GUID: c4ce9293d3513a343854ae797fc10ddc
+    m_Address: Spawnable/Ball Crate
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d98912de77f331f45b1191a632a23bdc
+    m_Address: PreviewMesh/Ball Crate
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: effc1b0f78d8917498e8533a12c3b051
+    m_Address: Spawnable/Block Tower
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 43d7bb4f1c785734181c6e25cfc80c9d
+    m_Address: PreviewMesh/Block Tower
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 570330c8a3b637f40b388efe0343aea4
+    m_Address: Spawnable/Capsule
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74c62f06ad556084c8b39329f47c200c
+    m_Address: PreviewMesh/Capsule
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e0091500ede7ad348bc71f0a356e8bd1
+    m_Address: Spawnable/Cube
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7ae1ffc8ac353f48a5d09e04d59a6ea
+    m_Address: PreviewMesh/Cube
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8853841a8fa293e42b39789a294e6310
+    m_Address: Spawnable/Door
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0f0afccc7b96771479c918ce7c1d2d4a
+    m_Address: PreviewMesh/Door
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e13813d918c208c45bcc0c7720b68b57
+    m_Address: Spawnable/Drawbridge
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 484611986e24336408c7e42aa4335d19
+    m_Address: PreviewMesh/Drawbridge
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 62d4d6a75c8687d4ebf5241d206d8289
+    m_Address: Spawnable/Empty
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6027d5bdc299ff6499f3a0f90619aea4
+    m_Address: PreviewMesh/Empty
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 692b3f377ab991b4eb093103d97a6dd1
+    m_Address: Spawnable/Grapple Gun
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4b001a01b8a6e624b99a19801a222c04
+    m_Address: PreviewMesh/Grapple Gun
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ffc2b6068b8342429d6386a90811a9a
+    m_Address: Spawnable/Hook
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 163f398e4e08ea247bc6806000e16be8
+    m_Address: PreviewMesh/Hook
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c178db0d39563b42a274ef940320f00
+    m_Address: Spawnable/Key Door
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba64c16ce5917214ea2268ed2f64d791
+    m_Address: PreviewMesh/Key Door
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7073b2e6e3b3f7649abd05e5aefa040a
+    m_Address: Spawnable/Key
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 99e63927f28eda0469205b6387ceab10
+    m_Address: PreviewMesh/Key
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fa744641bbf36bd40bcab5a9dfda2050
+    m_Address: Spawnable/Ladder
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 234f1b243c8132044ad3bca238b00ada
+    m_Address: PreviewMesh/Ladder
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 93e976bae0d560f4781d80920be48032
+    m_Address: Spawnable/Large Sled
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9a2b7956b6c5e1042b68126f7608af5c
+    m_Address: PreviewMesh/Large Sled
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d13b8eb5888a9748b13279c301c3f54
+    m_Address: Spawnable/Light Cube
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d2d70da3e0898c84397ba83a195fd3bf
+    m_Address: PreviewMesh/Light Cube
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 807568f13525f5c439ce67723e592748
+    m_Address: Spawnable/Lil Pooey
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee98a0306e4330746abd6dc97f5d41ef
+    m_Address: PreviewMesh/Lil Pooey
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e8009156f08c98844b78c29ef32ee8a5
+    m_Address: Spawnable/Moving Platform
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 12fc07a2c9073da4db4ec2155fbcdd85
+    m_Address: PreviewMesh/Moving Platform
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6175c515a643fab449a6a62088377652
+    m_Address: Spawnable/Pedestal Button
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 688cfa13f8c82d84c8f9e3067b699d44
+    m_Address: PreviewMesh/Pedestal Button
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cff30cf44f95a134c9042d0b946cd8fa
+    m_Address: Spawnable/Pooey
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 24cccf15a0f874d4e802cd53f50aa868
+    m_Address: PreviewMesh/Pooey
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74a7455d9660df144adc62385230b3b3
+    m_Address: Spawnable/Ragdoll
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c1ba991af252d6a4e94425ead3724f83
+    m_Address: PreviewMesh/Ragdoll
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db2a608140dae46499ee33d1a13d9cde
+    m_Address: Spawnable/Sphere
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c77d62370a4d844f8b22d36792c61d8
+    m_Address: PreviewMesh/Sphere
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 23551db1864d95d4f9531401c9a0098f
+    m_Address: Spawnable/Table
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8339578452d6c6940bf27292ac8d9cc0
+    m_Address: PreviewMesh/Table
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df472f8322ae99a499d0689bd395bdec
+    m_Address: Spawnable/Target
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a79d7e6f299fa84ca4faf5293c1bb58
+    m_Address: PreviewMesh/Target
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d25865d107e6fd547a61e4799c8bc598
+    m_Address: Spawnable/Tower (Section)
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0404f3dfe9caec1449162eca7bb7f732
+    m_Address: PreviewMesh/Tower (Section)
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f16e15227f82d146ab450d18f5d29ba
+    m_Address: Spawnable/Tower
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f40bdd2448f1afc438995f22f53657c3
+    m_Address: PreviewMesh/Tower
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 904d2c56c4a5e1846849c89c16938c9c, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 4e218354b2c7d4d4db4da9cf8dfa50a2, type: 2}
+    - {fileID: 11400000, guid: ed41373f4423e524f842cd1c40c3b0c5, type: 2}
+    - {fileID: 11400000, guid: 90c35031f3b5d3448b7f7dd27fa8afe6, type: 2}

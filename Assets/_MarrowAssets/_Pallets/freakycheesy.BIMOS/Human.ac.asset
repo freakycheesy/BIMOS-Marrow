@@ -25,8 +25,8 @@ MonoBehaviour:
     _assetGUID: b35808f10304c0a42a65f10d218585ae
     _editorAssetChanged: 0
   _previewMesh:
-    _assetGUID: 
-    _editorAssetChanged: 0
+    _assetGUID: 27afbaf8ffcdf984486254fe295081f9
+    _editorAssetChanged: 1
   _customQuality: 0
   _previewMeshQuality: 0.5
   _maxLODLevel: 0
