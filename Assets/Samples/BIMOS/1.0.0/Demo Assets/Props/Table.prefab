@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1570585431895079825}
   - component: {fileID: 1922505117394348815}
   - component: {fileID: 2454633134777967348}
-  - component: {fileID: 8605447684939013054}
+  - component: {fileID: 2083628897388700106}
   m_Layer: 0
   m_Name: Top
   m_TagString: Untagged
@@ -98,7 +98,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &8605447684939013054
+--- !u!114 &2083628897388700106
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -107,10 +107,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1151827761663707134}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 062aef062b0d5143ca06522722a3b190, type: 3}
+  m_Script: {fileID: 11500000, guid: f8c1229aa372d222bf4f46f8c9bed50c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isThrowable: 0
+  isThrowable: 1
   ignoreGripTargetOnAttach: 1
   gripColliders: []
   additionalGripColliders: []
@@ -147,34 +147,8 @@ MonoBehaviour:
   maxBreakForce: Infinity
   defaultGripDistance: Infinity
   gripDistanceSqr: 0
-  radius: 0.5
+  radius: 0.7
   targetTransform: {fileID: 0}
-  rotationLimit: 0
-  rotationPriorityBuffer: 0
-  handPoseOnFlippedPrimaryAxis: {fileID: 0}
-  targetFlipOnPrimaryAxis: 0
-  targetFlipOnTertiaryAxis: 0
-  sandwichSize: 0
-  edgePadding: 0
-  faceInsetdistance: 0
-  faceDepth: 0
-  sandwichHandPose: {fileID: 0}
-  canBeSandwichedGrabbed: 0
-  edgeHandPose: {fileID: 0}
-  edgeHandPoseRadius: 0
-  canBeEdgeGrabbed: 0
-  cornerHandPose: {fileID: 0}
-  cornerHandPoseRadius: 0
-  canBeCornerGrabbed: 0
-  faceHandPose: {fileID: 0}
-  faceHandPoseRadius: 0
-  canBeFaceGrabbed: 0
-  enabledFaces: -1
-  enabledEdges: -1
-  enabledCorners: -1
-  forceGrabFace: 0
-  forceGrabTop: 0
-  _boxCollider: {fileID: 2454633134777967348}
 --- !u!1 &1321626674697047950
 GameObject:
   m_ObjectHideFlags: 0
@@ -316,8 +290,8 @@ MonoBehaviour:
   _bodiesToIgnore: []
   _collidersToIgnore: []
   _bounds:
-    m_Center: {x: -0.00000035762787, y: 0.4499994, z: -0.00000011920929}
-    m_Extent: {x: 1.000001, y: 0.45000046, z: 0.5000005}
+    m_Center: {x: -0.000000834465, y: 0.44999927, z: -0.00000011920929}
+    m_Extent: {x: 1.0000005, y: 0.45000023, z: 0.50000024}
   trackerSettings:
     layers: 0
     settings: []
@@ -348,7 +322,7 @@ GameObject:
   - component: {fileID: 7666416055419538246}
   - component: {fileID: 416090009442663815}
   - component: {fileID: 8784057176747204919}
-  - component: {fileID: 6237718813461268465}
+  - component: {fileID: 2509449736262985564}
   m_Layer: 0
   m_Name: Leg (2)
   m_TagString: Untagged
@@ -434,7 +408,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &6237718813461268465
+--- !u!114 &2509449736262985564
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -443,10 +417,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1656904604177528143}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 062aef062b0d5143ca06522722a3b190, type: 3}
+  m_Script: {fileID: 11500000, guid: f8c1229aa372d222bf4f46f8c9bed50c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isThrowable: 0
+  isThrowable: 1
   ignoreGripTargetOnAttach: 1
   gripColliders: []
   additionalGripColliders: []
@@ -483,34 +457,8 @@ MonoBehaviour:
   maxBreakForce: Infinity
   defaultGripDistance: Infinity
   gripDistanceSqr: 0
-  radius: 0.5
+  radius: 0.7
   targetTransform: {fileID: 0}
-  rotationLimit: 0
-  rotationPriorityBuffer: 0
-  handPoseOnFlippedPrimaryAxis: {fileID: 0}
-  targetFlipOnPrimaryAxis: 0
-  targetFlipOnTertiaryAxis: 0
-  sandwichSize: 0
-  edgePadding: 0
-  faceInsetdistance: 0
-  faceDepth: 0
-  sandwichHandPose: {fileID: 0}
-  canBeSandwichedGrabbed: 0
-  edgeHandPose: {fileID: 0}
-  edgeHandPoseRadius: 0
-  canBeEdgeGrabbed: 0
-  cornerHandPose: {fileID: 0}
-  cornerHandPoseRadius: 0
-  canBeCornerGrabbed: 0
-  faceHandPose: {fileID: 0}
-  faceHandPoseRadius: 0
-  canBeFaceGrabbed: 0
-  enabledFaces: -1
-  enabledEdges: -1
-  enabledCorners: -1
-  forceGrabFace: -1
-  forceGrabTop: -1
-  _boxCollider: {fileID: 8784057176747204919}
 --- !u!1 &2656680660004279175
 GameObject:
   m_ObjectHideFlags: 0
@@ -570,8 +518,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.000002, y: 0.90000093, z: 1.000001}
-  m_Center: {x: 0, y: 0.4500004, z: 0}
+  m_Size: {x: 2.000001, y: 0.90000045, z: 1.0000005}
+  m_Center: {x: -0.000000834465, y: 0.44999927, z: -0.00000011920929}
 --- !u!1 &4654100793972900991
 GameObject:
   m_ObjectHideFlags: 0
@@ -584,7 +532,7 @@ GameObject:
   - component: {fileID: 3084055057700673318}
   - component: {fileID: 8347651191192432744}
   - component: {fileID: 2015879853343865781}
-  - component: {fileID: 4567085694165410000}
+  - component: {fileID: 7731636897478081310}
   m_Layer: 0
   m_Name: Leg (3)
   m_TagString: Untagged
@@ -670,7 +618,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &4567085694165410000
+--- !u!114 &7731636897478081310
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -679,10 +627,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 4654100793972900991}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 062aef062b0d5143ca06522722a3b190, type: 3}
+  m_Script: {fileID: 11500000, guid: f8c1229aa372d222bf4f46f8c9bed50c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isThrowable: 0
+  isThrowable: 1
   ignoreGripTargetOnAttach: 1
   gripColliders: []
   additionalGripColliders: []
@@ -719,34 +667,8 @@ MonoBehaviour:
   maxBreakForce: Infinity
   defaultGripDistance: Infinity
   gripDistanceSqr: 0
-  radius: 0.5
+  radius: 0.7
   targetTransform: {fileID: 0}
-  rotationLimit: 0
-  rotationPriorityBuffer: 0
-  handPoseOnFlippedPrimaryAxis: {fileID: 0}
-  targetFlipOnPrimaryAxis: 0
-  targetFlipOnTertiaryAxis: 0
-  sandwichSize: 0
-  edgePadding: 0
-  faceInsetdistance: 0
-  faceDepth: 0
-  sandwichHandPose: {fileID: 0}
-  canBeSandwichedGrabbed: 0
-  edgeHandPose: {fileID: 0}
-  edgeHandPoseRadius: 0
-  canBeEdgeGrabbed: 0
-  cornerHandPose: {fileID: 0}
-  cornerHandPoseRadius: 0
-  canBeCornerGrabbed: 0
-  faceHandPose: {fileID: 0}
-  faceHandPoseRadius: 0
-  canBeFaceGrabbed: 0
-  enabledFaces: -1
-  enabledEdges: -1
-  enabledCorners: -1
-  forceGrabFace: -1
-  forceGrabTop: -1
-  _boxCollider: {fileID: 2015879853343865781}
 --- !u!1 &6396268456370424363
 GameObject:
   m_ObjectHideFlags: 0
@@ -759,7 +681,7 @@ GameObject:
   - component: {fileID: 8976925813343535196}
   - component: {fileID: 6432341130244622722}
   - component: {fileID: 5874195797393972536}
-  - component: {fileID: 7868616555442344336}
+  - component: {fileID: 3139549663409661450}
   m_Layer: 0
   m_Name: Leg (1)
   m_TagString: Untagged
@@ -845,7 +767,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &7868616555442344336
+--- !u!114 &3139549663409661450
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -854,10 +776,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 6396268456370424363}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 062aef062b0d5143ca06522722a3b190, type: 3}
+  m_Script: {fileID: 11500000, guid: f8c1229aa372d222bf4f46f8c9bed50c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isThrowable: 0
+  isThrowable: 1
   ignoreGripTargetOnAttach: 1
   gripColliders: []
   additionalGripColliders: []
@@ -894,34 +816,8 @@ MonoBehaviour:
   maxBreakForce: Infinity
   defaultGripDistance: Infinity
   gripDistanceSqr: 0
-  radius: 0.5
+  radius: 0.7
   targetTransform: {fileID: 0}
-  rotationLimit: 0
-  rotationPriorityBuffer: 0
-  handPoseOnFlippedPrimaryAxis: {fileID: 0}
-  targetFlipOnPrimaryAxis: 0
-  targetFlipOnTertiaryAxis: 0
-  sandwichSize: 0
-  edgePadding: 0
-  faceInsetdistance: 0
-  faceDepth: 0
-  sandwichHandPose: {fileID: 0}
-  canBeSandwichedGrabbed: 0
-  edgeHandPose: {fileID: 0}
-  edgeHandPoseRadius: 0
-  canBeEdgeGrabbed: 0
-  cornerHandPose: {fileID: 0}
-  cornerHandPoseRadius: 0
-  canBeCornerGrabbed: 0
-  faceHandPose: {fileID: 0}
-  faceHandPoseRadius: 0
-  canBeFaceGrabbed: 0
-  enabledFaces: -1
-  enabledEdges: -1
-  enabledCorners: -1
-  forceGrabFace: -1
-  forceGrabTop: -1
-  _boxCollider: {fileID: 5874195797393972536}
 --- !u!1 &6843613907457281583
 GameObject:
   m_ObjectHideFlags: 0
@@ -934,7 +830,7 @@ GameObject:
   - component: {fileID: 1628054060171980032}
   - component: {fileID: 574214774401143199}
   - component: {fileID: 5957382532866965089}
-  - component: {fileID: 1954048688306253488}
+  - component: {fileID: 7946962590744321805}
   m_Layer: 0
   m_Name: Leg (4)
   m_TagString: Untagged
@@ -1020,7 +916,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1954048688306253488
+--- !u!114 &7946962590744321805
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1029,10 +925,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 6843613907457281583}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 062aef062b0d5143ca06522722a3b190, type: 3}
+  m_Script: {fileID: 11500000, guid: f8c1229aa372d222bf4f46f8c9bed50c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isThrowable: 0
+  isThrowable: 1
   ignoreGripTargetOnAttach: 1
   gripColliders: []
   additionalGripColliders: []
@@ -1069,31 +965,5 @@ MonoBehaviour:
   maxBreakForce: Infinity
   defaultGripDistance: Infinity
   gripDistanceSqr: 0
-  radius: 0.5
+  radius: 0.7
   targetTransform: {fileID: 0}
-  rotationLimit: 0
-  rotationPriorityBuffer: 0
-  handPoseOnFlippedPrimaryAxis: {fileID: 0}
-  targetFlipOnPrimaryAxis: 0
-  targetFlipOnTertiaryAxis: 0
-  sandwichSize: 0
-  edgePadding: 0
-  faceInsetdistance: 0
-  faceDepth: 0
-  sandwichHandPose: {fileID: 0}
-  canBeSandwichedGrabbed: 0
-  edgeHandPose: {fileID: 0}
-  edgeHandPoseRadius: 0
-  canBeEdgeGrabbed: 0
-  cornerHandPose: {fileID: 0}
-  cornerHandPoseRadius: 0
-  canBeCornerGrabbed: 0
-  faceHandPose: {fileID: 0}
-  faceHandPoseRadius: 0
-  canBeFaceGrabbed: 0
-  enabledFaces: -1
-  enabledEdges: -1
-  enabledCorners: -1
-  forceGrabFace: -1
-  forceGrabTop: -1
-  _boxCollider: {fileID: 5957382532866965089}

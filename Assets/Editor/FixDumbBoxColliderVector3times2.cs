@@ -12,8 +12,10 @@ public class FixDumbBoxColliderVector3times2 : EditorWindow
             var boxColliders = Resources.FindObjectsOfTypeAll<BoxCollider>();
             foreach (var boxCollider in boxColliders) {
                 if (boxCollider.size == Vector3.one * 2) {
-                    boxCollider.size = Vector3.one;
+                    boxCollider.size = Vector3.one; 
                 }
+                EditorUtility.SetDirty(boxCollider);
+                AssetDatabase.SaveAssetIfDirty(boxCollider);
             }
         }
     }

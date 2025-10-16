@@ -372,7 +372,7 @@ MonoBehaviour:
     _tags:
     - _boneTag:
         _barcode:
-          _id: freakycheesy.BIMOS.BoneTag.Key
+          _id: freakycheesy.BIMOSSpawnables.BoneTag.Key
       _invert: 0
     _operator: 0
     _crates: []
@@ -677,7 +677,7 @@ MonoBehaviour:
     _tags:
     - _boneTag:
         _barcode:
-          _id: freakycheesy.BIMOS.BoneTag.Key
+          _id: freakycheesy.BIMOSSpawnables.BoneTag.Key
       _invert: 0
     _operator: 0
     _crates: []
@@ -715,8 +715,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1407367276489884860, guid: 8853841a8fa293e42b39789a294e6310, type: 3}
+      propertyPath: m_Size.y
+      value: 1.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1407367276489884860, guid: 8853841a8fa293e42b39789a294e6310, type: 3}
       propertyPath: m_Size.z
-      value: 0.24
+      value: 0.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 1407367276489884860, guid: 8853841a8fa293e42b39789a294e6310, type: 3}
+      propertyPath: m_Center.y
+      value: 0.95
       objectReference: {fileID: 0}
     - target: {fileID: 3173426904423526097, guid: 8853841a8fa293e42b39789a294e6310, type: 3}
       propertyPath: m_IsKinematic
@@ -732,7 +740,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4352536683435549643, guid: 8853841a8fa293e42b39789a294e6310, type: 3}
       propertyPath: _bounds.m_Extent.z
-      value: 0.12
+      value: 0.11
       objectReference: {fileID: 0}
     - target: {fileID: 4352536683435549643, guid: 8853841a8fa293e42b39789a294e6310, type: 3}
       propertyPath: _triggers.Array.size

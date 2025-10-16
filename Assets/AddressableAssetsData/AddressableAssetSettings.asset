@@ -15,7 +15,7 @@ MonoBehaviour:
   m_DefaultGroup: 4d882dacb0cf54c449d94345cde2d533
   m_currentHash:
     serializedVersion: 2
-    Hash: cdb9df34420a7757466617044a484079
+    Hash: 569412a3f14ebfb5d8d8c9e6b75fb022
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 1
   m_BundleLocalCatalog: 0
@@ -30,27 +30,24 @@ MonoBehaviour:
   m_StripUnityVersionFromBundleBuild: 0
   m_DisableVisibleSubAssetRepresentations: 0
   m_ShaderBundleNaming: 2
-  m_ShaderBundleCustomNaming: freakycheesy.BIMOS
+  m_ShaderBundleCustomNaming: freakycheesy.BIMOSLevels
   m_MonoScriptBundleNaming: 3
   m_CheckForContentUpdateRestrictionsOption: 0
-  m_MonoScriptBundleCustomNaming: freakycheesy.BIMOS
+  m_MonoScriptBundleCustomNaming: freakycheesy.BIMOSLevels
   m_RemoteCatalogBuildPath:
-    m_Id: BuiltPallets/StandaloneWindows64/freakycheesy.BIMOS
+    m_Id: BuiltPallets/StandaloneWindows64/freakycheesy.BIMOSLevels
   m_RemoteCatalogLoadPath:
-    m_Id: 'PALLET_BARCODE:freakycheesy.BIMOS:'
+    m_Id: 'PALLET_BARCODE:freakycheesy.BIMOSLevels:'
   m_ContentStateBuildPathProfileVariableName: <default settings path>
   m_CustomContentStateBuildPath: 
   m_ContentStateBuildPath: 
   m_BuildAddressablesWithPlayerBuild: 2
-  m_overridePlayerVersion: freakycheesy.BIMOS
+  m_overridePlayerVersion: freakycheesy.BIMOSLevels
   m_GroupAssets:
   - {fileID: 11400000, guid: 8b5ee8ae1bae6794692e05c65f209650, type: 2}
   - {fileID: 11400000, guid: 2f9443496605c9a49a8f2173b38d3b38, type: 2}
-  - {fileID: 11400000, guid: 94efcf4dbdc288b448f32bfdbb2c8c01, type: 2}
-  - {fileID: 11400000, guid: 7f88fa3cf0561bf48a3212c41b37b6a4, type: 2}
-  - {fileID: 11400000, guid: 12a36968458b171498f47bd8a1ac06b8, type: 2}
-  - {fileID: 11400000, guid: b35162192ef1e324c9f503f686cb4c62, type: 2}
-  - {fileID: 11400000, guid: 25fecbe3bd3b45e47a278851333b0222, type: 2}
+  - {fileID: 11400000, guid: 5dd57b8340f3f27468e23f4bf253d655, type: 2}
+  - {fileID: 11400000, guid: df68b07d16519e2408ddd9441f7365f4, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1

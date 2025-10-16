@@ -388,6 +388,67 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &5227978941793221424
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5833972842923436103}
+  - component: {fileID: 4002026224496818015}
+  - component: {fileID: 2810507754160656734}
+  m_Layer: 26
+  m_Name: Tracker[LargeSled]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5833972842923436103
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5227978941793221424}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8671941480688000885}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4002026224496818015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5227978941793221424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08db89f5ee16c594f98f029108310785, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _entity: {fileID: 4713095139598208513}
+  _body: {fileID: 791369882139142895}
+  _collider: {fileID: 2810507754160656734}
+--- !u!65 &2810507754160656734
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5227978941793221424}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.0000143, y: 3.0000086, z: 8.000023}
+  m_Center: {x: 0.00000023841858, y: 1.5000033, z: -0.0000009536743}
 --- !u!1 &7460131961565316172
 GameObject:
   m_ObjectHideFlags: 0
@@ -495,6 +556,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8671941480688000885}
   - component: {fileID: 3609938548704600054}
+  - component: {fileID: 4713095139598208513}
+  - component: {fileID: 4255535100477371563}
+  - component: {fileID: 791369882139142895}
   m_Layer: 0
   m_Name: LargeSled
   m_TagString: Untagged
@@ -519,6 +583,7 @@ Transform:
   - {fileID: 4113674003055945413}
   - {fileID: 7326571455796311915}
   - {fileID: 5464349552137254092}
+  - {fileID: 5833972842923436103}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -538,3 +603,90 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &4713095139598208513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7732264253776602977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3d4fe73169944429890996abd1b4ad2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _tags:
+    _tags: []
+  _behaviours: []
+  _originalScale: {x: 1, y: 1, z: 1}
+  _bodies:
+  - {fileID: 791369882139142895}
+  _joints: []
+  _anchorBody: {fileID: 791369882139142895}
+  _poolee: {fileID: 4255535100477371563}
+--- !u!114 &4255535100477371563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7732264253776602977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 158cd0d545b21334a99c537fec449a7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &791369882139142895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7732264253776602977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13d532be3ff645c383487c609a67869c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <Entity>k__BackingField: {fileID: 4713095139598208513}
+  _tags:
+    _tags: []
+  <HasRigidbody>k__BackingField: 1
+  <isCenterOfMassOverride>k__BackingField: 0
+  <CenterOfMass>k__BackingField: {x: 0, y: 0, z: 0}
+  <InitInEntityTransform>k__BackingField:
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  _rigidbody: {fileID: 3609938548704600054}
+  _defaultRigidbodyInfo:
+    mass: 100
+    drag: 0
+    angularDrag: 0.05
+    useGravity: 1
+    isKinematic: 0
+    detectCollisions: 1
+    interpolate: 0
+    collisionDetection: 0
+    constraints: 0
+    centerOfMass: {x: -0.0000000052981908, y: 0.36111113, z: 0.30555555}
+    inertiaTensor: {x: 577.6235, y: 774.8559, z: 230.54543}
+    inertiaTensorRotation: {x: -0.019865753, y: 0, z: 0, w: 0.99980265}
+    initalVelocity: {x: 0, y: 0, z: 0}
+    initialAngularVelocity: {x: 0, y: 0, z: 0}
+  _colliders:
+  - {fileID: 2695924563978992549}
+  - {fileID: 7619968702316270883}
+  - {fileID: 3607594054207417917}
+  - {fileID: 5258454435552366543}
+  - {fileID: 4947990039598049558}
+  _trackers:
+  - {fileID: 4002026224496818015}
+  _triggers: []
+  _bodiesToIgnore: []
+  _collidersToIgnore: []
+  _bounds:
+    m_Center: {x: 0, y: 1.5000004, z: -0.00000047683716}
+    m_Extent: {x: 2.5000012, y: 1.5000007, z: 4.000002}
+  trackerSettings:
+    layers: 0
+    settings: []

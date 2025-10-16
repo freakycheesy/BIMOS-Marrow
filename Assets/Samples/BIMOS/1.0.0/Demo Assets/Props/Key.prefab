@@ -339,8 +339,10 @@ MonoBehaviour:
   _body: {fileID: 6100698404699676289}
   _collider: {fileID: 2829979715740206961}
   _interfaceTags:
-    _tags: []
-  _host: {fileID: 0}
+    _tags:
+    - _barcode:
+        _id: freakycheesy.BIMOSSpawnables.BoneTag.Key
+  _host: {fileID: 1525026152344709651}
 --- !u!65 &2829979715740206961
 BoxCollider:
   m_ObjectHideFlags: 0

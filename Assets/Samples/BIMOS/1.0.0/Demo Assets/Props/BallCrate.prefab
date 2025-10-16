@@ -1214,7 +1214,7 @@ GameObject:
   - component: {fileID: 7789671929423715363}
   - component: {fileID: 6390242968345295840}
   - component: {fileID: 6037030898902747394}
-  - component: {fileID: 3417472970786162511}
+  - component: {fileID: 4094852368376563232}
   m_Layer: 0
   m_Name: Cube (5)
   m_TagString: Untagged
@@ -1300,7 +1300,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3417472970786162511
+--- !u!114 &4094852368376563232
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1309,7 +1309,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1913059629037818152}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4aa961c742ec1d68f15b28a62aadd06c, type: 3}
+  m_Script: {fileID: 11500000, guid: f8c1229aa372d222bf4f46f8c9bed50c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isThrowable: 1
@@ -1318,13 +1318,31 @@ MonoBehaviour:
   additionalGripColliders: []
   handleAmplifyCurve:
     serializedVersion: 2
-    m_Curve: []
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
   handPose: {fileID: 11400000, guid: fe86da3ea81735f45871445f29eeb573, type: 2}
-  primaryMovementAxis: {x: 0, y: 0, z: 1}
-  secondaryMovementAxis: {x: 1, y: 0, z: 0}
+  primaryMovementAxis: {x: 0, y: 0, z: 0}
+  secondaryMovementAxis: {x: 0, y: 0, z: 0}
   gripOptions: 7
   priority: 0
   minBreakForce: Infinity
@@ -1345,7 +1363,7 @@ GameObject:
   - component: {fileID: 3466098971821507338}
   - component: {fileID: 5613875585009720606}
   - component: {fileID: 4157200349009694558}
-  - component: {fileID: 8967948645518974489}
+  - component: {fileID: 5693790717103796532}
   m_Layer: 0
   m_Name: Cube (3)
   m_TagString: Untagged
@@ -1431,7 +1449,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &8967948645518974489
+--- !u!114 &5693790717103796532
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1440,7 +1458,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1924711732296232649}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4aa961c742ec1d68f15b28a62aadd06c, type: 3}
+  m_Script: {fileID: 11500000, guid: f8c1229aa372d222bf4f46f8c9bed50c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isThrowable: 1
@@ -1449,13 +1467,31 @@ MonoBehaviour:
   additionalGripColliders: []
   handleAmplifyCurve:
     serializedVersion: 2
-    m_Curve: []
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
   handPose: {fileID: 11400000, guid: fe86da3ea81735f45871445f29eeb573, type: 2}
-  primaryMovementAxis: {x: 0, y: 0, z: 1}
-  secondaryMovementAxis: {x: 1, y: 0, z: 0}
+  primaryMovementAxis: {x: 0, y: 0, z: 0}
+  secondaryMovementAxis: {x: 0, y: 0, z: 0}
   gripOptions: 7
   priority: 0
   minBreakForce: Infinity
@@ -4244,7 +4280,7 @@ GameObject:
   - component: {fileID: 2804647408933609058}
   - component: {fileID: 2358905675178856564}
   - component: {fileID: 7909945217272942736}
-  - component: {fileID: 5882637854343630112}
+  - component: {fileID: 9189364340481938518}
   m_Layer: 0
   m_Name: Cube (4)
   m_TagString: Untagged
@@ -4330,7 +4366,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &5882637854343630112
+--- !u!114 &9189364340481938518
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4339,7 +4375,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6455284061302957893}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4aa961c742ec1d68f15b28a62aadd06c, type: 3}
+  m_Script: {fileID: 11500000, guid: f8c1229aa372d222bf4f46f8c9bed50c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isThrowable: 1
@@ -4348,13 +4384,31 @@ MonoBehaviour:
   additionalGripColliders: []
   handleAmplifyCurve:
     serializedVersion: 2
-    m_Curve: []
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
   handPose: {fileID: 11400000, guid: fe86da3ea81735f45871445f29eeb573, type: 2}
-  primaryMovementAxis: {x: 0, y: 0, z: 1}
-  secondaryMovementAxis: {x: 1, y: 0, z: 0}
+  primaryMovementAxis: {x: 0, y: 0, z: 0}
+  secondaryMovementAxis: {x: 0, y: 0, z: 0}
   gripOptions: 7
   priority: 0
   minBreakForce: Infinity
@@ -4591,7 +4645,7 @@ GameObject:
   - component: {fileID: 3893684735454155875}
   - component: {fileID: 4516779278167237084}
   - component: {fileID: 7736034904271438790}
-  - component: {fileID: 34504690404337453}
+  - component: {fileID: 7904185217633633854}
   m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Untagged
@@ -4677,7 +4731,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &34504690404337453
+--- !u!114 &7904185217633633854
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4686,7 +4740,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6872219007592269622}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4aa961c742ec1d68f15b28a62aadd06c, type: 3}
+  m_Script: {fileID: 11500000, guid: f8c1229aa372d222bf4f46f8c9bed50c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isThrowable: 1
@@ -4695,13 +4749,31 @@ MonoBehaviour:
   additionalGripColliders: []
   handleAmplifyCurve:
     serializedVersion: 2
-    m_Curve: []
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
   handPose: {fileID: 11400000, guid: fe86da3ea81735f45871445f29eeb573, type: 2}
-  primaryMovementAxis: {x: 0, y: 0, z: 1}
-  secondaryMovementAxis: {x: 1, y: 0, z: 0}
+  primaryMovementAxis: {x: 0, y: 0, z: 0}
+  secondaryMovementAxis: {x: 0, y: 0, z: 0}
   gripOptions: 7
   priority: 0
   minBreakForce: Infinity
@@ -5708,7 +5780,7 @@ GameObject:
   - component: {fileID: 5189420346116081796}
   - component: {fileID: 5408745031874288307}
   - component: {fileID: 5574425215107025973}
-  - component: {fileID: 517696028454136490}
+  - component: {fileID: 846053996608433791}
   m_Layer: 0
   m_Name: Cube (2)
   m_TagString: Untagged
@@ -5794,7 +5866,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &517696028454136490
+--- !u!114 &846053996608433791
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5803,7 +5875,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8668251858569505951}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4aa961c742ec1d68f15b28a62aadd06c, type: 3}
+  m_Script: {fileID: 11500000, guid: f8c1229aa372d222bf4f46f8c9bed50c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isThrowable: 1
@@ -5812,13 +5884,31 @@ MonoBehaviour:
   additionalGripColliders: []
   handleAmplifyCurve:
     serializedVersion: 2
-    m_Curve: []
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
   handPose: {fileID: 11400000, guid: fe86da3ea81735f45871445f29eeb573, type: 2}
-  primaryMovementAxis: {x: 0, y: 0, z: 1}
-  secondaryMovementAxis: {x: 1, y: 0, z: 0}
+  primaryMovementAxis: {x: 0, y: 0, z: 0}
+  secondaryMovementAxis: {x: 0, y: 0, z: 0}
   gripOptions: 7
   priority: 0
   minBreakForce: Infinity

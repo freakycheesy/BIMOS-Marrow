@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34569ddb84e20304981812b1c448d930, type: 3}
+  m_Name: Lil Pooey.sc
+  m_EditorClassIdentifier: 
+  _barcode:
+    _id: freakycheesy.BIMOSSpawnables.Spawnable.LilPooey
+  _title: Lil Pooey
+  _description: 
+  _unlockable: 0
+  _redacted: 0
+  _tags: []
+  _boneTags:
+    _tags: []
+  _mainAsset:
+    _assetGUID: 807568f13525f5c439ce67723e592748
+    _editorAssetChanged: 0
+  _previewMesh:
+    _assetGUID: afbb5a42a1ac2e54f8afd004d191a265
+    _editorAssetChanged: 1
+  _customQuality: 0
+  _previewMeshQuality: 0.5
+  _maxLODLevel: 0
+  _colliderBounds:
+    m_Center: {x: -0.000000067055225, y: 0.14909464, z: 0.047989555}
+    m_Extent: {x: 0.09256302, y: 0.14895904, z: 0.11489505}

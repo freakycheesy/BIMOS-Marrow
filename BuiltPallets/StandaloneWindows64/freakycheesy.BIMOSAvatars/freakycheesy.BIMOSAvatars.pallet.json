@@ -1,0 +1,62 @@
+{
+  "version": 2,
+  "root": {
+    "ref": "1",
+    "type": "pallet#0"
+  },
+  "objects": {
+    "1": {
+      "barcode": "freakycheesy.BIMOSAvatars",
+      "title": "BIMOSAvatars",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "author": "freakycheesy",
+      "version": "0.0.0",
+      "sdkVersion": "1.2.0",
+      "internal": false,
+      "crates": [
+        {
+          "ref": "2",
+          "type": "crate-avatar#0"
+        }
+      ],
+      "dataCards": [],
+      "tags": [],
+      "changelogs": [],
+      "isa": {
+        "type": "pallet#0"
+      }
+    },
+    "2": {
+      "barcode": "freakycheesy.BIMOSAvatars.Avatar.Human",
+      "title": "Human",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "35190308ba747884b8fe3c75aeea49f3"
+        }
+      ],
+      "mainAsset": "b35808f10304c0a42a65f10d218585ae",
+      "tags": [],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "isa": {
+        "type": "crate-avatar#0"
+      }
+    }
+  }
+}

@@ -46,7 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnableCrateReference:
     _barcode:
-      _id: freakycheesy.BIMOS.Spawnable.TowerSection
+      _id: freakycheesy.BIMOSSpawnables.Spawnable.TowerSection
   policyData: {fileID: 0}
   crateQuery:
     _barcode:
@@ -103,7 +103,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnableCrateReference:
     _barcode:
-      _id: freakycheesy.BIMOS.Spawnable.TowerSection
+      _id: freakycheesy.BIMOSSpawnables.Spawnable.TowerSection
   policyData: {fileID: 0}
   crateQuery:
     _barcode:
@@ -160,7 +160,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnableCrateReference:
     _barcode:
-      _id: freakycheesy.BIMOS.Spawnable.TowerSection
+      _id: freakycheesy.BIMOSSpawnables.Spawnable.TowerSection
   policyData: {fileID: 0}
   crateQuery:
     _barcode:
@@ -275,11 +275,12 @@ MonoBehaviour:
   _tags:
     _tags: []
   _behaviours: []
-  _originalScale: {x: 0, y: 0, z: 0}
-  _bodies: []
+  _originalScale: {x: 1, y: 1, z: 1}
+  _bodies:
+  - {fileID: 5512805695736656963}
   _joints: []
-  _anchorBody: {fileID: 0}
-  _poolee: {fileID: 0}
+  _anchorBody: {fileID: 5512805695736656963}
+  _poolee: {fileID: 4993469598489111266}
 --- !u!114 &4993469598489111266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -338,7 +339,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnableCrateReference:
     _barcode:
-      _id: freakycheesy.BIMOS.Spawnable.TowerSection
+      _id: freakycheesy.BIMOSSpawnables.Spawnable.TowerSection
   policyData: {fileID: 0}
   crateQuery:
     _barcode:
@@ -395,7 +396,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnableCrateReference:
     _barcode:
-      _id: freakycheesy.BIMOS.Spawnable.TowerSection
+      _id: freakycheesy.BIMOSSpawnables.Spawnable.TowerSection
   policyData: {fileID: 0}
   crateQuery:
     _barcode:

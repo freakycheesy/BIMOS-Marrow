@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 1975948870895226598}
   - component: {fileID: 1999224196988928647}
   - component: {fileID: 4024071619548837035}
-  - component: {fileID: 6354171345309786591}
   - component: {fileID: 2900113835884868800}
   - component: {fileID: 1600524377222085490}
+  - component: {fileID: 1141053116489708875}
   m_Layer: 0
   m_Name: Cube (5)
   m_TagString: Untagged
@@ -118,65 +118,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &6354171345309786591
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 365953356206959842}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 062aef062b0d5143ca06522722a3b190, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isThrowable: 1
-  ignoreGripTargetOnAttach: 1
-  gripColliders: []
-  additionalGripColliders: []
-  handleAmplifyCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  handPose: {fileID: 11400000, guid: fe86da3ea81735f45871445f29eeb573, type: 2}
-  primaryMovementAxis: {x: 0, y: 0, z: 1}
-  secondaryMovementAxis: {x: 1, y: 0, z: 0}
-  gripOptions: 7
-  priority: 0
-  minBreakForce: Infinity
-  maxBreakForce: Infinity
-  defaultGripDistance: Infinity
-  gripDistanceSqr: 0
-  radius: 0.6
-  targetTransform: {fileID: 0}
-  rotationLimit: 0
-  rotationPriorityBuffer: 0
-  handPoseOnFlippedPrimaryAxis: {fileID: 0}
-  targetFlipOnPrimaryAxis: 0
-  targetFlipOnTertiaryAxis: 0
-  sandwichSize: 0
-  edgePadding: 0
-  faceInsetdistance: 0
-  faceDepth: 0
-  sandwichHandPose: {fileID: 0}
-  canBeSandwichedGrabbed: 0
-  edgeHandPose: {fileID: 0}
-  edgeHandPoseRadius: 0
-  canBeEdgeGrabbed: 0
-  cornerHandPose: {fileID: 0}
-  cornerHandPoseRadius: 0
-  canBeCornerGrabbed: 0
-  faceHandPose: {fileID: 0}
-  faceHandPoseRadius: 0
-  canBeFaceGrabbed: 0
-  enabledFaces: -1
-  enabledEdges: -1
-  enabledCorners: -1
-  forceGrabFace: -1
-  forceGrabTop: -1
-  _boxCollider: {fileID: 0}
 --- !u!114 &2900113835884868800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -242,6 +183,57 @@ MonoBehaviour:
   marrowEntity: {fileID: 622534064115756509}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &1141053116489708875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 365953356206959842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8c1229aa372d222bf4f46f8c9bed50c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isThrowable: 1
+  ignoreGripTargetOnAttach: 1
+  gripColliders: []
+  additionalGripColliders: []
+  handleAmplifyCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  handPose: {fileID: 11400000, guid: fe86da3ea81735f45871445f29eeb573, type: 2}
+  primaryMovementAxis: {x: 0, y: 0, z: 1}
+  secondaryMovementAxis: {x: 1, y: 0, z: 0}
+  gripOptions: 7
+  priority: 0
+  minBreakForce: Infinity
+  maxBreakForce: Infinity
+  defaultGripDistance: Infinity
+  gripDistanceSqr: 0
+  radius: 0.7
+  targetTransform: {fileID: 0}
 --- !u!1 &1333841105489098418
 GameObject:
   m_ObjectHideFlags: 0
@@ -316,9 +308,9 @@ GameObject:
   - component: {fileID: 2630212014629403766}
   - component: {fileID: 1218391403799269500}
   - component: {fileID: 516694796414421032}
-  - component: {fileID: 4263970341512657399}
   - component: {fileID: 8612505050758607121}
   - component: {fileID: 9110443735359285124}
+  - component: {fileID: 4170611125350036863}
   m_Layer: 0
   m_Name: Cube (3)
   m_TagString: Untagged
@@ -421,65 +413,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &4263970341512657399
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2400348186170359439}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 062aef062b0d5143ca06522722a3b190, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isThrowable: 1
-  ignoreGripTargetOnAttach: 1
-  gripColliders: []
-  additionalGripColliders: []
-  handleAmplifyCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  handPose: {fileID: 11400000, guid: fe86da3ea81735f45871445f29eeb573, type: 2}
-  primaryMovementAxis: {x: 0, y: 0, z: 1}
-  secondaryMovementAxis: {x: 1, y: 0, z: 0}
-  gripOptions: 7
-  priority: 0
-  minBreakForce: Infinity
-  maxBreakForce: Infinity
-  defaultGripDistance: Infinity
-  gripDistanceSqr: 0
-  radius: 0.6
-  targetTransform: {fileID: 0}
-  rotationLimit: 0
-  rotationPriorityBuffer: 0
-  handPoseOnFlippedPrimaryAxis: {fileID: 0}
-  targetFlipOnPrimaryAxis: 0
-  targetFlipOnTertiaryAxis: 0
-  sandwichSize: 0
-  edgePadding: 0
-  faceInsetdistance: 0
-  faceDepth: 0
-  sandwichHandPose: {fileID: 0}
-  canBeSandwichedGrabbed: 0
-  edgeHandPose: {fileID: 0}
-  edgeHandPoseRadius: 0
-  canBeEdgeGrabbed: 0
-  cornerHandPose: {fileID: 0}
-  cornerHandPoseRadius: 0
-  canBeCornerGrabbed: 0
-  faceHandPose: {fileID: 0}
-  faceHandPoseRadius: 0
-  canBeFaceGrabbed: 0
-  enabledFaces: -1
-  enabledEdges: -1
-  enabledCorners: -1
-  forceGrabFace: -1
-  forceGrabTop: -1
-  _boxCollider: {fileID: 0}
 --- !u!114 &8612505050758607121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -545,6 +478,57 @@ MonoBehaviour:
   marrowEntity: {fileID: 622534064115756509}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &4170611125350036863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2400348186170359439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8c1229aa372d222bf4f46f8c9bed50c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isThrowable: 1
+  ignoreGripTargetOnAttach: 1
+  gripColliders: []
+  additionalGripColliders: []
+  handleAmplifyCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  handPose: {fileID: 11400000, guid: fe86da3ea81735f45871445f29eeb573, type: 2}
+  primaryMovementAxis: {x: 0, y: 0, z: 1}
+  secondaryMovementAxis: {x: 1, y: 0, z: 0}
+  gripOptions: 7
+  priority: 0
+  minBreakForce: Infinity
+  maxBreakForce: Infinity
+  defaultGripDistance: Infinity
+  gripDistanceSqr: 0
+  radius: 0.7
+  targetTransform: {fileID: 0}
 --- !u!1 &2525503689123921606
 GameObject:
   m_ObjectHideFlags: 0
@@ -558,9 +542,9 @@ GameObject:
   - component: {fileID: 2530770988362647637}
   - component: {fileID: 155468806462235179}
   - component: {fileID: 8758505372284869798}
-  - component: {fileID: 9038013598867402771}
   - component: {fileID: 3218071617487565944}
   - component: {fileID: 692798957118192141}
+  - component: {fileID: 7074142354718205794}
   m_Layer: 0
   m_Name: Cube (2)
   m_TagString: Untagged
@@ -663,65 +647,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &9038013598867402771
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2525503689123921606}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 062aef062b0d5143ca06522722a3b190, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isThrowable: 1
-  ignoreGripTargetOnAttach: 1
-  gripColliders: []
-  additionalGripColliders: []
-  handleAmplifyCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  handPose: {fileID: 11400000, guid: fe86da3ea81735f45871445f29eeb573, type: 2}
-  primaryMovementAxis: {x: 0, y: 0, z: 1}
-  secondaryMovementAxis: {x: 1, y: 0, z: 0}
-  gripOptions: 7
-  priority: 0
-  minBreakForce: Infinity
-  maxBreakForce: Infinity
-  defaultGripDistance: Infinity
-  gripDistanceSqr: 0
-  radius: 0.6
-  targetTransform: {fileID: 0}
-  rotationLimit: 0
-  rotationPriorityBuffer: 0
-  handPoseOnFlippedPrimaryAxis: {fileID: 0}
-  targetFlipOnPrimaryAxis: 0
-  targetFlipOnTertiaryAxis: 0
-  sandwichSize: 0
-  edgePadding: 0
-  faceInsetdistance: 0
-  faceDepth: 0
-  sandwichHandPose: {fileID: 0}
-  canBeSandwichedGrabbed: 0
-  edgeHandPose: {fileID: 0}
-  edgeHandPoseRadius: 0
-  canBeEdgeGrabbed: 0
-  cornerHandPose: {fileID: 0}
-  cornerHandPoseRadius: 0
-  canBeCornerGrabbed: 0
-  faceHandPose: {fileID: 0}
-  faceHandPoseRadius: 0
-  canBeFaceGrabbed: 0
-  enabledFaces: -1
-  enabledEdges: -1
-  enabledCorners: -1
-  forceGrabFace: -1
-  forceGrabTop: -1
-  _boxCollider: {fileID: 0}
 --- !u!114 &3218071617487565944
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -787,6 +712,57 @@ MonoBehaviour:
   marrowEntity: {fileID: 622534064115756509}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &7074142354718205794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2525503689123921606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8c1229aa372d222bf4f46f8c9bed50c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isThrowable: 1
+  ignoreGripTargetOnAttach: 1
+  gripColliders: []
+  additionalGripColliders: []
+  handleAmplifyCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  handPose: {fileID: 11400000, guid: fe86da3ea81735f45871445f29eeb573, type: 2}
+  primaryMovementAxis: {x: 0, y: 0, z: 1}
+  secondaryMovementAxis: {x: 1, y: 0, z: 0}
+  gripOptions: 7
+  priority: 0
+  minBreakForce: Infinity
+  maxBreakForce: Infinity
+  defaultGripDistance: Infinity
+  gripDistanceSqr: 0
+  radius: 0.7
+  targetTransform: {fileID: 0}
 --- !u!1 &3135468930073907210
 GameObject:
   m_ObjectHideFlags: 0
@@ -1002,9 +978,9 @@ GameObject:
   - component: {fileID: 1853794705106216868}
   - component: {fileID: 5260003413245665149}
   - component: {fileID: 9107021366762660568}
-  - component: {fileID: 3790265586069479504}
   - component: {fileID: 1316873731819180202}
   - component: {fileID: 1958864192470580865}
+  - component: {fileID: 4565937352617163370}
   m_Layer: 0
   m_Name: Cube (4)
   m_TagString: Untagged
@@ -1107,65 +1083,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &3790265586069479504
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6440406745999295877}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 062aef062b0d5143ca06522722a3b190, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isThrowable: 1
-  ignoreGripTargetOnAttach: 1
-  gripColliders: []
-  additionalGripColliders: []
-  handleAmplifyCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  handPose: {fileID: 11400000, guid: fe86da3ea81735f45871445f29eeb573, type: 2}
-  primaryMovementAxis: {x: 0, y: 0, z: 1}
-  secondaryMovementAxis: {x: 1, y: 0, z: 0}
-  gripOptions: 7
-  priority: 0
-  minBreakForce: Infinity
-  maxBreakForce: Infinity
-  defaultGripDistance: Infinity
-  gripDistanceSqr: 0
-  radius: 0.6
-  targetTransform: {fileID: 0}
-  rotationLimit: 0
-  rotationPriorityBuffer: 0
-  handPoseOnFlippedPrimaryAxis: {fileID: 0}
-  targetFlipOnPrimaryAxis: 0
-  targetFlipOnTertiaryAxis: 0
-  sandwichSize: 0
-  edgePadding: 0
-  faceInsetdistance: 0
-  faceDepth: 0
-  sandwichHandPose: {fileID: 0}
-  canBeSandwichedGrabbed: 0
-  edgeHandPose: {fileID: 0}
-  edgeHandPoseRadius: 0
-  canBeEdgeGrabbed: 0
-  cornerHandPose: {fileID: 0}
-  cornerHandPoseRadius: 0
-  canBeCornerGrabbed: 0
-  faceHandPose: {fileID: 0}
-  faceHandPoseRadius: 0
-  canBeFaceGrabbed: 0
-  enabledFaces: -1
-  enabledEdges: -1
-  enabledCorners: -1
-  forceGrabFace: -1
-  forceGrabTop: -1
-  _boxCollider: {fileID: 0}
 --- !u!114 &1316873731819180202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1231,6 +1148,57 @@ MonoBehaviour:
   marrowEntity: {fileID: 622534064115756509}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &4565937352617163370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6440406745999295877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8c1229aa372d222bf4f46f8c9bed50c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isThrowable: 1
+  ignoreGripTargetOnAttach: 1
+  gripColliders: []
+  additionalGripColliders: []
+  handleAmplifyCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  handPose: {fileID: 11400000, guid: fe86da3ea81735f45871445f29eeb573, type: 2}
+  primaryMovementAxis: {x: 0, y: 0, z: 1}
+  secondaryMovementAxis: {x: 1, y: 0, z: 0}
+  gripOptions: 7
+  priority: 0
+  minBreakForce: Infinity
+  maxBreakForce: Infinity
+  defaultGripDistance: Infinity
+  gripDistanceSqr: 0
+  radius: 0.7
+  targetTransform: {fileID: 0}
 --- !u!1 &7123116023018462713
 GameObject:
   m_ObjectHideFlags: 0
@@ -1305,9 +1273,9 @@ GameObject:
   - component: {fileID: 6794237259255620660}
   - component: {fileID: 5285392597789045610}
   - component: {fileID: 8427617341785000677}
-  - component: {fileID: 388902351754174581}
   - component: {fileID: 5857219056331696094}
   - component: {fileID: 7085036967896752435}
+  - component: {fileID: 2487284996634973893}
   m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Untagged
@@ -1410,65 +1378,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &388902351754174581
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7574363413043772756}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 062aef062b0d5143ca06522722a3b190, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isThrowable: 1
-  ignoreGripTargetOnAttach: 1
-  gripColliders: []
-  additionalGripColliders: []
-  handleAmplifyCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  handPose: {fileID: 11400000, guid: fe86da3ea81735f45871445f29eeb573, type: 2}
-  primaryMovementAxis: {x: 0, y: 0, z: 1}
-  secondaryMovementAxis: {x: 1, y: 0, z: 0}
-  gripOptions: 7
-  priority: 0
-  minBreakForce: Infinity
-  maxBreakForce: Infinity
-  defaultGripDistance: Infinity
-  gripDistanceSqr: 0
-  radius: 0.6
-  targetTransform: {fileID: 0}
-  rotationLimit: 0
-  rotationPriorityBuffer: 0
-  handPoseOnFlippedPrimaryAxis: {fileID: 0}
-  targetFlipOnPrimaryAxis: 0
-  targetFlipOnTertiaryAxis: 0
-  sandwichSize: 0
-  edgePadding: 0
-  faceInsetdistance: 0
-  faceDepth: 0
-  sandwichHandPose: {fileID: 0}
-  canBeSandwichedGrabbed: 0
-  edgeHandPose: {fileID: 0}
-  edgeHandPoseRadius: 0
-  canBeEdgeGrabbed: 0
-  cornerHandPose: {fileID: 0}
-  cornerHandPoseRadius: 0
-  canBeCornerGrabbed: 0
-  faceHandPose: {fileID: 0}
-  faceHandPoseRadius: 0
-  canBeFaceGrabbed: 0
-  enabledFaces: -1
-  enabledEdges: -1
-  enabledCorners: -1
-  forceGrabFace: -1
-  forceGrabTop: -1
-  _boxCollider: {fileID: 0}
 --- !u!114 &5857219056331696094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1534,6 +1443,57 @@ MonoBehaviour:
   marrowEntity: {fileID: 622534064115756509}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &2487284996634973893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7574363413043772756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8c1229aa372d222bf4f46f8c9bed50c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isThrowable: 1
+  ignoreGripTargetOnAttach: 1
+  gripColliders: []
+  additionalGripColliders: []
+  handleAmplifyCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  handPose: {fileID: 11400000, guid: fe86da3ea81735f45871445f29eeb573, type: 2}
+  primaryMovementAxis: {x: 0, y: 0, z: 1}
+  secondaryMovementAxis: {x: 1, y: 0, z: 0}
+  gripOptions: 7
+  priority: 0
+  minBreakForce: Infinity
+  maxBreakForce: Infinity
+  defaultGripDistance: Infinity
+  gripDistanceSqr: 0
+  radius: 0.7
+  targetTransform: {fileID: 0}
 --- !u!1 &8111433939413831535
 GameObject:
   m_ObjectHideFlags: 0
