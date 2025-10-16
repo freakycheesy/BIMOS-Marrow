@@ -13,7 +13,9 @@ GameObject:
   - component: {fileID: 842188484138553356}
   - component: {fileID: 9111468656453664395}
   - component: {fileID: 7048909123102174470}
-  - component: {fileID: 6746342390160874871}
+  - component: {fileID: 7621464166413100923}
+  - component: {fileID: 5285326371334999664}
+  - component: {fileID: 6680123935312244453}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -28,13 +30,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1711839410949451979}
-  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &888530717307877651
 MeshFilter:
@@ -61,9 +63,6 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -97,17 +96,9 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1711839410949451979}
   m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &7048909123102174470
@@ -117,27 +108,16 @@ Rigidbody:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1711839410949451979}
-  serializedVersion: 4
+  serializedVersion: 2
   m_Mass: 10
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &6746342390160874871
+--- !u!114 &7621464166413100923
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -146,14 +126,77 @@ MonoBehaviour:
   m_GameObject: {fileID: 1711839410949451979}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1649ee5a65de2fb4f93f977782842d40, type: 3}
+  m_Script: {fileID: 11500000, guid: d3d4fe73169944429890996abd1b4ad2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LeftHand: {fileID: 0}
-  RightHand: {fileID: 0}
-  HandPose: {fileID: 11400000, guid: 28f77861521a43a4b9c0a7b43a40e003, type: 2}
-  IsLeftHanded: 1
-  IsRightHanded: 1
-  EnableGrabs: []
-  DisableGrabs: []
-  Collider: {fileID: 0}
+  _tags:
+    _tags: []
+  _behaviours: []
+  _originalScale: {x: 0, y: 0, z: 0}
+  _bodies: []
+  _joints: []
+  _anchorBody: {fileID: 0}
+  _poolee: {fileID: 0}
+--- !u!114 &5285326371334999664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1711839410949451979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 158cd0d545b21334a99c537fec449a7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6680123935312244453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1711839410949451979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8c1229aa372d222bf4f46f8c9bed50c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isThrowable: 1
+  ignoreGripTargetOnAttach: 1
+  gripColliders: []
+  additionalGripColliders: []
+  handleAmplifyCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  handPose: {fileID: 11400000, guid: fe86da3ea81735f45871445f29eeb573, type: 2}
+  primaryMovementAxis: {x: 0, y: 0, z: 1}
+  secondaryMovementAxis: {x: 1, y: 0, z: 0}
+  gripOptions: 7
+  priority: 0
+  minBreakForce: Infinity
+  maxBreakForce: Infinity
+  defaultGripDistance: Infinity
+  gripDistanceSqr: 0
+  radius: 0.7
+  targetTransform: {fileID: 0}

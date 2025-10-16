@@ -87,26 +87,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 692b3f377ab991b4eb093103d97a6dd1
-    m_Address: Spawnable/Grapple Gun
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 4b001a01b8a6e624b99a19801a222c04
-    m_Address: PreviewMesh/Grapple Gun
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 5ffc2b6068b8342429d6386a90811a9a
-    m_Address: Spawnable/Hook
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 163f398e4e08ea247bc6806000e16be8
-    m_Address: PreviewMesh/Hook
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9c178db0d39563b42a274ef940320f00
     m_Address: Spawnable/Key Door
     m_ReadOnly: 0

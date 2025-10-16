@@ -111,19 +111,15 @@
         {
           "ref": "25",
           "type": "crate-spawnable#0"
-        },
-        {
-          "ref": "26",
-          "type": "crate-spawnable#0"
-        },
-        {
-          "ref": "27",
-          "type": "crate-spawnable#0"
         }
       ],
       "dataCards": [
         {
-          "ref": "28",
+          "ref": "26",
+          "type": "datacard-bonetag#0"
+        },
+        {
+          "ref": "27",
           "type": "datacard-monodisc#0"
         }
       ],
@@ -194,13 +190,13 @@
       "colliderBounds": {
         "center": {
           "x": 0.0,
-          "y": 0.3499999,
+          "y": 0.3,
           "z": -1.1920929E-07
         },
         "extents": {
-          "x": 1.00000024,
-          "y": 0.449999869,
-          "z": 0.9999995
+          "x": 0.5000003,
+          "y": 0.3,
+          "z": 0.5
         }
       },
       "isa": {
@@ -224,13 +220,13 @@
       "colliderBounds": {
         "center": {
           "x": 0.0,
-          "y": 0.539999664,
+          "y": 0.5399996,
           "z": 0.0
         },
         "extents": {
-          "x": 0.300000131,
-          "y": 0.5699997,
-          "z": 0.3
+          "x": 0.150000066,
+          "y": 0.5399996,
+          "z": 0.150000066
         }
       },
       "isa": {
@@ -288,9 +284,9 @@
           "z": 0.0
         },
         "extents": {
-          "x": 1.0,
-          "y": 1.0,
-          "z": 1.0
+          "x": 0.5,
+          "y": 0.5,
+          "z": 0.5
         }
       },
       "isa": {
@@ -388,66 +384,6 @@
       }
     },
     "11": {
-      "barcode": "freakycheesy.BIMOS.Spawnable.GrappleGun",
-      "title": "Grapple Gun",
-      "description": "",
-      "unlockable": false,
-      "redacted": false,
-      "packedAssets": [
-        {
-          "title": "PreviewMesh",
-          "guid": "4b001a01b8a6e624b99a19801a222c04"
-        }
-      ],
-      "mainAsset": "692b3f377ab991b4eb093103d97a6dd1",
-      "tags": [],
-      "colliderBounds": {
-        "center": {
-          "x": 1.86264515E-09,
-          "y": -7.450581E-09,
-          "z": 0.0211250037
-        },
-        "extents": {
-          "x": 0.0250000432,
-          "y": 0.111448742,
-          "z": 0.180000037
-        }
-      },
-      "isa": {
-        "type": "crate-spawnable#0"
-      }
-    },
-    "12": {
-      "barcode": "freakycheesy.BIMOS.Spawnable.Hook",
-      "title": "Hook",
-      "description": "",
-      "unlockable": false,
-      "redacted": false,
-      "packedAssets": [
-        {
-          "title": "PreviewMesh",
-          "guid": "163f398e4e08ea247bc6806000e16be8"
-        }
-      ],
-      "mainAsset": "5ffc2b6068b8342429d6386a90811a9a",
-      "tags": [],
-      "colliderBounds": {
-        "center": {
-          "x": 0.0,
-          "y": 0.5,
-          "z": 0.1749999
-        },
-        "extents": {
-          "x": 0.09999996,
-          "y": 0.9999995,
-          "z": 0.44999975
-        }
-      },
-      "isa": {
-        "type": "crate-spawnable#0"
-      }
-    },
-    "13": {
       "barcode": "freakycheesy.BIMOS.Spawnable.KeyDoor",
       "title": "Key Door",
       "description": "",
@@ -470,14 +406,14 @@
         "extents": {
           "x": 0.5,
           "y": 1.0,
-          "z": 0.12
+          "z": 0.11
         }
       },
       "isa": {
         "type": "crate-spawnable#0"
       }
     },
-    "14": {
+    "12": {
       "barcode": "freakycheesy.BIMOS.Spawnable.Key",
       "title": "Key",
       "description": "",
@@ -494,20 +430,20 @@
       "colliderBounds": {
         "center": {
           "x": 0.0,
-          "y": 0.0,
-          "z": 0.0339999869
+          "y": -1.86264515E-09,
+          "z": 0.0295000058
         },
         "extents": {
-          "x": 0.009999995,
-          "y": 0.04199998,
-          "z": 0.07599996
+          "x": 0.005,
+          "y": 0.021,
+          "z": 0.050499998
         }
       },
       "isa": {
         "type": "crate-spawnable#0"
       }
     },
-    "15": {
+    "13": {
       "barcode": "freakycheesy.BIMOS.Spawnable.Ladder",
       "title": "Ladder",
       "description": "",
@@ -537,7 +473,7 @@
         "type": "crate-spawnable#0"
       }
     },
-    "16": {
+    "14": {
       "barcode": "freakycheesy.BIMOS.Spawnable.LargeSled",
       "title": "Large Sled",
       "description": "",
@@ -553,21 +489,21 @@
       "tags": [],
       "colliderBounds": {
         "center": {
-          "x": 0.0,
-          "y": 1.5,
-          "z": 0.0
+          "x": -2.38418579E-07,
+          "y": 1.500002,
+          "z": -1.43051147E-06
         },
         "extents": {
-          "x": 2.5,
-          "y": 1.5,
-          "z": 4.0
+          "x": 2.50000477,
+          "y": 1.50000286,
+          "z": 4.00000763
         }
       },
       "isa": {
         "type": "crate-spawnable#0"
       }
     },
-    "17": {
+    "15": {
       "barcode": "freakycheesy.BIMOS.Spawnable.LightCube",
       "title": "Light Cube",
       "description": "",
@@ -597,7 +533,7 @@
         "type": "crate-spawnable#0"
       }
     },
-    "18": {
+    "16": {
       "barcode": "freakycheesy.BIMOS.Spawnable.LilPooey",
       "title": "Lil Pooey",
       "description": "",
@@ -627,7 +563,7 @@
         "type": "crate-spawnable#0"
       }
     },
-    "19": {
+    "17": {
       "barcode": "freakycheesy.BIMOS.Spawnable.MovingPlatform",
       "title": "Moving Platform",
       "description": "",
@@ -644,12 +580,12 @@
       "colliderBounds": {
         "center": {
           "x": 0.5,
-          "y": 24.6985149,
+          "y": 24.49375,
           "z": 1.29270124
         },
         "extents": {
           "x": 3.00000072,
-          "y": 26.8014851,
+          "y": 26.59672,
           "z": 5.29270124
         }
       },
@@ -657,7 +593,7 @@
         "type": "crate-spawnable#0"
       }
     },
-    "20": {
+    "18": {
       "barcode": "freakycheesy.BIMOS.Spawnable.PedestalButton",
       "title": "Pedestal Button",
       "description": "",
@@ -674,20 +610,20 @@
       "colliderBounds": {
         "center": {
           "x": 0.0,
-          "y": 0.5,
+          "y": 0.5452349,
           "z": 0.0
         },
         "extents": {
-          "x": 0.2,
-          "y": 1.0,
-          "z": 0.2
+          "x": 0.1,
+          "y": 0.5452349,
+          "z": 0.1
         }
       },
       "isa": {
         "type": "crate-spawnable#0"
       }
     },
-    "21": {
+    "19": {
       "barcode": "freakycheesy.BIMOS.Spawnable.Pooey",
       "title": "Pooey",
       "description": "",
@@ -717,7 +653,7 @@
         "type": "crate-spawnable#0"
       }
     },
-    "22": {
+    "20": {
       "barcode": "freakycheesy.BIMOS.Spawnable.Ragdoll",
       "title": "Ragdoll",
       "description": "",
@@ -747,7 +683,7 @@
         "type": "crate-spawnable#0"
       }
     },
-    "23": {
+    "21": {
       "barcode": "freakycheesy.BIMOS.Spawnable.Sphere",
       "title": "Sphere",
       "description": "",
@@ -777,7 +713,7 @@
         "type": "crate-spawnable#0"
       }
     },
-    "24": {
+    "22": {
       "barcode": "freakycheesy.BIMOS.Spawnable.Table",
       "title": "Table",
       "description": "",
@@ -794,7 +730,7 @@
       "colliderBounds": {
         "center": {
           "x": 0.0,
-          "y": 0.449999034,
+          "y": 0.449998677,
           "z": -5.96046448E-08
         },
         "extents": {
@@ -807,7 +743,7 @@
         "type": "crate-spawnable#0"
       }
     },
-    "25": {
+    "23": {
       "barcode": "freakycheesy.BIMOS.Spawnable.Target",
       "title": "Target",
       "description": "",
@@ -828,16 +764,16 @@
           "z": 0.0
         },
         "extents": {
-          "x": 1.0,
-          "y": 1.0,
-          "z": 1.0
+          "x": 0.5,
+          "y": 0.5,
+          "z": 0.5
         }
       },
       "isa": {
         "type": "crate-spawnable#0"
       }
     },
-    "26": {
+    "24": {
       "barcode": "freakycheesy.BIMOS.Spawnable.TowerSection",
       "title": "Tower (Section)",
       "description": "",
@@ -867,7 +803,7 @@
         "type": "crate-spawnable#0"
       }
     },
-    "27": {
+    "25": {
       "barcode": "freakycheesy.BIMOS.Spawnable.Tower",
       "title": "Tower",
       "description": "",
@@ -897,7 +833,18 @@
         "type": "crate-spawnable#0"
       }
     },
-    "28": {
+    "26": {
+      "barcode": "freakycheesy.BIMOS.BoneTag.Key",
+      "title": "Key",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [],
+      "isa": {
+        "type": "datacard-bonetag#0"
+      }
+    },
+    "27": {
       "barcode": "freakycheesy.BIMOS.MonoDisc.SampleMusic",
       "title": "Sample Music",
       "description": "",

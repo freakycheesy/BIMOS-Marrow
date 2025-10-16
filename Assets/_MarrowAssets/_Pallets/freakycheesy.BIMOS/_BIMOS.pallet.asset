@@ -32,8 +32,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 313986abc464a914294cd6879489e2db, type: 2}
   - {fileID: 11400000, guid: 1964b4904709cfe428ffb558cee624c9, type: 2}
   - {fileID: 11400000, guid: 73bb28d544ce33b40bd2ea5e87de3489, type: 2}
-  - {fileID: 11400000, guid: f2004956938776d4eb012180a68aa573, type: 2}
-  - {fileID: 11400000, guid: 882f7a41559bc3f4f8899b8a83114869, type: 2}
   - {fileID: 11400000, guid: d92e7dab2e6a66642bc246559578875f, type: 2}
   - {fileID: 11400000, guid: d3032f5083147204a8c7ec5a4188418b, type: 2}
   - {fileID: 11400000, guid: e4b6d89b8290aa547a542d4fb3bf63ec, type: 2}
@@ -50,6 +48,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 777fd531b1bafac49bd451b69d7679ab, type: 2}
   - {fileID: 11400000, guid: 4e536188a74a0e74e95c18fc64883e38, type: 2}
   _dataCards:
+  - {fileID: 11400000, guid: 1b325a2147cf40f44af9c2f1548f4b89, type: 2}
   - {fileID: 11400000, guid: e74e0cba467629b4aa16455a90b26f84, type: 2}
   _tags: []
   _changeLogs: []
@@ -63,8 +62,6 @@ MonoBehaviour:
   - Spawnable  Door
   - Spawnable  Drawbridge
   - Spawnable  Empty
-  - Spawnable  Grapple Gun
-  - Spawnable  Hook
   - Spawnable  Key Door
   - Spawnable  Key
   - Spawnable  Ladder
@@ -81,5 +78,6 @@ MonoBehaviour:
   - Spawnable  Tower (Section)
   - Spawnable  Tower
   _datacardTitles:
+  - BoneTag  Key
   - MonoDisc  Sample Music
   _palletDependencies: []

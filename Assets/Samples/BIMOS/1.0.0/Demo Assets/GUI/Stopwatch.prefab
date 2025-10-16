@@ -9,7 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2620310441971840663}
-  - component: {fileID: 3065899233318020295}
+  - component: {fileID: 1686005762863555150}
+  - component: {fileID: 2183244447233709040}
   m_Layer: 0
   m_Name: Stopwatch
   m_TagString: Untagged
@@ -24,7 +25,6 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7251102597546846998}
-  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -32,8 +32,9 @@ Transform:
   m_Children:
   - {fileID: 4629324590973792145}
   m_Father: {fileID: 0}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3065899233318020295
+--- !u!114 &1686005762863555150
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -42,19 +43,46 @@ MonoBehaviour:
   m_GameObject: {fileID: 7251102597546846998}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a9c134be9ed6725458f0d9b3af5f376e, type: 3}
+  m_Script: {fileID: 11500000, guid: 41fbbf4a789d655631ca97bc367701a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _saveName: 
-  _doSavePersonalBest: 0
+  timerValue: 0
+  sessionTimeList:
+  - 0
+  timerMode: 0
+  OnStartTimer:
+    _PersistentCalls: []
+  OnStopTimer:
+    _PersistentCalls: []
+  OnNewSession:
+    _PersistentCalls: []
+--- !u!114 &2183244447233709040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7251102597546846998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49abd1b29a61cfb6daa341c5cae2f93e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boneTimer: {fileID: 1686005762863555150}
+  showMilliseconds: 1
+  timerTexts:
+  - {fileID: 8674455553724101342}
 --- !u!1001 &1856696870635238869
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 3
     m_TransformParent: {fileID: 2620310441971840663}
     m_Modifications:
+    - target: {fileID: 3745221756441244459, guid: 3568d6cd4ff87124f86e5ba30a68defb, type: 3}
+      propertyPath: m_renderer
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4556769063479653902, guid: 3568d6cd4ff87124f86e5ba30a68defb, type: 3}
       propertyPath: m_Name
       value: '[GUI] Stopwatch (1)'
@@ -139,13 +167,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6822846425925947777, guid: 3568d6cd4ff87124f86e5ba30a68defb, type: 3}
+      propertyPath: m_renderer
+      value: 
+      objectReference: {fileID: 7079342519643814889}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3568d6cd4ff87124f86e5ba30a68defb, type: 3}
 --- !u!224 &4629324590973792145 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6483747257609083460, guid: 3568d6cd4ff87124f86e5ba30a68defb, type: 3}
   m_PrefabInstance: {fileID: 1856696870635238869}
   m_PrefabAsset: {fileID: 0}
+--- !u!23 &7079342519643814889 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 8933645723786464828, guid: 3568d6cd4ff87124f86e5ba30a68defb, type: 3}
+  m_PrefabInstance: {fileID: 1856696870635238869}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8674455553724101342 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7036193453359318795, guid: 3568d6cd4ff87124f86e5ba30a68defb, type: 3}
+  m_PrefabInstance: {fileID: 1856696870635238869}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
