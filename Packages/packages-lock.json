@@ -6,6 +6,22 @@
       "source": "embedded",
       "dependencies": {}
     },
+    "com.holadivinus.blpreviewtool": {
+      "version": "https://github.com/holadivinus/BL-PreviewTool.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.textmeshpro": "3.0.9"
+      },
+      "hash": "04e69269447a5e68a086084bf14f9c6e12abe1f7"
+    },
+    "com.holadivinus.blxrcomp": {
+      "version": "https://github.com/holadivinus/BLXRComp.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "3b5e9bbe90ffd92c44af9b63009809f28593fb33"
+    },
     "com.stresslevelzero.marrow.backlot": {
       "version": "https://github.com/EvroDeveloper/Marrow-Backlot-Standalone.git",
       "depth": 0,
@@ -275,8 +291,8 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.textmeshpro": {
-      "version": "3.0.6",
-      "depth": 0,
+      "version": "3.0.9",
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.ugui": "1.0.0"

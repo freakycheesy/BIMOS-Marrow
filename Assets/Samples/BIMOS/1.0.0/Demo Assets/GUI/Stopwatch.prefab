@@ -69,7 +69,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   boneTimer: {fileID: 1686005762863555150}
-  showMilliseconds: 1
+  showMilliseconds: 0
   timerTexts:
   - {fileID: 8674455553724101342}
 --- !u!1001 &1856696870635238869

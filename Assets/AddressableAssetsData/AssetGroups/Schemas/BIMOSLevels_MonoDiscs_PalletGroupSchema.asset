@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1910159ced7b0ca439631241a1df5fd1, type: 3}
   m_Name: BIMOSLevels_MonoDiscs_PalletGroupSchema
   m_EditorClassIdentifier: 
-  m_Group: {fileID: 11400000, guid: df68b07d16519e2408ddd9441f7365f4, type: 2}
+  m_Group: {fileID: 11400000, guid: b93ed0d5821401844b87fcf0ea82a8a1, type: 2}
   _pallet: {fileID: 11400000, guid: b5d35743917fc0844bf4884dd3c546d0, type: 2}
   _marrowGame: {fileID: 0}

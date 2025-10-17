@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 8710908292941492793}
   - component: {fileID: 4789411893069382526}
   - component: {fileID: 3136830257134822605}
-  - component: {fileID: 52668945452417877}
   m_Layer: 0
   m_Name: Drawbridge
   m_TagString: Untagged
@@ -153,56 +152,6 @@ HingeJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
---- !u!114 &52668945452417877
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1839068676792763148}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13d532be3ff645c383487c609a67869c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  <Entity>k__BackingField: {fileID: 2826035636349144305}
-  _tags:
-    _tags: []
-  <HasRigidbody>k__BackingField: 1
-  <isCenterOfMassOverride>k__BackingField: 0
-  <CenterOfMass>k__BackingField: {x: 0, y: 0, z: 0}
-  <InitInEntityTransform>k__BackingField:
-    position: {x: -0.00000015199383, y: 5, z: -0.05000007}
-    rotation: {x: 0, y: 0, z: 0, w: 1}
-  _rigidbody: {fileID: 4789411893069382526}
-  _defaultRigidbodyInfo:
-    mass: 50
-    drag: 0
-    angularDrag: 0.05
-    useGravity: 1
-    isKinematic: 1
-    detectCollisions: 1
-    interpolate: 0
-    collisionDetection: 0
-    constraints: 0
-    centerOfMass: {x: 0, y: 0, z: 0}
-    inertiaTensor: {x: 1, y: 1, z: 1}
-    inertiaTensorRotation: {x: 0, y: 0, z: 0, w: 1}
-    initalVelocity: {x: 0, y: 0, z: 0}
-    initialAngularVelocity: {x: 0, y: 0, z: 0}
-  _colliders:
-  - {fileID: 8710908292941492793}
-  _trackers:
-  - {fileID: 5632061210504807616}
-  _triggers: []
-  _bodiesToIgnore: []
-  _collidersToIgnore: []
-  _bounds:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 1, y: 5, z: 0.05}
-  trackerSettings:
-    layers: 0
-    settings: []
 --- !u!1 &4466292764314058747
 GameObject:
   m_ObjectHideFlags: 0
@@ -212,7 +161,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5520897500336338034}
-  - component: {fileID: 7661291300997930126}
   - component: {fileID: 7583598927370199674}
   m_Layer: 26
   m_Name: Tracker[Hinge]
@@ -236,21 +184,6 @@ Transform:
   m_Father: {fileID: 2624407137088608642}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7661291300997930126
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4466292764314058747}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08db89f5ee16c594f98f029108310785, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _entity: {fileID: 2826035636349144305}
-  _body: {fileID: 4125111000886631260}
-  _collider: {fileID: 7583598927370199674}
 --- !u!65 &7583598927370199674
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -274,7 +207,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2624407137088608642}
   - component: {fileID: 2006357045870542839}
-  - component: {fileID: 4125111000886631260}
   m_Layer: 0
   m_Name: Hinge
   m_TagString: Untagged
@@ -314,55 +246,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &4125111000886631260
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4860823809732036654}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13d532be3ff645c383487c609a67869c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  <Entity>k__BackingField: {fileID: 2826035636349144305}
-  _tags:
-    _tags: []
-  <HasRigidbody>k__BackingField: 1
-  <isCenterOfMassOverride>k__BackingField: 0
-  <CenterOfMass>k__BackingField: {x: 0, y: 0, z: 0}
-  <InitInEntityTransform>k__BackingField:
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 1}
-  _rigidbody: {fileID: 2006357045870542839}
-  _defaultRigidbodyInfo:
-    mass: 10
-    drag: 0
-    angularDrag: 0.05
-    useGravity: 1
-    isKinematic: 1
-    detectCollisions: 1
-    interpolate: 0
-    collisionDetection: 0
-    constraints: 0
-    centerOfMass: {x: 0, y: 0, z: 0}
-    inertiaTensor: {x: 1, y: 1, z: 1}
-    inertiaTensorRotation: {x: 0, y: 0, z: 0, w: 1}
-    initalVelocity: {x: 0, y: 0, z: 0}
-    initialAngularVelocity: {x: 0, y: 0, z: 0}
-  _colliders: []
-  _trackers:
-  - {fileID: 7661291300997930126}
-  _triggers: []
-  _bodiesToIgnore: []
-  _collidersToIgnore: []
-  _bounds:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0.0125, y: 0.0125, z: 0.025}
-  trackerSettings:
-    layers: 0
-    settings: []
 --- !u!1 &5290330915505437475
 GameObject:
   m_ObjectHideFlags: 0
@@ -372,8 +255,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4991662137269077153}
-  - component: {fileID: 2826035636349144305}
-  - component: {fileID: 1016572900587604339}
   - component: {fileID: 2651620593116068493}
   m_Layer: 0
   m_Name: Drawbridge
@@ -396,82 +277,9 @@ Transform:
   m_Children:
   - {fileID: 2624407137088608642}
   - {fileID: 7375989630431007942}
-  - {fileID: 7380627167440519564}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!114 &2826035636349144305
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5290330915505437475}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3d4fe73169944429890996abd1b4ad2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _tags:
-    _tags: []
-  _behaviours: []
-  _originalScale: {x: 1, y: 1, z: 1}
-  _bodies:
-  - {fileID: 1016572900587604339}
-  - {fileID: 4125111000886631260}
-  - {fileID: 52668945452417877}
-  _joints: []
-  _anchorBody: {fileID: 1016572900587604339}
-  _poolee: {fileID: 2651620593116068493}
---- !u!114 &1016572900587604339
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5290330915505437475}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13d532be3ff645c383487c609a67869c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  <Entity>k__BackingField: {fileID: 2826035636349144305}
-  _tags:
-    _tags: []
-  <HasRigidbody>k__BackingField: 0
-  <isCenterOfMassOverride>k__BackingField: 0
-  <CenterOfMass>k__BackingField: {x: 0, y: 0, z: 0}
-  <InitInEntityTransform>k__BackingField:
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 1}
-  _rigidbody: {fileID: 0}
-  _defaultRigidbodyInfo:
-    mass: 0
-    drag: 0
-    angularDrag: 0
-    useGravity: 0
-    isKinematic: 0
-    detectCollisions: 0
-    interpolate: 0
-    collisionDetection: 0
-    constraints: 0
-    centerOfMass: {x: 0, y: 0, z: 0}
-    inertiaTensor: {x: 0, y: 0, z: 0}
-    inertiaTensorRotation: {x: 0, y: 0, z: 0, w: 0}
-    initalVelocity: {x: 0, y: 0, z: 0}
-    initialAngularVelocity: {x: 0, y: 0, z: 0}
-  _colliders: []
-  _trackers:
-  - {fileID: 7642749729295141992}
-  _triggers: []
-  _bodiesToIgnore: []
-  _collidersToIgnore: []
-  _bounds:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0.0125, y: 0.0125, z: 0.025}
-  trackerSettings:
-    layers: 0
-    settings: []
 --- !u!114 &2651620593116068493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -493,7 +301,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4210993024557541288}
-  - component: {fileID: 5632061210504807616}
   - component: {fileID: 302319549876695566}
   m_Layer: 26
   m_Name: Tracker[Drawbridge]
@@ -517,21 +324,6 @@ Transform:
   m_Father: {fileID: 7375989630431007942}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5632061210504807616
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7178501760571550634}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08db89f5ee16c594f98f029108310785, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _entity: {fileID: 2826035636349144305}
-  _body: {fileID: 52668945452417877}
-  _collider: {fileID: 302319549876695566}
 --- !u!65 &302319549876695566
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -544,65 +336,4 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &7309095915132500779
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7380627167440519564}
-  - component: {fileID: 7642749729295141992}
-  - component: {fileID: 5562748422285794748}
-  m_Layer: 26
-  m_Name: Tracker[Drawbridge]
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7380627167440519564
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7309095915132500779}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4991662137269077153}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7642749729295141992
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7309095915132500779}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08db89f5ee16c594f98f029108310785, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _entity: {fileID: 2826035636349144305}
-  _body: {fileID: 1016572900587604339}
-  _collider: {fileID: 5562748422285794748}
---- !u!65 &5562748422285794748
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7309095915132500779}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.05, y: 0.05, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}

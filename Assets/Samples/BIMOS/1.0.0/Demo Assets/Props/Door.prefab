@@ -972,7 +972,7 @@ MonoBehaviour:
   <CenterOfMass>k__BackingField: {x: 0, y: 0, z: 0}
   <InitInEntityTransform>k__BackingField:
     position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1.0000001}
   _rigidbody: {fileID: 3173426904423526097}
   _defaultRigidbodyInfo:
     mass: 40
@@ -984,9 +984,9 @@ MonoBehaviour:
     interpolate: 0
     collisionDetection: 0
     constraints: 0
-    centerOfMass: {x: 0.0014241283, y: 0.9502374, z: 0}
-    inertiaTensor: {x: 12.010929, y: 2.1744716, z: 14.116997}
-    inertiaTensorRotation: {x: 0, y: 0, z: -0.00014409304, w: 1}
+    centerOfMass: {x: 0.0014241268, y: 0.9502381, z: 5.9551097e-12}
+    inertiaTensor: {x: 12.010937, y: 2.1744728, z: 14.117004}
+    inertiaTensorRotation: {x: 0, y: 0, z: -0.00014409087, w: 1}
     initalVelocity: {x: 0, y: 0, z: 0}
     initialAngularVelocity: {x: 0, y: 0, z: 0}
   _colliders:

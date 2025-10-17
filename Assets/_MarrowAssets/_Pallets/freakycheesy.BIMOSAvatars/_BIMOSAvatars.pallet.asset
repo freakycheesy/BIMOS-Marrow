@@ -24,10 +24,32 @@ MonoBehaviour:
   _internal: 0
   _crates:
   - {fileID: 11400000, guid: cd229900d3eb245458d1f276e39e1cb8, type: 2}
+  - {fileID: 11400000, guid: c241e289f527cfd4da581891b7237ac4, type: 2}
+  - {fileID: 11400000, guid: 184abf5cdcdf0ca4db169ad695eedbee, type: 2}
+  - {fileID: 11400000, guid: a6cafb3727e91df44bf609249f0964c4, type: 2}
+  - {fileID: 11400000, guid: de8ae3529c559644989dd99ff0313732, type: 2}
+  - {fileID: 11400000, guid: 6dc538725e15cbe47bba6fdbd342c5f1, type: 2}
+  - {fileID: 11400000, guid: 878cab0a8286efd41813648679dc695e, type: 2}
+  - {fileID: 11400000, guid: 8cc89c9a17bc10346ab2d5501b1b002b, type: 2}
+  - {fileID: 11400000, guid: fb57930d5bd25474aa18b19547dde515, type: 2}
+  - {fileID: 11400000, guid: 137fa396011c95f42be6ede06ccac21a, type: 2}
+  - {fileID: 11400000, guid: e884f41a8487c37418f05e256cb995e3, type: 2}
+  - {fileID: 11400000, guid: 24787696d850158459140bf19281dcc2, type: 2}
   _dataCards: []
   _tags: []
   _changeLogs: []
   _crateTitles:
   - Avatar  Human
+  - Avatar  Human (Black)
+  - Avatar  Human (Green)
+  - Avatar  Human (Grey)
+  - Avatar  Human (Dark Blue)
+  - Avatar  Human (Light Blue)
+  - Avatar  Human (Orange)
+  - Avatar  Human (Pink)
+  - Avatar  Human (Purple)
+  - Avatar  Human (Red)
+  - Avatar  Human (White)
+  - Avatar  Human (Yellow)
   _datacardTitles: []
   _palletDependencies: []

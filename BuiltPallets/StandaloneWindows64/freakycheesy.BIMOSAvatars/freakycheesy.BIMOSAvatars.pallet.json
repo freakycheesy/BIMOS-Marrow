@@ -19,6 +19,50 @@
         {
           "ref": "2",
           "type": "crate-avatar#0"
+        },
+        {
+          "ref": "3",
+          "type": "crate-avatar#0"
+        },
+        {
+          "ref": "4",
+          "type": "crate-avatar#0"
+        },
+        {
+          "ref": "5",
+          "type": "crate-avatar#0"
+        },
+        {
+          "ref": "6",
+          "type": "crate-avatar#0"
+        },
+        {
+          "ref": "7",
+          "type": "crate-avatar#0"
+        },
+        {
+          "ref": "8",
+          "type": "crate-avatar#0"
+        },
+        {
+          "ref": "9",
+          "type": "crate-avatar#0"
+        },
+        {
+          "ref": "10",
+          "type": "crate-avatar#0"
+        },
+        {
+          "ref": "11",
+          "type": "crate-avatar#0"
+        },
+        {
+          "ref": "12",
+          "type": "crate-avatar#0"
+        },
+        {
+          "ref": "13",
+          "type": "crate-avatar#0"
         }
       ],
       "dataCards": [],
@@ -41,6 +85,336 @@
         }
       ],
       "mainAsset": "b35808f10304c0a42a65f10d218585ae",
+      "tags": [],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "isa": {
+        "type": "crate-avatar#0"
+      }
+    },
+    "3": {
+      "barcode": "freakycheesy.BIMOSAvatars.Spawnable.HumanBlack",
+      "title": "Human (Black)",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "35f24fd541c63fd4b9308adce3dbad93"
+        }
+      ],
+      "mainAsset": "98d031583765d564183b8761239df9e5",
+      "tags": [],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "isa": {
+        "type": "crate-avatar#0"
+      }
+    },
+    "4": {
+      "barcode": "freakycheesy.BIMOSAvatars.Spawnable.HumanGreen",
+      "title": "Human (Green)",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "6d47bcc13eb886d419ab598dd812e0fe"
+        }
+      ],
+      "mainAsset": "b2546d93c6f25cd40be1f790b945e3fc",
+      "tags": [],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "isa": {
+        "type": "crate-avatar#0"
+      }
+    },
+    "5": {
+      "barcode": "freakycheesy.BIMOSAvatars.Spawnable.HumanGrey",
+      "title": "Human (Grey)",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "911537f3f76f1e84ab7b35a4f386374e"
+        }
+      ],
+      "mainAsset": "88c14159cdfc9054abf45e7d1c5d9ee4",
+      "tags": [],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "isa": {
+        "type": "crate-avatar#0"
+      }
+    },
+    "6": {
+      "barcode": "freakycheesy.BIMOSAvatars.Spawnable.HumanDarkBlue",
+      "title": "Human (Dark Blue)",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "e67abf5611b87084288c3b94391d6221"
+        }
+      ],
+      "mainAsset": "f299b56b893964844992a820cffe4dd9",
+      "tags": [],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "isa": {
+        "type": "crate-avatar#0"
+      }
+    },
+    "7": {
+      "barcode": "freakycheesy.BIMOSAvatars.Spawnable.HumanLightBlue",
+      "title": "Human (Light Blue)",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "231af777969b6fe4d8b2813ea07cc818"
+        }
+      ],
+      "mainAsset": "ad6f2643d2d85a747a2650de2185d8d2",
+      "tags": [],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "isa": {
+        "type": "crate-avatar#0"
+      }
+    },
+    "8": {
+      "barcode": "freakycheesy.BIMOSAvatars.Spawnable.HumanOrange",
+      "title": "Human (Orange)",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "7cf4d1e3547d10a4499d57c7ea630909"
+        }
+      ],
+      "mainAsset": "c6ba264456a62e143939ec32b7b33551",
+      "tags": [],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "isa": {
+        "type": "crate-avatar#0"
+      }
+    },
+    "9": {
+      "barcode": "freakycheesy.BIMOSAvatars.Spawnable.HumanPink",
+      "title": "Human (Pink)",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "fe315bc5480864b4d9fd5f2326e291a3"
+        }
+      ],
+      "mainAsset": "e73642742be88254a85375ccefff1a22",
+      "tags": [],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "isa": {
+        "type": "crate-avatar#0"
+      }
+    },
+    "10": {
+      "barcode": "freakycheesy.BIMOSAvatars.Spawnable.HumanPurple",
+      "title": "Human (Purple)",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "eb122b93bb567aa4081cb9d146216fbd"
+        }
+      ],
+      "mainAsset": "a1f6774717d73ca40969ca92da211792",
+      "tags": [],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "isa": {
+        "type": "crate-avatar#0"
+      }
+    },
+    "11": {
+      "barcode": "freakycheesy.BIMOSAvatars.Spawnable.HumanRed",
+      "title": "Human (Red)",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "a69cc34c21028e246b50a50e5af1fbd4"
+        }
+      ],
+      "mainAsset": "338a7d1abec456c47abf0f7334d1f87f",
+      "tags": [],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "isa": {
+        "type": "crate-avatar#0"
+      }
+    },
+    "12": {
+      "barcode": "freakycheesy.BIMOSAvatars.Spawnable.HumanWhite",
+      "title": "Human (White)",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "7e3de2292e5b9eb4980b2b3472c97b17"
+        }
+      ],
+      "mainAsset": "180ec93a6b0ec84478019720d61492d4",
+      "tags": [],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "isa": {
+        "type": "crate-avatar#0"
+      }
+    },
+    "13": {
+      "barcode": "freakycheesy.BIMOSAvatars.Spawnable.HumanYellow",
+      "title": "Human (Yellow)",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "4cbe1d849a58c8e4b8bed17388b53662"
+        }
+      ],
+      "mainAsset": "5bb1a9d6316be3b478363265b669ae20",
       "tags": [],
       "colliderBounds": {
         "center": {

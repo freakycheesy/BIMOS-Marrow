@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &835767483952880222
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3173426904423526097, guid: 8853841a8fa293e42b39789a294e6310, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4352536683435549643, guid: 8853841a8fa293e42b39789a294e6310, type: 3}
+      propertyPath: _bounds.m_Center.y
+      value: 0.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 4352536683435549643, guid: 8853841a8fa293e42b39789a294e6310, type: 3}
+      propertyPath: _bounds.m_Extent.y
+      value: 0.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 4352536683435549643, guid: 8853841a8fa293e42b39789a294e6310, type: 3}
+      propertyPath: _defaultRigidbodyInfo.isKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4352536683435549643, guid: 8853841a8fa293e42b39789a294e6310, type: 3}
+      propertyPath: _defaultRigidbodyInfo.centerOfMass.z
+      value: -5.9551097e-12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4352536683435549643, guid: 8853841a8fa293e42b39789a294e6310, type: 3}
+      propertyPath: _defaultRigidbodyInfo.inertiaTensor.z
+      value: 14.117008
+      objectReference: {fileID: 0}
+    - target: {fileID: 4352536683435549643, guid: 8853841a8fa293e42b39789a294e6310, type: 3}
+      propertyPath: <InitInEntityTransform>k__BackingField.position.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4352536683435549643, guid: 8853841a8fa293e42b39789a294e6310, type: 3}
+      propertyPath: <InitInEntityTransform>k__BackingField.rotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6916019452137274874, guid: 8853841a8fa293e42b39789a294e6310, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6916019452137274874, guid: 8853841a8fa293e42b39789a294e6310, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6916019452137274874, guid: 8853841a8fa293e42b39789a294e6310, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -31
+      objectReference: {fileID: 0}
+    - target: {fileID: 6916019452137274874, guid: 8853841a8fa293e42b39789a294e6310, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6916019452137274874, guid: 8853841a8fa293e42b39789a294e6310, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6916019452137274874, guid: 8853841a8fa293e42b39789a294e6310, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6916019452137274874, guid: 8853841a8fa293e42b39789a294e6310, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6916019452137274874, guid: 8853841a8fa293e42b39789a294e6310, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6916019452137274874, guid: 8853841a8fa293e42b39789a294e6310, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6916019452137274874, guid: 8853841a8fa293e42b39789a294e6310, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6916019452137274874, guid: 8853841a8fa293e42b39789a294e6310, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235712656780029597, guid: 8853841a8fa293e42b39789a294e6310, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 75d99d58fd3b3ac47bc2117621aabb70, type: 2}
+    - target: {fileID: 7625905610841724517, guid: 8853841a8fa293e42b39789a294e6310, type: 3}
+      propertyPath: m_Name
+      value: LockedDoor
+      objectReference: {fileID: 0}
+    - target: {fileID: 8230962072110949843, guid: 8853841a8fa293e42b39789a294e6310, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 75d99d58fd3b3ac47bc2117621aabb70, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8853841a8fa293e42b39789a294e6310, type: 3}

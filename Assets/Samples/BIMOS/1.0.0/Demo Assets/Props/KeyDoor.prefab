@@ -775,6 +775,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4352536683435549643, guid: 8853841a8fa293e42b39789a294e6310, type: 3}
+      propertyPath: _defaultRigidbodyInfo.centerOfMass.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4352536683435549643, guid: 8853841a8fa293e42b39789a294e6310, type: 3}
       propertyPath: _defaultRigidbodyInfo.inertiaTensor.x
       value: 1
       objectReference: {fileID: 0}
@@ -833,6 +837,10 @@ PrefabInstance:
     - target: {fileID: 7625905610841724517, guid: 8853841a8fa293e42b39789a294e6310, type: 3}
       propertyPath: m_Name
       value: KeyDoor
+      objectReference: {fileID: 0}
+    - target: {fileID: 7970346662809693265, guid: 8853841a8fa293e42b39789a294e6310, type: 3}
+      propertyPath: <InitInEntityTransform>k__BackingField.rotation.w
+      value: 1.0000001
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8853841a8fa293e42b39789a294e6310, type: 3}

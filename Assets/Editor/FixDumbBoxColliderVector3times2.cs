@@ -9,7 +9,7 @@ public class FixDumbBoxColliderVector3times2 : EditorWindow
 
     private void OnGUI() {
         if (GUILayout.Button("Fix")) {
-            var boxColliders = Resources.FindObjectsOfTypeAll<BoxCollider>();
+            var boxColliders = FindObjectsOfType<BoxCollider>();
             foreach (var boxCollider in boxColliders) {
                 if (boxCollider.size == Vector3.one * 2) {
                     boxCollider.size = Vector3.one; 

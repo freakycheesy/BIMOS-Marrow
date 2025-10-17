@@ -15,7 +15,7 @@ MonoBehaviour:
   m_GroupName: BIMOSLevels_MonoDiscs
   m_Data:
     m_SerializedData: []
-  m_GUID: df68b07d16519e2408ddd9441f7365f4
+  m_GUID: b93ed0d5821401844b87fcf0ea82a8a1
   m_SerializeEntries:
   - m_GUID: e74e0cba467629b4aa16455a90b26f84
     m_Address: MonoDisc/Sample Music
@@ -31,6 +31,6 @@ MonoBehaviour:
   m_Settings: {fileID: 11400000, guid: 904d2c56c4a5e1846849c89c16938c9c, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: cb8b915180100514a869dc0288c56c3a, type: 2}
-    - {fileID: 11400000, guid: d5c91f622d472494faa2440e3e833ca8, type: 2}
-    - {fileID: 11400000, guid: 6e9365bb51efa9340986cff60c0fe124, type: 2}
+    - {fileID: 11400000, guid: a511554ab2ce951428473a916c5991ef, type: 2}
+    - {fileID: 11400000, guid: 62c3bc9ff745d2c4e9a37aebab847acf, type: 2}
+    - {fileID: 11400000, guid: 4d43b8dd9b5e5f0429761e05a567e4ea, type: 2}

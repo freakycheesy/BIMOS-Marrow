@@ -68,7 +68,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _tags:
-    _tags: []
+    _tags:
+    - _barcode:
+        _id: freakycheesy.BIMOSSpawnables.BoneTag.Key
   _behaviours:
   - {fileID: 1525026152344709651}
   _originalScale: {x: 1, y: 1, z: 1}
@@ -103,7 +105,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <Entity>k__BackingField: {fileID: 6839477826525089073}
   _tags:
-    _tags: []
+    _tags:
+    - _barcode:
+        _id: freakycheesy.BIMOSSpawnables.BoneTag.Key
   <HasRigidbody>k__BackingField: 1
   <isCenterOfMassOverride>k__BackingField: 0
   <CenterOfMass>k__BackingField: {x: 0, y: 0, z: 0}
@@ -121,22 +125,23 @@ MonoBehaviour:
     interpolate: 0
     collisionDetection: 0
     constraints: 0
-    centerOfMass: {x: 0, y: -0.002853056, z: 0.021946544}
-    inertiaTensor: {x: 0.00094206363, y: 0.0008469838, z: 0.000111746216}
-    inertiaTensorRotation: {x: 0.05484178, y: 0, z: 0, w: 0.99849504}
+    centerOfMass: {x: 0, y: -0.0028444193, z: 0.021880107}
+    inertiaTensor: {x: 0.00094454444, y: 0.0008500089, z: 0.00011120215}
+    inertiaTensorRotation: {x: 0.054536063, y: 0, z: 0, w: 0.9985118}
     initalVelocity: {x: 0, y: 0, z: 0}
     initialAngularVelocity: {x: 0, y: 0, z: 0}
   _colliders:
   - {fileID: 2209325306492211869}
+  - {fileID: 8804125172824486349}
   _trackers:
   - {fileID: 7146329992307898419}
   _triggers:
-  - {fileID: 2829979715740206961}
+  - {fileID: 5053051271386720753}
   _bodiesToIgnore: []
   _collidersToIgnore: []
   _bounds:
-    m_Center: {x: 0, y: -0.0000000018626451, z: 0.0000000037252903}
-    m_Extent: {x: 0.005, y: 0.021, z: 0.021}
+    m_Center: {x: 0, y: -0.0000000037252903, z: 0.029709628}
+    m_Extent: {x: 0.0050000283, y: 0.02100012, z: 0.05070985}
   trackerSettings:
     layers: 0
     settings: []
@@ -184,6 +189,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2767910386898873573}
+  - {fileID: 9183380829148237682}
   - {fileID: 3089432224889363137}
   m_Father: {fileID: 2514094391522880060}
   m_RootOrder: 2
@@ -198,7 +204,9 @@ GameObject:
   m_Component:
   - component: {fileID: 256375445021540320}
   - component: {fileID: 7089211283205296050}
-  m_Layer: 0
+  - component: {fileID: 5053051271386720753}
+  - component: {fileID: 4124645441374078168}
+  m_Layer: 15
   m_Name: Grip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -264,18 +272,44 @@ MonoBehaviour:
   primaryMovementAxis: {x: 0, y: 0, z: 1}
   secondaryMovementAxis: {x: 1, y: 0, z: 0}
   gripOptions: 14
-  priority: 0
+  priority: 1
   minBreakForce: Infinity
   maxBreakForce: Infinity
   defaultGripDistance: Infinity
   gripDistanceSqr: 0
   radius: 1
-  targetTransform: {fileID: 0}
+  targetTransform: {fileID: 256375445021540320}
   rotationLimit: 10
   rotationPriorityBuffer: 10
   handPoseOnFlippedPrimaryAxis: {fileID: 0}
   targetFlipOnPrimaryAxis: 0
   targetFlipOnTertiaryAxis: 0
+--- !u!135 &5053051271386720753
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4815104969468867708}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4124645441374078168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4815104969468867708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 420f1e06de9de6726bcdb08ee9565a0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxSpeed: 5
 --- !u!1 &5513028997575734360
 GameObject:
   m_ObjectHideFlags: 0
@@ -287,7 +321,6 @@ GameObject:
   - component: {fileID: 3089432224889363137}
   - component: {fileID: 3442611945987568583}
   - component: {fileID: 7146329992307898419}
-  - component: {fileID: 2829979715740206961}
   m_Layer: 26
   m_Name: Tracker[Key]
   m_TagString: Untagged
@@ -303,12 +336,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5513028997575734360}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.0065, z: 0.05}
-  m_LocalScale: {x: 0.01, y: 0.023, z: 0.06}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8458806316489287121}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &3442611945987568583
 BoxCollider:
@@ -318,11 +351,11 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5513028997575734360}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.010000057, y: 0.04200024, z: 0.1014197}
+  m_Center: {x: 0, y: -0.0000000037252903, z: 0.029709628}
 --- !u!114 &7146329992307898419
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -337,25 +370,57 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _entity: {fileID: 6839477826525089073}
   _body: {fileID: 6100698404699676289}
-  _collider: {fileID: 2829979715740206961}
+  _collider: {fileID: 3442611945987568583}
   _interfaceTags:
     _tags:
     - _barcode:
         _id: freakycheesy.BIMOSSpawnables.BoneTag.Key
   _host: {fileID: 1525026152344709651}
---- !u!65 &2829979715740206961
+--- !u!1 &6606750779591751890
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9183380829148237682}
+  - component: {fileID: 8804125172824486349}
+  m_Layer: 0
+  m_Name: End
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9183380829148237682
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6606750779591751890}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.0065, z: 0.05}
+  m_LocalScale: {x: 0.01, y: 0.022560999, z: 0.060838256}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8458806316489287121}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &8804125172824486349
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5513028997575734360}
+  m_GameObject: {fileID: 6606750779591751890}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.042, z: 0.042}
-  m_Center: {x: 0, y: -0.0000000018626451, z: 0.0000000037252903}
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8318994288773881351
 GameObject:
   m_ObjectHideFlags: 0
