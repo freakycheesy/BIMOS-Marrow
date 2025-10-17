@@ -140,8 +140,8 @@ MonoBehaviour:
   _bodiesToIgnore: []
   _collidersToIgnore: []
   _bounds:
-    m_Center: {x: 0, y: -0.0000000037252903, z: 0.029709628}
-    m_Extent: {x: 0.0050000283, y: 0.02100012, z: 0.05070985}
+    m_Center: {x: 0, y: 0.0000000037252903, z: 0.029709587}
+    m_Extent: {x: 0.005000009, y: 0.02100004, z: 0.05070966}
   trackerSettings:
     layers: 0
     settings: []
@@ -206,6 +206,7 @@ GameObject:
   - component: {fileID: 7089211283205296050}
   - component: {fileID: 5053051271386720753}
   - component: {fileID: 4124645441374078168}
+  - component: {fileID: 2940976261378609946}
   m_Layer: 15
   m_Name: Grip
   m_TagString: Untagged
@@ -310,6 +311,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxSpeed: 5
+--- !u!114 &2940976261378609946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4815104969468867708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb55c3b532cbe826b16f2ed48d3c622b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetCenter: {fileID: 256375445021540320}
+  gripIconType: 0
+  iconObj: {fileID: 0}
+  hoverCount: 0
+  farHoverCount: 0
+  LocalOverride: 0
+  IconTex: {fileID: 0}
+  IconSize: 0
+  AnimationDuration: 0
 --- !u!1 &5513028997575734360
 GameObject:
   m_ObjectHideFlags: 0
