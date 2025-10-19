@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1910159ced7b0ca439631241a1df5fd1, type: 3}
-  m_Name: BIMOSAvatars_Avatars_PalletGroupSchema
+  m_Name: BIMOSLevels_MonoDiscs_PalletGroupSchema
   m_EditorClassIdentifier: 
-  m_Group: {fileID: 11400000, guid: 1da35456ec905364faf67b9204c49825, type: 2}
-  _pallet: {fileID: 11400000, guid: 68177116d4f6c434eac61a0b199a8ca1, type: 2}
+  m_Group: {fileID: 11400000, guid: a1ee4455b0d25924cb3dc8f3da596de5, type: 2}
+  _pallet: {fileID: 11400000, guid: b5d35743917fc0844bf4884dd3c546d0, type: 2}
   _marrowGame: {fileID: 0}

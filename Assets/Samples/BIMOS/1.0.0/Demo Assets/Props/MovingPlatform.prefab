@@ -581,6 +581,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4795615803112553223}
   - component: {fileID: 4694714479048676265}
+  - component: {fileID: 8662911444537891675}
   m_Layer: 0
   m_Name: MovingPlatform
   m_TagString: Untagged
@@ -633,7 +634,19 @@ MonoBehaviour:
   - {fileID: 587321857296994922}
   _joints: []
   _anchorBody: {fileID: 5869222640955327893}
-  _poolee: {fileID: 0}
+  _poolee: {fileID: 8662911444537891675}
+--- !u!114 &8662911444537891675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7011247444595547481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 158cd0d545b21334a99c537fec449a7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8312234937117389308
 GameObject:
   m_ObjectHideFlags: 0

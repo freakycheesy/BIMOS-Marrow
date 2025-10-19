@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: BIMOSLevels_Levels
+  m_EditorClassIdentifier: 
+  m_GroupName: BIMOSLevels_Levels
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 4d6f46466ce713c4ebd7e31a093ad706
+  m_SerializeEntries:
+  - m_GUID: dfc662b33b1479742878a037c70dff6d
+    m_Address: Level/Sample
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b33b7eb3e50b55143b824732b36a6f66
+    m_Address: Level/Snake Eater
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 904d2c56c4a5e1846849c89c16938c9c, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 569856e7a74da744fadfb73426879c58, type: 2}
+    - {fileID: 11400000, guid: f842b5acf3ec6144fab772156942ffe4, type: 2}
+    - {fileID: 11400000, guid: 2ec60f1a91690544fae860e1cdd2cc7f, type: 2}

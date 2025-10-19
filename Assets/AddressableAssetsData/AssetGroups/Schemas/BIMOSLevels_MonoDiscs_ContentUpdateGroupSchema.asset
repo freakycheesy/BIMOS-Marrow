@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5834b5087d578d24c926ce20cd31e6d6, type: 3}
-  m_Name: BIMOSAvatars_Avatars_ContentUpdateGroupSchema
+  m_Name: BIMOSLevels_MonoDiscs_ContentUpdateGroupSchema
   m_EditorClassIdentifier: 
-  m_Group: {fileID: 11400000, guid: 1da35456ec905364faf67b9204c49825, type: 2}
+  m_Group: {fileID: 11400000, guid: a1ee4455b0d25924cb3dc8f3da596de5, type: 2}
   m_StaticContent: 0
