@@ -18,7 +18,8 @@ MonoBehaviour:
   _description: 
   _unlockable: 0
   _redacted: 0
-  _tags: []
+  _tags:
+  - BIMOS
   _boneTags:
     _tags: []
   _mainAsset:
@@ -31,5 +32,5 @@ MonoBehaviour:
   _previewMeshQuality: 0.5
   _maxLODLevel: 0
   _colliderBounds:
-    m_Center: {x: 0, y: 5, z: -0.05}
-    m_Extent: {x: 1, y: 5, z: 0.05}
+    m_Center: {x: 0, y: 5, z: -0.05000007}
+    m_Extent: {x: 1, y: 5, z: 0.049999997}

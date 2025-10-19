@@ -7,6 +7,438 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 66156267687865266, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.mass
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 66156267687865266, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.centerOfMass.y
+      value: 0.025322437
+      objectReference: {fileID: 0}
+    - target: {fileID: 66156267687865266, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.centerOfMass.z
+      value: 0.000000059604645
+      objectReference: {fileID: 0}
+    - target: {fileID: 66156267687865266, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.inertiaTensor.x
+      value: 0.00036358496
+      objectReference: {fileID: 0}
+    - target: {fileID: 66156267687865266, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.inertiaTensor.y
+      value: 0.00012907997
+      objectReference: {fileID: 0}
+    - target: {fileID: 66156267687865266, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.inertiaTensor.z
+      value: 0.00036358496
+      objectReference: {fileID: 0}
+    - target: {fileID: 66156267687865266, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: <InitInEntityTransform>k__BackingField.position.x
+      value: 0.05707029
+      objectReference: {fileID: 0}
+    - target: {fileID: 66156267687865266, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: <InitInEntityTransform>k__BackingField.position.y
+      value: 0.035505474
+      objectReference: {fileID: 0}
+    - target: {fileID: 66156267687865266, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: <InitInEntityTransform>k__BackingField.position.z
+      value: 0.08981325
+      objectReference: {fileID: 0}
+    - target: {fileID: 869220333382803896, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.mass
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 869220333382803896, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.centerOfMass.y
+      value: 0.027659535
+      objectReference: {fileID: 0}
+    - target: {fileID: 869220333382803896, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.inertiaTensor.x
+      value: 0.0010923392
+      objectReference: {fileID: 0}
+    - target: {fileID: 869220333382803896, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.inertiaTensor.y
+      value: 0.00073092245
+      objectReference: {fileID: 0}
+    - target: {fileID: 869220333382803896, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.inertiaTensor.z
+      value: 0.0010923392
+      objectReference: {fileID: 0}
+    - target: {fileID: 869220333382803896, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: <InitInEntityTransform>k__BackingField.position.y
+      value: 0.1102159
+      objectReference: {fileID: 0}
+    - target: {fileID: 869220333382803896, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: <InitInEntityTransform>k__BackingField.rotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1147643286625126105, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.mass
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1147643286625126105, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.centerOfMass.y
+      value: 0.05685532
+      objectReference: {fileID: 0}
+    - target: {fileID: 1147643286625126105, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.centerOfMass.z
+      value: 0.01539755
+      objectReference: {fileID: 0}
+    - target: {fileID: 1147643286625126105, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.inertiaTensor.x
+      value: 0.0005950434
+      objectReference: {fileID: 0}
+    - target: {fileID: 1147643286625126105, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.inertiaTensor.y
+      value: 0.0005950435
+      objectReference: {fileID: 0}
+    - target: {fileID: 1147643286625126105, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.inertiaTensor.z
+      value: 0.0005950434
+      objectReference: {fileID: 0}
+    - target: {fileID: 1147643286625126105, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.inertiaTensorRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1147643286625126105, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.inertiaTensorRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1147643286625126105, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: <InitInEntityTransform>k__BackingField.position.y
+      value: 0.18665278
+      objectReference: {fileID: 0}
+    - target: {fileID: 1147643286625126105, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: <InitInEntityTransform>k__BackingField.rotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1201942882580951376, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.mass
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1201942882580951376, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.centerOfMass.x
+      value: 0.000000059604645
+      objectReference: {fileID: 0}
+    - target: {fileID: 1201942882580951376, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.centerOfMass.y
+      value: 0.053171396
+      objectReference: {fileID: 0}
+    - target: {fileID: 1201942882580951376, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.centerOfMass.z
+      value: -0.0066742897
+      objectReference: {fileID: 0}
+    - target: {fileID: 1201942882580951376, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.inertiaTensor.x
+      value: 0.0012476114
+      objectReference: {fileID: 0}
+    - target: {fileID: 1201942882580951376, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.inertiaTensor.y
+      value: 0.00079848507
+      objectReference: {fileID: 0}
+    - target: {fileID: 1201942882580951376, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.inertiaTensor.z
+      value: 0.0012476111
+      objectReference: {fileID: 0}
+    - target: {fileID: 1201942882580951376, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: <InitInEntityTransform>k__BackingField.position.y
+      value: 0.034195423
+      objectReference: {fileID: 0}
+    - target: {fileID: 1201942882580951376, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: <InitInEntityTransform>k__BackingField.rotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2763672893212785671, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: m_Name
+      value: Tracker[Lil Pooey]
+      objectReference: {fileID: 0}
+    - target: {fileID: 2779645221367000169, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.mass
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2779645221367000169, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.centerOfMass.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2779645221367000169, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.centerOfMass.y
+      value: 0.033486843
+      objectReference: {fileID: 0}
+    - target: {fileID: 2779645221367000169, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.centerOfMass.z
+      value: -0.000000029802322
+      objectReference: {fileID: 0}
+    - target: {fileID: 2779645221367000169, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.inertiaTensor.x
+      value: 0.0003356192
+      objectReference: {fileID: 0}
+    - target: {fileID: 2779645221367000169, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.inertiaTensor.y
+      value: 0.00012648701
+      objectReference: {fileID: 0}
+    - target: {fileID: 2779645221367000169, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.inertiaTensor.z
+      value: 0.00033561903
+      objectReference: {fileID: 0}
+    - target: {fileID: 2779645221367000169, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: <InitInEntityTransform>k__BackingField.position.x
+      value: -0.039616477
+      objectReference: {fileID: 0}
+    - target: {fileID: 2779645221367000169, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: <InitInEntityTransform>k__BackingField.position.y
+      value: 0.036833763
+      objectReference: {fileID: 0}
+    - target: {fileID: 2779645221367000169, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: <InitInEntityTransform>k__BackingField.position.z
+      value: 0.036910523
+      objectReference: {fileID: 0}
+    - target: {fileID: 4269759541640940566, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _originalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4269759541640940566, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _originalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4269759541640940566, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _originalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4660123677964129029, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.mass
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4660123677964129029, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.centerOfMass.x
+      value: 0.000000059604645
+      objectReference: {fileID: 0}
+    - target: {fileID: 4660123677964129029, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.centerOfMass.y
+      value: 0.024419546
+      objectReference: {fileID: 0}
+    - target: {fileID: 4660123677964129029, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.centerOfMass.z
+      value: 0.00000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 4660123677964129029, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.inertiaTensor.x
+      value: 0.00026899725
+      objectReference: {fileID: 0}
+    - target: {fileID: 4660123677964129029, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.inertiaTensor.y
+      value: 0.00007779151
+      objectReference: {fileID: 0}
+    - target: {fileID: 4660123677964129029, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.inertiaTensor.z
+      value: 0.00026899725
+      objectReference: {fileID: 0}
+    - target: {fileID: 4660123677964129029, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: <InitInEntityTransform>k__BackingField.position.x
+      value: -0.045960207
+      objectReference: {fileID: 0}
+    - target: {fileID: 4660123677964129029, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: <InitInEntityTransform>k__BackingField.position.y
+      value: 0.12571728
+      objectReference: {fileID: 0}
+    - target: {fileID: 4660123677964129029, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: <InitInEntityTransform>k__BackingField.position.z
+      value: 0.06051396
+      objectReference: {fileID: 0}
+    - target: {fileID: 6383156476527601899, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.mass
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6383156476527601899, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.centerOfMass.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6383156476527601899, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.centerOfMass.y
+      value: 0.035311937
+      objectReference: {fileID: 0}
+    - target: {fileID: 6383156476527601899, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.centerOfMass.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6383156476527601899, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.inertiaTensor.x
+      value: 0.0002602294
+      objectReference: {fileID: 0}
+    - target: {fileID: 6383156476527601899, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.inertiaTensor.y
+      value: 0.00008744611
+      objectReference: {fileID: 0}
+    - target: {fileID: 6383156476527601899, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.inertiaTensor.z
+      value: 0.0002602294
+      objectReference: {fileID: 0}
+    - target: {fileID: 6383156476527601899, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.inertiaTensorRotation.z
+      value: -0.00000017881388
+      objectReference: {fileID: 0}
+    - target: {fileID: 6383156476527601899, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: <InitInEntityTransform>k__BackingField.position.x
+      value: -0.041170485
+      objectReference: {fileID: 0}
+    - target: {fileID: 6383156476527601899, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: <InitInEntityTransform>k__BackingField.position.y
+      value: 0.17867398
+      objectReference: {fileID: 0}
+    - target: {fileID: 6383156476527601899, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: <InitInEntityTransform>k__BackingField.position.z
+      value: 0.031078802
+      objectReference: {fileID: 0}
+    - target: {fileID: 7137294549198635241, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.mass
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7137294549198635241, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.centerOfMass.y
+      value: 0.024419546
+      objectReference: {fileID: 0}
+    - target: {fileID: 7137294549198635241, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.centerOfMass.z
+      value: 0.00000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 7137294549198635241, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.inertiaTensor.x
+      value: 0.00026899725
+      objectReference: {fileID: 0}
+    - target: {fileID: 7137294549198635241, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.inertiaTensor.y
+      value: 0.00007779151
+      objectReference: {fileID: 0}
+    - target: {fileID: 7137294549198635241, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.inertiaTensor.z
+      value: 0.00026899725
+      objectReference: {fileID: 0}
+    - target: {fileID: 7137294549198635241, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: <InitInEntityTransform>k__BackingField.position.x
+      value: 0.04596023
+      objectReference: {fileID: 0}
+    - target: {fileID: 7137294549198635241, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: <InitInEntityTransform>k__BackingField.position.y
+      value: 0.12571728
+      objectReference: {fileID: 0}
+    - target: {fileID: 7137294549198635241, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: <InitInEntityTransform>k__BackingField.position.z
+      value: 0.060513988
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496068918603825185, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.mass
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496068918603825185, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.centerOfMass.x
+      value: 0.000000059604645
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496068918603825185, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.centerOfMass.y
+      value: 0.033486847
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496068918603825185, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.centerOfMass.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496068918603825185, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.inertiaTensor.x
+      value: 0.0003356192
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496068918603825185, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.inertiaTensor.y
+      value: 0.00012648705
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496068918603825185, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.inertiaTensor.z
+      value: 0.0003356191
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496068918603825185, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: <InitInEntityTransform>k__BackingField.position.x
+      value: 0.039616454
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496068918603825185, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: <InitInEntityTransform>k__BackingField.position.y
+      value: 0.036833763
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496068918603825185, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: <InitInEntityTransform>k__BackingField.position.z
+      value: 0.036910545
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881391335827429292, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.mass
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881391335827429292, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.centerOfMass.y
+      value: 0.035312176
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881391335827429292, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.centerOfMass.z
+      value: -0.00000023841858
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881391335827429292, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.inertiaTensor.x
+      value: 0.00026022934
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881391335827429292, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.inertiaTensor.y
+      value: 0.000087446075
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881391335827429292, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.inertiaTensor.z
+      value: 0.00026022934
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881391335827429292, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.inertiaTensorRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881391335827429292, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: <InitInEntityTransform>k__BackingField.position.x
+      value: 0.04117047
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881391335827429292, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: <InitInEntityTransform>k__BackingField.position.y
+      value: 0.17867398
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881391335827429292, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: <InitInEntityTransform>k__BackingField.position.z
+      value: 0.031078828
+      objectReference: {fileID: 0}
+    - target: {fileID: 8015233790121475904, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.mass
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8015233790121475904, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.centerOfMass.y
+      value: 0.025322199
+      objectReference: {fileID: 0}
+    - target: {fileID: 8015233790121475904, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.centerOfMass.z
+      value: 0.000000029802322
+      objectReference: {fileID: 0}
+    - target: {fileID: 8015233790121475904, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.inertiaTensor.x
+      value: 0.0003635849
+      objectReference: {fileID: 0}
+    - target: {fileID: 8015233790121475904, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.inertiaTensor.y
+      value: 0.00012907991
+      objectReference: {fileID: 0}
+    - target: {fileID: 8015233790121475904, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: _defaultRigidbodyInfo.inertiaTensor.z
+      value: 0.0003635849
+      objectReference: {fileID: 0}
+    - target: {fileID: 8015233790121475904, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: <InitInEntityTransform>k__BackingField.position.x
+      value: -0.05707028
+      objectReference: {fileID: 0}
+    - target: {fileID: 8015233790121475904, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: <InitInEntityTransform>k__BackingField.position.y
+      value: 0.035505474
+      objectReference: {fileID: 0}
+    - target: {fileID: 8015233790121475904, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
+      propertyPath: <InitInEntityTransform>k__BackingField.position.z
+      value: 0.08981322
+      objectReference: {fileID: 0}
     - target: {fileID: 8251523010505339857, guid: cff30cf44f95a134c9042d0b946cd8fa, type: 3}
       propertyPath: m_Name
       value: Lil Pooey

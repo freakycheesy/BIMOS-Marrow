@@ -548,22 +548,63 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6b92b6406865ed4aaa57b5170fdd21d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _input: {fileID: 0}
+  _input: {fileID: 6960511215068224306}
   lowThreshold: 0.05
-  highThreshold: 0.95
+  highThreshold: 0.05
   InputUpdated:
     _PersistentCalls: []
   InputRose:
     _PersistentCalls:
-    - _Target: {fileID: 6122201295883262432}
-      _MethodName: 
-      _PersistentArguments: []
+    - _Target: {fileID: 0}
+      _MethodName: set_isKinematic
+      _PersistentArguments:
+      - _Type: 1
+        _Int: 0
+        _String: 
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
   InputHeld:
-    _PersistentCalls: []
+    _PersistentCalls:
+    - _Target: {fileID: 0}
+      _MethodName: set_isKinematic
+      _PersistentArguments:
+      - _Type: 1
+        _Int: 0
+        _String: 
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
   InputFell:
-    _PersistentCalls: []
+    _PersistentCalls:
+    - _Target: {fileID: 0}
+      _MethodName: set_isKinematic
+      _PersistentArguments:
+      - _Type: 1
+        _Int: 0
+        _String: 
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
   InputRoseOneShot:
-    _PersistentCalls: []
+    _PersistentCalls:
+    - _Target: {fileID: 0}
+      _MethodName: set_isKinematic
+      _PersistentArguments:
+      - _Type: 1
+        _Int: 0
+        _String: 
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
 --- !u!1 &7010830771136854367
 GameObject:
   m_ObjectHideFlags: 0
@@ -797,22 +838,63 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6b92b6406865ed4aaa57b5170fdd21d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _input: {fileID: 0}
+  _input: {fileID: 1017317600921024703}
   lowThreshold: 0.05
-  highThreshold: 0.95
+  highThreshold: 0.05
   InputUpdated:
     _PersistentCalls: []
   InputRose:
     _PersistentCalls:
-    - _Target: {fileID: 6122201295883262432}
-      _MethodName: 
-      _PersistentArguments: []
+    - _Target: {fileID: 0}
+      _MethodName: set_isKinematic
+      _PersistentArguments:
+      - _Type: 1
+        _Int: 0
+        _String: 
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
   InputHeld:
-    _PersistentCalls: []
+    _PersistentCalls:
+    - _Target: {fileID: 0}
+      _MethodName: set_isKinematic
+      _PersistentArguments:
+      - _Type: 1
+        _Int: 0
+        _String: 
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
   InputFell:
-    _PersistentCalls: []
+    _PersistentCalls:
+    - _Target: {fileID: 0}
+      _MethodName: set_isKinematic
+      _PersistentArguments:
+      - _Type: 1
+        _Int: 0
+        _String: 
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
   InputRoseOneShot:
-    _PersistentCalls: []
+    _PersistentCalls:
+    - _Target: {fileID: 0}
+      _MethodName: set_isKinematic
+      _PersistentArguments:
+      - _Type: 1
+        _Int: 0
+        _String: 
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
 --- !u!1001 &3015417776677453800
 PrefabInstance:
   m_ObjectHideFlags: 0

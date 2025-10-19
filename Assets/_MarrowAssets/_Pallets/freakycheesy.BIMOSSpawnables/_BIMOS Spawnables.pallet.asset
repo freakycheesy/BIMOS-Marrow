@@ -24,6 +24,7 @@ MonoBehaviour:
   _internal: 0
   _crates:
   - {fileID: 11400000, guid: 7189d4d0160a12a4f900745932497d9a, type: 2}
+  - {fileID: 11400000, guid: 9f1a3fe8c21cdb24584ad39370af75e3, type: 2}
   - {fileID: 11400000, guid: 92358814f3f97fe40bfe38a88eb2f908, type: 2}
   - {fileID: 11400000, guid: bc97fb63294c1b34f9a71c0555612aa8, type: 2}
   - {fileID: 11400000, guid: 230b11ec9036f894bb9b30bb77e07b45, type: 2}
@@ -31,7 +32,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1964b4904709cfe428ffb558cee624c9, type: 2}
   - {fileID: 11400000, guid: 09c2e4a533afaa24599115a530403ae8, type: 2}
   - {fileID: 11400000, guid: d92e7dab2e6a66642bc246559578875f, type: 2}
-  - {fileID: 11400000, guid: d3032f5083147204a8c7ec5a4188418b, type: 2}
   - {fileID: 11400000, guid: e4b6d89b8290aa547a542d4fb3bf63ec, type: 2}
   - {fileID: 11400000, guid: 0cf1eacd376ee4c44a75aac6c25cf1ba, type: 2}
   - {fileID: 11400000, guid: 7b4aabf31a5809342ad9fdbeadc97e74, type: 2}
@@ -51,6 +51,7 @@ MonoBehaviour:
   _changeLogs: []
   _crateTitles:
   - Spawnable  Ball Crate
+  - Spawnable  Big Pooey
   - Spawnable  Block Tower
   - Spawnable  Capsule
   - Spawnable  Cube
@@ -58,7 +59,6 @@ MonoBehaviour:
   - Spawnable  Drawbridge
   - Spawnable  Hook
   - Spawnable  Key Door
-  - Spawnable  Key
   - Spawnable  Ladder
   - Spawnable  Large Sled
   - Spawnable  Light Cube

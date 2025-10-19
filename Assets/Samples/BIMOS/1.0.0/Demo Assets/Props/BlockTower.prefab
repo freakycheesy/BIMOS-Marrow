@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 8970179855067817683}
   - component: {fileID: 3883292199669706908}
   - component: {fileID: 1687820050420982008}
+  - component: {fileID: 2848417491332081530}
   m_Layer: 0
   m_Name: Block (3)
   m_TagString: Untagged
@@ -96,7 +97,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 38856470761220389}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -234,6 +235,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &2848417491332081530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 38856470761220389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &75270141337179517
 GameObject:
   m_ObjectHideFlags: 0
@@ -318,6 +335,7 @@ GameObject:
   - component: {fileID: 8509540092158529451}
   - component: {fileID: 6000322427869181969}
   - component: {fileID: 6901438059909241375}
+  - component: {fileID: 71848861722057132}
   m_Layer: 0
   m_Name: Block (3)
   m_TagString: Untagged
@@ -398,7 +416,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 303517468908594409}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -536,6 +554,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &71848861722057132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303517468908594409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &412645734750424809
 GameObject:
   m_ObjectHideFlags: 0
@@ -708,6 +742,7 @@ GameObject:
   - component: {fileID: 568448054362099234}
   - component: {fileID: 9180279798644919901}
   - component: {fileID: 6408328920052663961}
+  - component: {fileID: 4196106588524902926}
   m_Layer: 0
   m_Name: Block (1)
   m_TagString: Untagged
@@ -788,7 +823,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 736981265372343370}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -926,6 +961,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &4196106588524902926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 736981265372343370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &790699756462209935
 GameObject:
   m_ObjectHideFlags: 0
@@ -1003,6 +1054,7 @@ GameObject:
   - component: {fileID: 666408878046560650}
   - component: {fileID: 7873621263672116771}
   - component: {fileID: 1491384559557729988}
+  - component: {fileID: 1421272439366195865}
   m_Layer: 0
   m_Name: Block (3)
   m_TagString: Untagged
@@ -1083,7 +1135,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 805482295575684329}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -1221,6 +1273,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &1421272439366195865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 805482295575684329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &845253205705434833
 GameObject:
   m_ObjectHideFlags: 0
@@ -1237,6 +1305,7 @@ GameObject:
   - component: {fileID: 8366169092947357533}
   - component: {fileID: 3744204106160907268}
   - component: {fileID: 1721309053105228314}
+  - component: {fileID: 397068469338808939}
   m_Layer: 0
   m_Name: Block (1)
   m_TagString: Untagged
@@ -1317,7 +1386,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 845253205705434833}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -1455,6 +1524,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &397068469338808939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 845253205705434833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &908484730279552337
 GameObject:
   m_ObjectHideFlags: 0
@@ -1471,6 +1556,7 @@ GameObject:
   - component: {fileID: 1723540738471828156}
   - component: {fileID: 2075805844148499756}
   - component: {fileID: 7528222366469485208}
+  - component: {fileID: 5728224016312773551}
   m_Layer: 0
   m_Name: Block (3)
   m_TagString: Untagged
@@ -1551,7 +1637,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 908484730279552337}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -1689,6 +1775,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &5728224016312773551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 908484730279552337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &1029552986025562256
 GameObject:
   m_ObjectHideFlags: 0
@@ -2044,6 +2146,7 @@ GameObject:
   - component: {fileID: 1254987908515032020}
   - component: {fileID: 7144680292595982159}
   - component: {fileID: 1671562061513018732}
+  - component: {fileID: 8725823580010240936}
   m_Layer: 0
   m_Name: Block (2)
   m_TagString: Untagged
@@ -2124,7 +2227,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1606038371855497585}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -2262,6 +2365,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &8725823580010240936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1606038371855497585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &1631888979629651405
 GameObject:
   m_ObjectHideFlags: 0
@@ -2278,6 +2397,7 @@ GameObject:
   - component: {fileID: 1953823686113833035}
   - component: {fileID: 19753129018596152}
   - component: {fileID: 7791341732585509064}
+  - component: {fileID: 6739927355572240515}
   m_Layer: 0
   m_Name: Block (3)
   m_TagString: Untagged
@@ -2358,7 +2478,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1631888979629651405}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -2496,6 +2616,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &6739927355572240515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631888979629651405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &1753170749322811636
 GameObject:
   m_ObjectHideFlags: 0
@@ -2573,6 +2709,7 @@ GameObject:
   - component: {fileID: 472496178966268136}
   - component: {fileID: 1832358804055204142}
   - component: {fileID: 2893731803658363770}
+  - component: {fileID: 5824219191308659681}
   m_Layer: 0
   m_Name: Block (3)
   m_TagString: Untagged
@@ -2653,7 +2790,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1826311518665909091}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -2791,6 +2928,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &5824219191308659681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826311518665909091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &1855643382301067999
 GameObject:
   m_ObjectHideFlags: 0
@@ -2807,6 +2960,7 @@ GameObject:
   - component: {fileID: 3337897271462305416}
   - component: {fileID: 1160723693604609346}
   - component: {fileID: 72767393114179437}
+  - component: {fileID: 2280751347658420331}
   m_Layer: 0
   m_Name: Block (2)
   m_TagString: Untagged
@@ -2887,7 +3041,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1855643382301067999}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -3025,6 +3179,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &2280751347658420331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1855643382301067999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &2230679762705650612
 GameObject:
   m_ObjectHideFlags: 0
@@ -3041,6 +3211,7 @@ GameObject:
   - component: {fileID: 5732718131259491290}
   - component: {fileID: 1008833830263247561}
   - component: {fileID: 8285032101968975279}
+  - component: {fileID: 7058735405427681762}
   m_Layer: 0
   m_Name: Block (1)
   m_TagString: Untagged
@@ -3121,7 +3292,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2230679762705650612}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -3259,6 +3430,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &7058735405427681762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2230679762705650612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &2238332773913176401
 GameObject:
   m_ObjectHideFlags: 0
@@ -3553,6 +3740,7 @@ GameObject:
   - component: {fileID: 4774829373280548307}
   - component: {fileID: 3554517920284246658}
   - component: {fileID: 6409216515758923193}
+  - component: {fileID: 1183653627661731469}
   m_Layer: 0
   m_Name: Block (1)
   m_TagString: Untagged
@@ -3633,7 +3821,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2682481047411819304}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -3771,6 +3959,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &1183653627661731469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2682481047411819304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &2699766210685387406
 GameObject:
   m_ObjectHideFlags: 0
@@ -3970,6 +4174,7 @@ GameObject:
   - component: {fileID: 5626376044048898194}
   - component: {fileID: 3372643533525550158}
   - component: {fileID: 3248995826518599877}
+  - component: {fileID: 2819121614776720175}
   m_Layer: 0
   m_Name: Block (1)
   m_TagString: Untagged
@@ -4050,7 +4255,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2889717560308170872}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -4188,6 +4393,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &2819121614776720175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2889717560308170872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &3073877406471375855
 GameObject:
   m_ObjectHideFlags: 0
@@ -4204,6 +4425,7 @@ GameObject:
   - component: {fileID: 4251823991527017940}
   - component: {fileID: 2625664648213022359}
   - component: {fileID: 8764872393034584436}
+  - component: {fileID: 7654666269428874572}
   m_Layer: 0
   m_Name: Block (2)
   m_TagString: Untagged
@@ -4284,7 +4506,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3073877406471375855}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -4422,6 +4644,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &7654666269428874572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3073877406471375855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &3228541589774902698
 GameObject:
   m_ObjectHideFlags: 0
@@ -4438,6 +4676,7 @@ GameObject:
   - component: {fileID: 6719439203727659120}
   - component: {fileID: 4406535960585796689}
   - component: {fileID: 3335331882662505298}
+  - component: {fileID: 6132489567918743547}
   m_Layer: 0
   m_Name: Block (2)
   m_TagString: Untagged
@@ -4518,7 +4757,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3228541589774902698}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -4656,6 +4895,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &6132489567918743547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3228541589774902698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &3332271807781317289
 GameObject:
   m_ObjectHideFlags: 0
@@ -4801,6 +5056,7 @@ GameObject:
   - component: {fileID: 2199017733555160644}
   - component: {fileID: 8551162016678765343}
   - component: {fileID: 4819125886307205311}
+  - component: {fileID: 6710073978071768367}
   m_Layer: 0
   m_Name: Block (1)
   m_TagString: Untagged
@@ -4881,7 +5137,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3660026233488496372}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -5019,6 +5275,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &6710073978071768367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3660026233488496372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &3702218407190181211
 GameObject:
   m_ObjectHideFlags: 0
@@ -5035,6 +5307,7 @@ GameObject:
   - component: {fileID: 1195146182619798828}
   - component: {fileID: 8764999345592044008}
   - component: {fileID: 1910968700068089868}
+  - component: {fileID: 3448434636468638513}
   m_Layer: 0
   m_Name: Block (2)
   m_TagString: Untagged
@@ -5115,7 +5388,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3702218407190181211}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -5253,6 +5526,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &3448434636468638513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3702218407190181211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &3705707601235400787
 GameObject:
   m_ObjectHideFlags: 0
@@ -5269,6 +5558,7 @@ GameObject:
   - component: {fileID: 8335487187362182480}
   - component: {fileID: 1160855392547808563}
   - component: {fileID: 491095096154081610}
+  - component: {fileID: 3991602540297490809}
   m_Layer: 0
   m_Name: Block (2)
   m_TagString: Untagged
@@ -5349,7 +5639,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3705707601235400787}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -5487,6 +5777,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &3991602540297490809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3705707601235400787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &3759835266597750306
 GameObject:
   m_ObjectHideFlags: 0
@@ -5503,6 +5809,7 @@ GameObject:
   - component: {fileID: 1591674147462795067}
   - component: {fileID: 3057579848696149716}
   - component: {fileID: 4086158764123967474}
+  - component: {fileID: 5390792852575600407}
   m_Layer: 0
   m_Name: Block (2)
   m_TagString: Untagged
@@ -5583,7 +5890,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3759835266597750306}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -5721,6 +6028,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &5390792852575600407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3759835266597750306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &3808738519200077012
 GameObject:
   m_ObjectHideFlags: 0
@@ -5920,6 +6243,7 @@ GameObject:
   - component: {fileID: 4127077101415251467}
   - component: {fileID: 4440782750189706857}
   - component: {fileID: 4822021758052487258}
+  - component: {fileID: 8616863922295877839}
   m_Layer: 0
   m_Name: Block (1)
   m_TagString: Untagged
@@ -6000,7 +6324,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4078300042535192677}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -6138,6 +6462,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &8616863922295877839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4078300042535192677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &4109150337252466142
 GameObject:
   m_ObjectHideFlags: 0
@@ -6154,6 +6494,7 @@ GameObject:
   - component: {fileID: 8733662354657443292}
   - component: {fileID: 2885336512168447862}
   - component: {fileID: 5879579564756437664}
+  - component: {fileID: 139790141130763697}
   m_Layer: 0
   m_Name: Block (1)
   m_TagString: Untagged
@@ -6234,7 +6575,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4109150337252466142}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -6372,6 +6713,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &139790141130763697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4109150337252466142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &4188968415223659761
 GameObject:
   m_ObjectHideFlags: 0
@@ -6449,6 +6806,7 @@ GameObject:
   - component: {fileID: 1088677715087615379}
   - component: {fileID: 3645195823523070523}
   - component: {fileID: 2756208278238136142}
+  - component: {fileID: 2088580682600654210}
   m_Layer: 0
   m_Name: Block (2)
   m_TagString: Untagged
@@ -6529,7 +6887,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4209387771627868523}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -6667,6 +7025,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &2088580682600654210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4209387771627868523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &4221356715142524213
 GameObject:
   m_ObjectHideFlags: 0
@@ -7152,6 +7526,7 @@ GameObject:
   - component: {fileID: 8631779050788345538}
   - component: {fileID: 1619479952398916104}
   - component: {fileID: 552661886630214727}
+  - component: {fileID: 8153878541726691054}
   m_Layer: 0
   m_Name: Block (1)
   m_TagString: Untagged
@@ -7232,7 +7607,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4756992388563737513}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -7370,6 +7745,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &8153878541726691054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4756992388563737513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &4816728484946060516
 GameObject:
   m_ObjectHideFlags: 0
@@ -7447,6 +7838,7 @@ GameObject:
   - component: {fileID: 5871706064683464349}
   - component: {fileID: 4442450905325889342}
   - component: {fileID: 4443912680922459614}
+  - component: {fileID: 4501936393771962804}
   m_Layer: 0
   m_Name: Block (1)
   m_TagString: Untagged
@@ -7527,7 +7919,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4847649825688255341}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -7665,6 +8057,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &4501936393771962804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4847649825688255341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &4865526771466782527
 GameObject:
   m_ObjectHideFlags: 0
@@ -7681,6 +8089,7 @@ GameObject:
   - component: {fileID: 6055718793236078458}
   - component: {fileID: 2124017058870183139}
   - component: {fileID: 1493981353495612346}
+  - component: {fileID: 8277230026703091554}
   m_Layer: 0
   m_Name: Block (1)
   m_TagString: Untagged
@@ -7761,7 +8170,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4865526771466782527}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -7899,6 +8308,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &8277230026703091554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4865526771466782527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &4906077855364986890
 GameObject:
   m_ObjectHideFlags: 0
@@ -8010,6 +8435,7 @@ GameObject:
   - component: {fileID: 4759477567052737718}
   - component: {fileID: 1970743687594613381}
   - component: {fileID: 1640493354091270577}
+  - component: {fileID: 8453861690941161347}
   m_Layer: 0
   m_Name: Block (1)
   m_TagString: Untagged
@@ -8090,7 +8516,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5021942164633863269}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -8228,6 +8654,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &8453861690941161347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5021942164633863269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &5189099636635541664
 GameObject:
   m_ObjectHideFlags: 0
@@ -8244,6 +8686,7 @@ GameObject:
   - component: {fileID: 8091775397695094864}
   - component: {fileID: 1200008256151919249}
   - component: {fileID: 3402845485091592925}
+  - component: {fileID: 5975889966809479259}
   m_Layer: 0
   m_Name: Block (3)
   m_TagString: Untagged
@@ -8324,7 +8767,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5189099636635541664}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -8462,6 +8905,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &5975889966809479259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5189099636635541664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &5215413637203640231
 GameObject:
   m_ObjectHideFlags: 0
@@ -8478,6 +8937,7 @@ GameObject:
   - component: {fileID: 3655022185113962220}
   - component: {fileID: 601243948741523701}
   - component: {fileID: 6860183122481843792}
+  - component: {fileID: 6574592264150997081}
   m_Layer: 0
   m_Name: Block (3)
   m_TagString: Untagged
@@ -8558,7 +9018,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5215413637203640231}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -8696,6 +9156,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &6574592264150997081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5215413637203640231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &5347009522527446054
 GameObject:
   m_ObjectHideFlags: 0
@@ -8712,6 +9188,7 @@ GameObject:
   - component: {fileID: 6689269197422872230}
   - component: {fileID: 1748559297134237219}
   - component: {fileID: 1163344197738676994}
+  - component: {fileID: 469891342094809368}
   m_Layer: 0
   m_Name: Block (3)
   m_TagString: Untagged
@@ -8792,7 +9269,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5347009522527446054}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -8930,6 +9407,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &469891342094809368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5347009522527446054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &5394290192903642188
 GameObject:
   m_ObjectHideFlags: 0
@@ -9007,6 +9500,7 @@ GameObject:
   - component: {fileID: 3863176320800965563}
   - component: {fileID: 7110011112029786825}
   - component: {fileID: 7167350859483974734}
+  - component: {fileID: 3631199788086986556}
   m_Layer: 0
   m_Name: Block (3)
   m_TagString: Untagged
@@ -9087,7 +9581,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5447877032385153302}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -9225,6 +9719,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &3631199788086986556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5447877032385153302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &5496773482599888443
 GameObject:
   m_ObjectHideFlags: 0
@@ -9458,6 +9968,7 @@ GameObject:
   - component: {fileID: 4299206428584122910}
   - component: {fileID: 4864361242257516164}
   - component: {fileID: 8282871363186946852}
+  - component: {fileID: 5649675561900502564}
   m_Layer: 0
   m_Name: Block (1)
   m_TagString: Untagged
@@ -9538,7 +10049,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5741149345655180193}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -9676,6 +10187,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &5649675561900502564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5741149345655180193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &5955102283075896100
 GameObject:
   m_ObjectHideFlags: 0
@@ -9692,6 +10219,7 @@ GameObject:
   - component: {fileID: 5140623990810765191}
   - component: {fileID: 7549504836139764402}
   - component: {fileID: 7811810787198503144}
+  - component: {fileID: 8758112697402533385}
   m_Layer: 0
   m_Name: Block (1)
   m_TagString: Untagged
@@ -9772,7 +10300,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5955102283075896100}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -9910,6 +10438,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &8758112697402533385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5955102283075896100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &6017680136510968050
 GameObject:
   m_ObjectHideFlags: 0
@@ -9926,6 +10470,7 @@ GameObject:
   - component: {fileID: 2913984297636818805}
   - component: {fileID: 2194626900415952873}
   - component: {fileID: 836659843962515641}
+  - component: {fileID: 2460950232843376675}
   m_Layer: 0
   m_Name: Block (2)
   m_TagString: Untagged
@@ -10006,7 +10551,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6017680136510968050}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -10144,6 +10689,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &2460950232843376675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6017680136510968050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &6097518238376158984
 GameObject:
   m_ObjectHideFlags: 0
@@ -10221,6 +10782,7 @@ GameObject:
   - component: {fileID: 7173697361143226515}
   - component: {fileID: 2605323966560956756}
   - component: {fileID: 5766387610195524026}
+  - component: {fileID: 493066927789293051}
   m_Layer: 0
   m_Name: Block (2)
   m_TagString: Untagged
@@ -10301,7 +10863,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6134433220574646392}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -10439,6 +11001,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &493066927789293051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6134433220574646392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &6383471661864889748
 GameObject:
   m_ObjectHideFlags: 0
@@ -10733,6 +11311,7 @@ GameObject:
   - component: {fileID: 2281104990037123849}
   - component: {fileID: 7170747184552976962}
   - component: {fileID: 1970329655643202744}
+  - component: {fileID: 2164583472142145849}
   m_Layer: 0
   m_Name: Block (2)
   m_TagString: Untagged
@@ -10813,7 +11392,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6636870929542579954}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -10951,6 +11530,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &2164583472142145849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6636870929542579954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &6637641812626673317
 GameObject:
   m_ObjectHideFlags: 0
@@ -11286,6 +11881,7 @@ GameObject:
   - component: {fileID: 5458245287578061427}
   - component: {fileID: 1325836166431724342}
   - component: {fileID: 65782300165610933}
+  - component: {fileID: 7865217139934509914}
   m_Layer: 0
   m_Name: Block (3)
   m_TagString: Untagged
@@ -11366,7 +11962,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7151712315849766147}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -11504,6 +12100,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &7865217139934509914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7151712315849766147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &7257613249630554723
 GameObject:
   m_ObjectHideFlags: 0
@@ -11520,6 +12132,7 @@ GameObject:
   - component: {fileID: 4640286158075515642}
   - component: {fileID: 8140093692392571190}
   - component: {fileID: 5819315342172155802}
+  - component: {fileID: 8685250034185057790}
   m_Layer: 0
   m_Name: Block (3)
   m_TagString: Untagged
@@ -11600,7 +12213,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7257613249630554723}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -11738,6 +12351,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &8685250034185057790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7257613249630554723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &7287782358274249972
 GameObject:
   m_ObjectHideFlags: 0
@@ -11754,6 +12383,7 @@ GameObject:
   - component: {fileID: 6566956470523768704}
   - component: {fileID: 272806940674304885}
   - component: {fileID: 4027753684924743036}
+  - component: {fileID: 6694393542724638520}
   m_Layer: 0
   m_Name: Block (1)
   m_TagString: Untagged
@@ -11834,7 +12464,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7287782358274249972}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -11972,6 +12602,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &6694393542724638520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7287782358274249972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &7298484176621602399
 GameObject:
   m_ObjectHideFlags: 0
@@ -12083,6 +12729,7 @@ GameObject:
   - component: {fileID: 4514933704758758517}
   - component: {fileID: 4422070439998435510}
   - component: {fileID: 2490112591943482962}
+  - component: {fileID: 2193939472444820149}
   m_Layer: 0
   m_Name: Block (1)
   m_TagString: Untagged
@@ -12163,7 +12810,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7328358310913805805}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -12301,6 +12948,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &2193939472444820149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7328358310913805805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &7448563900084631430
 GameObject:
   m_ObjectHideFlags: 0
@@ -12351,6 +13014,7 @@ GameObject:
   - component: {fileID: 6080140008909317292}
   - component: {fileID: 2340366560851477370}
   - component: {fileID: 691077571238980319}
+  - component: {fileID: 2879164632881626228}
   m_Layer: 0
   m_Name: Block (2)
   m_TagString: Untagged
@@ -12431,7 +13095,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7517413828240587027}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -12569,6 +13233,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &2879164632881626228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7517413828240587027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &7544260691454525731
 GameObject:
   m_ObjectHideFlags: 0
@@ -12585,6 +13265,7 @@ GameObject:
   - component: {fileID: 7412120256670446432}
   - component: {fileID: 1566053023133525664}
   - component: {fileID: 3060742236905560393}
+  - component: {fileID: 2771613956378917194}
   m_Layer: 0
   m_Name: Block (2)
   m_TagString: Untagged
@@ -12665,7 +13346,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7544260691454525731}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -12803,6 +13484,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &2771613956378917194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7544260691454525731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &7605892824403761599
 GameObject:
   m_ObjectHideFlags: 0
@@ -13002,6 +13699,7 @@ GameObject:
   - component: {fileID: 8465322090004481059}
   - component: {fileID: 6863891483774068485}
   - component: {fileID: 5048367376490147686}
+  - component: {fileID: 5164633203873609197}
   m_Layer: 0
   m_Name: Block (3)
   m_TagString: Untagged
@@ -13082,7 +13780,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7675539913028809774}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -13220,6 +13918,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &5164633203873609197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7675539913028809774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &7697988511409560411
 GameObject:
   m_ObjectHideFlags: 0
@@ -13392,6 +14106,7 @@ GameObject:
   - component: {fileID: 5528567664887604680}
   - component: {fileID: 5969772546378352470}
   - component: {fileID: 6986291525710461209}
+  - component: {fileID: 6818794376923826564}
   m_Layer: 0
   m_Name: Block (3)
   m_TagString: Untagged
@@ -13472,7 +14187,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7942903929441375176}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -13610,6 +14325,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &6818794376923826564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7942903929441375176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &7951395093366092054
 GameObject:
   m_ObjectHideFlags: 0
@@ -13687,6 +14418,7 @@ GameObject:
   - component: {fileID: 7631454804921241382}
   - component: {fileID: 5336632996382981761}
   - component: {fileID: 6128468718630424392}
+  - component: {fileID: 1832881208156810495}
   m_Layer: 0
   m_Name: Block (2)
   m_TagString: Untagged
@@ -13767,7 +14499,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7992602957172743450}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -13905,6 +14637,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &1832881208156810495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7992602957172743450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &8131085654798980379
 GameObject:
   m_ObjectHideFlags: 0
@@ -13982,6 +14730,7 @@ GameObject:
   - component: {fileID: 7547487152400096468}
   - component: {fileID: 152339463488859085}
   - component: {fileID: 6481049104827131867}
+  - component: {fileID: 4372727750357522006}
   m_Layer: 0
   m_Name: Block (2)
   m_TagString: Untagged
@@ -14062,7 +14811,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8227998775264785544}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -14200,6 +14949,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &4372727750357522006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8227998775264785544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &8269120612723096368
 GameObject:
   m_ObjectHideFlags: 0
@@ -14277,6 +15042,7 @@ GameObject:
   - component: {fileID: 6175886697395206974}
   - component: {fileID: 2637773837531989702}
   - component: {fileID: 3547148690984015062}
+  - component: {fileID: 946875982135288183}
   m_Layer: 0
   m_Name: Block (1)
   m_TagString: Untagged
@@ -14357,7 +15123,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8387497006366340336}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -14495,6 +15261,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &946875982135288183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8387497006366340336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &8416979492896181807
 GameObject:
   m_ObjectHideFlags: 0
@@ -14511,6 +15293,7 @@ GameObject:
   - component: {fileID: 438580148244260122}
   - component: {fileID: 8384402459496350099}
   - component: {fileID: 1466407898488313041}
+  - component: {fileID: 820193880389756378}
   m_Layer: 0
   m_Name: Block (2)
   m_TagString: Untagged
@@ -14591,7 +15374,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8416979492896181807}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -14729,6 +15512,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &820193880389756378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8416979492896181807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &8465267080539891879
 GameObject:
   m_ObjectHideFlags: 0
@@ -14867,6 +15666,7 @@ GameObject:
   - component: {fileID: 1415746854873540915}
   - component: {fileID: 1994866157226187028}
   - component: {fileID: 176192485934348960}
+  - component: {fileID: 2676379187536697636}
   m_Layer: 0
   m_Name: Block (3)
   m_TagString: Untagged
@@ -14947,7 +15747,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8489650757077513641}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -15085,6 +15885,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &2676379187536697636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8489650757077513641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &8623195838997331883
 GameObject:
   m_ObjectHideFlags: 0
@@ -15101,6 +15917,7 @@ GameObject:
   - component: {fileID: 8332503841914832644}
   - component: {fileID: 5379403371432777867}
   - component: {fileID: 7628856127905338193}
+  - component: {fileID: 1277548552326742240}
   m_Layer: 0
   m_Name: Block (2)
   m_TagString: Untagged
@@ -15181,7 +15998,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8623195838997331883}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -15319,6 +16136,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &1277548552326742240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8623195838997331883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &8630079915564249708
 GameObject:
   m_ObjectHideFlags: 0
@@ -15396,6 +16229,7 @@ GameObject:
   - component: {fileID: 2562473435856378787}
   - component: {fileID: 6490951984114954748}
   - component: {fileID: 2872866655378218990}
+  - component: {fileID: 2936134971537241422}
   m_Layer: 0
   m_Name: Block (1)
   m_TagString: Untagged
@@ -15476,7 +16310,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8690867999599161616}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -15614,6 +16448,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &2936134971537241422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8690867999599161616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &8789925295979679406
 GameObject:
   m_ObjectHideFlags: 0
@@ -15691,6 +16541,7 @@ GameObject:
   - component: {fileID: 7898360147099528889}
   - component: {fileID: 3345487518919076903}
   - component: {fileID: 6254613945767442360}
+  - component: {fileID: 1556937878523196368}
   m_Layer: 0
   m_Name: Block (3)
   m_TagString: Untagged
@@ -15771,7 +16622,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8817026572377746603}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -15909,6 +16760,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &1556937878523196368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8817026572377746603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &8865915772652922993
 GameObject:
   m_ObjectHideFlags: 0
@@ -15986,6 +16853,7 @@ GameObject:
   - component: {fileID: 4552847257117078632}
   - component: {fileID: 7263175900731108296}
   - component: {fileID: 771626190456856259}
+  - component: {fileID: 8350985333502070829}
   m_Layer: 0
   m_Name: Block (2)
   m_TagString: Untagged
@@ -16066,7 +16934,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8898848534250665045}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -16204,6 +17072,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &8350985333502070829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8898848534250665045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &9034869091034154745
 GameObject:
   m_ObjectHideFlags: 0
@@ -16220,6 +17104,7 @@ GameObject:
   - component: {fileID: 8968893252714032543}
   - component: {fileID: 8595335738317639245}
   - component: {fileID: 878753771920444665}
+  - component: {fileID: 3314667445306444927}
   m_Layer: 0
   m_Name: Block (3)
   m_TagString: Untagged
@@ -16300,7 +17185,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9034869091034154745}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -16438,6 +17323,22 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &3314667445306444927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9034869091034154745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0
 --- !u!1 &9173704954128308846
 GameObject:
   m_ObjectHideFlags: 0
@@ -16515,6 +17416,7 @@ GameObject:
   - component: {fileID: 8228104320400915151}
   - component: {fileID: 7563212025353913362}
   - component: {fileID: 1645216861083178}
+  - component: {fileID: 5677659004055562821}
   m_Layer: 0
   m_Name: Block (3)
   m_TagString: Untagged
@@ -16595,7 +17497,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9214637884525893419}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5eb46fcfd84323241ac90d7be28a4aa6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -16733,3 +17635,19 @@ MonoBehaviour:
   marrowEntity: {fileID: 8870571273991230864}
   manager: {fileID: 0}
   ignoreBodyOnGrab: 0
+--- !u!114 &5677659004055562821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9214637884525893419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Polymer
+  decalType: 0

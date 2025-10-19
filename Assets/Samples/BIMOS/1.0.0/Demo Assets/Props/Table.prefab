@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1922505117394348815}
   - component: {fileID: 2454633134777967348}
   - component: {fileID: 2083628897388700106}
+  - component: {fileID: 4079840758169715927}
   m_Layer: 0
   m_Name: Top
   m_TagString: Untagged
@@ -149,6 +150,22 @@ MonoBehaviour:
   gripDistanceSqr: 0
   radius: 0.7
   targetTransform: {fileID: 0}
+--- !u!114 &4079840758169715927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151827761663707134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Wood
+  decalType: 0
 --- !u!1 &1321626674697047950
 GameObject:
   m_ObjectHideFlags: 0
@@ -323,6 +340,7 @@ GameObject:
   - component: {fileID: 416090009442663815}
   - component: {fileID: 8784057176747204919}
   - component: {fileID: 2509449736262985564}
+  - component: {fileID: 5257973870615825876}
   m_Layer: 0
   m_Name: Leg (2)
   m_TagString: Untagged
@@ -459,6 +477,22 @@ MonoBehaviour:
   gripDistanceSqr: 0
   radius: 0.7
   targetTransform: {fileID: 0}
+--- !u!114 &5257973870615825876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1656904604177528143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Wood
+  decalType: 0
 --- !u!1 &2656680660004279175
 GameObject:
   m_ObjectHideFlags: 0
@@ -533,6 +567,7 @@ GameObject:
   - component: {fileID: 8347651191192432744}
   - component: {fileID: 2015879853343865781}
   - component: {fileID: 7731636897478081310}
+  - component: {fileID: 3974058491541433784}
   m_Layer: 0
   m_Name: Leg (3)
   m_TagString: Untagged
@@ -669,6 +704,22 @@ MonoBehaviour:
   gripDistanceSqr: 0
   radius: 0.7
   targetTransform: {fileID: 0}
+--- !u!114 &3974058491541433784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4654100793972900991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Wood
+  decalType: 0
 --- !u!1 &6396268456370424363
 GameObject:
   m_ObjectHideFlags: 0
@@ -682,6 +733,7 @@ GameObject:
   - component: {fileID: 6432341130244622722}
   - component: {fileID: 5874195797393972536}
   - component: {fileID: 3139549663409661450}
+  - component: {fileID: 4265486155226966160}
   m_Layer: 0
   m_Name: Leg (1)
   m_TagString: Untagged
@@ -818,6 +870,22 @@ MonoBehaviour:
   gripDistanceSqr: 0
   radius: 0.7
   targetTransform: {fileID: 0}
+--- !u!114 &4265486155226966160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6396268456370424363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Wood
+  decalType: 0
 --- !u!1 &6843613907457281583
 GameObject:
   m_ObjectHideFlags: 0
@@ -831,6 +899,7 @@ GameObject:
   - component: {fileID: 574214774401143199}
   - component: {fileID: 5957382532866965089}
   - component: {fileID: 7946962590744321805}
+  - component: {fileID: 619471266302249023}
   m_Layer: 0
   m_Name: Leg (4)
   m_TagString: Untagged
@@ -967,3 +1036,19 @@ MonoBehaviour:
   gripDistanceSqr: 0
   radius: 0.7
   targetTransform: {fileID: 0}
+--- !u!114 &619471266302249023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6843613907457281583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Wood
+  decalType: 0

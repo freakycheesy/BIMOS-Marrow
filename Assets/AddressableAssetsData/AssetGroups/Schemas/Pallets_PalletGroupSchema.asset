@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Pallets_PalletGroupSchema
   m_EditorClassIdentifier: 
   m_Group: {fileID: 11400000, guid: 2f9443496605c9a49a8f2173b38d3b38, type: 2}
-  _pallet: {fileID: 11400000, guid: b5d35743917fc0844bf4884dd3c546d0, type: 2}
+  _pallet: {fileID: 11400000, guid: 68177116d4f6c434eac61a0b199a8ca1, type: 2}
   _marrowGame: {fileID: 0}

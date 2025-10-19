@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3471122112616668852}
   - component: {fileID: 7475123217199840678}
   - component: {fileID: 3701375895812366337}
+  - component: {fileID: 4117570703956985723}
   m_Layer: 0
   m_Name: Knob
   m_TagString: Untagged
@@ -92,7 +93,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 350299280446196037}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: d88f8317257e1c542b5db98b42a9600d, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -149,6 +150,22 @@ MonoBehaviour:
   gripDistanceSqr: 0
   radius: 0.7
   targetTransform: {fileID: 0}
+--- !u!114 &4117570703956985723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 350299280446196037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.MetalPure
+  decalType: 0
 --- !u!1 &693253846777912984
 GameObject:
   m_ObjectHideFlags: 0
@@ -222,6 +239,7 @@ GameObject:
   - component: {fileID: 4121310685161790769}
   - component: {fileID: 2568237364195319976}
   - component: {fileID: 4037757898930553807}
+  - component: {fileID: 8722762368969915991}
   m_Layer: 0
   m_Name: Door
   m_TagString: Untagged
@@ -301,12 +319,28 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1300681116507082217}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 591ddfee83897784894c0d9b33fba03a, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8722762368969915991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300681116507082217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Wood
+  decalType: 0
 --- !u!1 &1563156331818147104
 GameObject:
   m_ObjectHideFlags: 0
@@ -380,6 +414,7 @@ GameObject:
   - component: {fileID: 6492202384256115866}
   - component: {fileID: 7115051224545446849}
   - component: {fileID: 2325438961884880268}
+  - component: {fileID: 1816430768819122285}
   m_Layer: 0
   m_Name: Frame (3)
   m_TagString: Untagged
@@ -459,12 +494,28 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1892352793678659116}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 591ddfee83897784894c0d9b33fba03a, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1816430768819122285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892352793678659116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Wood
+  decalType: 0
 --- !u!1 &2075697225441314635
 GameObject:
   m_ObjectHideFlags: 0
@@ -478,6 +529,7 @@ GameObject:
   - component: {fileID: 8230962072110949843}
   - component: {fileID: 8559132523927302654}
   - component: {fileID: 4724545755808469902}
+  - component: {fileID: 1856469624507457429}
   m_Layer: 0
   m_Name: Knob (3)
   m_TagString: Untagged
@@ -557,7 +609,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2075697225441314635}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: d88f8317257e1c542b5db98b42a9600d, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -614,6 +666,22 @@ MonoBehaviour:
   gripDistanceSqr: 0
   radius: 0.7
   targetTransform: {fileID: 0}
+--- !u!114 &1856469624507457429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2075697225441314635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.MetalPure
+  decalType: 0
 --- !u!1 &2204262351656169750
 GameObject:
   m_ObjectHideFlags: 0
@@ -627,6 +695,7 @@ GameObject:
   - component: {fileID: 7235712656780029597}
   - component: {fileID: 8257917124844925762}
   - component: {fileID: 6403664331795269875}
+  - component: {fileID: 7956632101537690627}
   m_Layer: 0
   m_Name: Knob (2)
   m_TagString: Untagged
@@ -706,7 +775,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2204262351656169750}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: d88f8317257e1c542b5db98b42a9600d, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -763,6 +832,22 @@ MonoBehaviour:
   gripDistanceSqr: 0
   radius: 0.7
   targetTransform: {fileID: 0}
+--- !u!114 &7956632101537690627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2204262351656169750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.MetalPure
+  decalType: 0
 --- !u!1 &4195265042258563955
 GameObject:
   m_ObjectHideFlags: 0
@@ -775,6 +860,7 @@ GameObject:
   - component: {fileID: 1553455435763160757}
   - component: {fileID: 7579546177310191164}
   - component: {fileID: 8325223304496621318}
+  - component: {fileID: 8111058133703538214}
   m_Layer: 0
   m_Name: Frame (2)
   m_TagString: Untagged
@@ -854,12 +940,28 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4195265042258563955}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 591ddfee83897784894c0d9b33fba03a, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8111058133703538214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4195265042258563955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Wood
+  decalType: 0
 --- !u!1 &6667770696556534229
 GameObject:
   m_ObjectHideFlags: 0
@@ -972,7 +1074,7 @@ MonoBehaviour:
   <CenterOfMass>k__BackingField: {x: 0, y: 0, z: 0}
   <InitInEntityTransform>k__BackingField:
     position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
   _rigidbody: {fileID: 3173426904423526097}
   _defaultRigidbodyInfo:
     mass: 40
@@ -984,9 +1086,9 @@ MonoBehaviour:
     interpolate: 0
     collisionDetection: 0
     constraints: 0
-    centerOfMass: {x: 0.0014241268, y: 0.9502381, z: 5.9551097e-12}
-    inertiaTensor: {x: 12.010937, y: 2.1744728, z: 14.117004}
-    inertiaTensorRotation: {x: 0, y: 0, z: -0.00014409087, w: 1}
+    centerOfMass: {x: 0.0014241283, y: 0.9502374, z: 0}
+    inertiaTensor: {x: 12.010929, y: 2.1744716, z: 14.116997}
+    inertiaTensorRotation: {x: 0, y: 0, z: -0.00014409304, w: 1}
     initalVelocity: {x: 0, y: 0, z: 0}
     initialAngularVelocity: {x: 0, y: 0, z: 0}
   _colliders:
@@ -1207,6 +1309,7 @@ GameObject:
   - component: {fileID: 3874950449207694359}
   - component: {fileID: 4955305323362229276}
   - component: {fileID: 8172728505509993488}
+  - component: {fileID: 2256212415343410748}
   m_Layer: 0
   m_Name: Frame (1)
   m_TagString: Untagged
@@ -1286,9 +1389,25 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7994125078572796699}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 591ddfee83897784894c0d9b33fba03a, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2256212415343410748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7994125078572796699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8020d77a8527fdd4e84ec1fbdfe6a973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceDataCard:
+    _barcode:
+      _id: SLZ.Backlot.SurfaceDataCard.Wood
+  decalType: 0

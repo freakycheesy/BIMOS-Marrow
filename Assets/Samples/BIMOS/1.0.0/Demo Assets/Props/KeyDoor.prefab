@@ -172,8 +172,7 @@ GameObject:
   - component: {fileID: 3599986314337115260}
   - component: {fileID: 3248200917478452253}
   - component: {fileID: 7721091349197393041}
-  - component: {fileID: 1979617567609726396}
-  m_Layer: 29
+  m_Layer: 0
   m_Name: KeyHole (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -356,52 +355,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1979617567609726396
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6037745067123204060}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ec9f9ece1f7f114da88e4c386934bb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interfaceTags:
-    _tags:
-    - _boneTag:
-        _barcode:
-          _id: freakycheesy.BIMOSSpawnables.BoneTag.Key
-      _invert: 0
-    _operator: 0
-    _crates: []
-  _isAutobindOnAttached: 1
-  _attachedClips: []
-  _detachedClips: []
-  _boundClips: []
-  _unboundClips: []
-  onPlugAttached:
-    _PersistentCalls:
-    - _Target: {fileID: 6598999043919772183}
-      _MethodName: set_isKinematic
-      _PersistentArguments:
-      - _Type: 1
-        _Int: 0
-        _String: 
-        _X: 0
-        _Y: 0
-        _Z: 0
-        _W: 0
-        _Object: {fileID: 0}
-  onPlugDetached:
-    _PersistentCalls: []
-  onPlugBound:
-    _PersistentCalls: []
-  onPlugUnbound:
-    _PersistentCalls: []
-  _body: {fileID: 5474491844868339469}
-  _collidersToIgnore: []
 --- !u!1 &7455277255474554328
 GameObject:
   m_ObjectHideFlags: 0
@@ -477,8 +430,7 @@ GameObject:
   - component: {fileID: 4586893275196372014}
   - component: {fileID: 4625718654272247628}
   - component: {fileID: 7422257948867338780}
-  - component: {fileID: 3742029135785413648}
-  m_Layer: 29
+  m_Layer: 0
   m_Name: KeyHole (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -661,52 +613,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &3742029135785413648
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9220918707409550240}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ec9f9ece1f7f114da88e4c386934bb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interfaceTags:
-    _tags:
-    - _boneTag:
-        _barcode:
-          _id: freakycheesy.BIMOSSpawnables.BoneTag.Key
-      _invert: 0
-    _operator: 0
-    _crates: []
-  _isAutobindOnAttached: 1
-  _attachedClips: []
-  _detachedClips: []
-  _boundClips: []
-  _unboundClips: []
-  onPlugAttached:
-    _PersistentCalls:
-    - _Target: {fileID: 6598999043919772183}
-      _MethodName: set_isKinematic
-      _PersistentArguments:
-      - _Type: 1
-        _Int: 0
-        _String: 
-        _X: 0
-        _Y: 0
-        _Z: 0
-        _W: 0
-        _Object: {fileID: 0}
-  onPlugDetached:
-    _PersistentCalls: []
-  onPlugBound:
-    _PersistentCalls: []
-  onPlugUnbound:
-    _PersistentCalls: []
-  _body: {fileID: 5474491844868339469}
-  _collidersToIgnore: []
 --- !u!1001 &8619357928550175942
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -844,22 +750,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8853841a8fa293e42b39789a294e6310, type: 3}
---- !u!114 &5474491844868339469 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4352536683435549643, guid: 8853841a8fa293e42b39789a294e6310, type: 3}
-  m_PrefabInstance: {fileID: 8619357928550175942}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13d532be3ff645c383487c609a67869c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!54 &6598999043919772183 stripped
-Rigidbody:
-  m_CorrespondingSourceObject: {fileID: 3173426904423526097, guid: 8853841a8fa293e42b39789a294e6310, type: 3}
-  m_PrefabInstance: {fileID: 8619357928550175942}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8751871507799866070 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1074944802286202384, guid: 8853841a8fa293e42b39789a294e6310, type: 3}

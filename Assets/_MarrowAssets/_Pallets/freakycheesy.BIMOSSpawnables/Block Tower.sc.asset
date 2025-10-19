@@ -18,7 +18,8 @@ MonoBehaviour:
   _description: 
   _unlockable: 0
   _redacted: 0
-  _tags: []
+  _tags:
+  - BIMOS
   _boneTags:
     _tags: []
   _mainAsset:

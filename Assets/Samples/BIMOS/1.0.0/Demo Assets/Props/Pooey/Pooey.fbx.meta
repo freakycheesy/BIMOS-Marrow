@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: aef649ce331cdf7418a48b3c6c7c68c5
 ModelImporter:
-  serializedVersion: 22200
+  serializedVersion: 21300
   internalIDToNameTable: []
   externalObjects:
   - first:
@@ -21,13 +21,16 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftHand' not found\n"
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -43,7 +46,6 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
-    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -71,7 +73,6 @@ ModelImporter:
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
-    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -85,7 +86,112 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human: []
-    skeleton: []
+    skeleton:
+    - name: Pooey(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pooey
+      parentName: Pooey(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature
+      parentName: Pooey(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pelvis
+      parentName: Armature
+      position: {x: 0, y: 0.036910534, z: 0.114904225}
+      rotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MiddleSpine
+      parentName: Pelvis
+      position: {x: -0, y: 0.076020434, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head
+      parentName: MiddleSpine
+      position: {x: -0, y: 0.07643689, z: 0}
+      rotation: {x: -0, y: -0.00000011920929, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head_end
+      parentName: Head
+      position: {x: -0, y: 0.11183928, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftArm
+      parentName: MiddleSpine
+      position: {x: -0.04117046, y: 0.068458095, z: 0.031078737}
+      rotation: {x: 0.6996129, y: -0.69112223, z: 0.12680335, w: 0.12966402}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000001}
+    - name: LeftElbow
+      parentName: LeftArm
+      position: {x: 0.000000004656613, y: 0.060776494, z: -0.0000000018626451}
+      rotation: {x: 0.033119224, y: 0.05789192, z: -0.014733195, w: 0.9976646}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: LeftElbow_end
+      parentName: LeftElbow
+      position: {x: -0, y: 0.06692455, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightArm
+      parentName: MiddleSpine
+      position: {x: 0.04117046, y: 0.068458095, z: 0.031078737}
+      rotation: {x: 0.6996129, y: 0.69112223, z: -0.12680335, w: 0.12966402}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000001}
+    - name: RightElbow
+      parentName: RightArm
+      position: {x: -0.000000004656613, y: 0.060776494, z: -0.0000000018626451}
+      rotation: {x: 0.033119224, y: -0.05789192, z: 0.014733195, w: 0.9976646}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: RightElbow_end
+      parentName: RightElbow
+      position: {x: -0, y: 0.06692455, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftHips
+      parentName: Pelvis
+      position: {x: -0.039616466, y: 0.002638325, z: 0.036910556}
+      rotation: {x: 0.9929004, y: -0.04814748, z: 0.05956613, w: 0.09100842}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: LeftKnee
+      parentName: LeftHips
+      position: {x: 0.0000000018626451, y: 0.0557233, z: 0.0000000027939677}
+      rotation: {x: 0.001506202, y: 0.0006960836, z: -0.03652967, w: 0.9993312}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: LeftFoot
+      parentName: LeftKnee
+      position: {x: -0.0000000037252903, y: 0.050337676, z: -9.313226e-10}
+      rotation: {x: -0.9563079, y: -0.0332855, z: 0.05339244, w: 0.28551108}
+      scale: {x: 1, y: 1.0000002, z: 0.9999999}
+    - name: LeftFoot_end
+      parentName: LeftFoot
+      position: {x: -0, y: 0.02839348, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightHips
+      parentName: Pelvis
+      position: {x: 0.039616466, y: 0.002638325, z: 0.036910556}
+      rotation: {x: 0.9929004, y: 0.04814748, z: -0.05956613, w: 0.09100842}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: RightKnee
+      parentName: RightHips
+      position: {x: -0.0000000018626451, y: 0.0557233, z: 0.0000000027939677}
+      rotation: {x: 0.001506202, y: -0.0006960836, z: 0.03652967, w: 0.9993312}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: RightFoot
+      parentName: RightKnee
+      position: {x: 0.0000000037252903, y: 0.050337676, z: -9.313226e-10}
+      rotation: {x: -0.9563079, y: 0.0332855, z: -0.05339244, w: 0.28551108}
+      scale: {x: 1, y: 1.0000002, z: 0.9999999}
+    - name: RightFoot_end
+      parentName: RightFoot
+      position: {x: -0, y: 0.02839348, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -96,15 +202,14 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
-  importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
   userData: 

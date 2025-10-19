@@ -17,8 +17,8 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 2f9443496605c9a49a8f2173b38d3b38
   m_SerializeEntries:
-  - m_GUID: b5d35743917fc0844bf4884dd3c546d0
-    m_Address: freakycheesy.BIMOSLevels
+  - m_GUID: 68177116d4f6c434eac61a0b199a8ca1
+    m_Address: freakycheesy.BIMOSAvatars
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

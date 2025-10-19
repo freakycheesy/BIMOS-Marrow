@@ -1217,14 +1217,14 @@ MonoBehaviour:
   _headEllipseX: 0.044
   _jawEllipseX: 0.044
   _neckEllipseX: 0.035
-  _chestEllipseX: 0.1
+  _chestEllipseX: 0.09999998
   _waistEllipseX: 0.091
   _highHipsEllipseX: 0.091
   _hipsEllipseX: 0.091
   _headEllipseZ: 0.06
   _jawEllipseZ: 0.06
   _neckEllipseZ: 0.04
-  _sternumEllipseZ: 0.052
+  _sternumEllipseZ: 0.051999997
   _chestEllipseZ: 0.076
   _waistEllipseZ: 0.075
   _highHipsEllipseZ: 0.07
@@ -1232,23 +1232,23 @@ MonoBehaviour:
   _headEllipseNegZ: 0.06
   _jawEllipseNegZ: 0.06
   _neckEllipseNegZ: 0.03
-  _sternumEllipseNegZ: 0.052
+  _sternumEllipseNegZ: 0.052000005
   _chestEllipseNegZ: 0.07
-  _waistEllipseNegZ: 0.06
+  _waistEllipseNegZ: 0.04550225
   _highHipsEllipseNegZ: 0.07
-  _hipsEllipseNegZ: 0.08
+  _hipsEllipseNegZ: 0.082445756
   _thighUpperEllipse:
-    XRadius: 0.03
+    XRadius: 0.05727019
     XBias: 0
     ZRadius: 0.03
     ZBias: 0
   _kneeEllipse:
-    XRadius: 0.03
+    XRadius: 0.037835293
     XBias: 0
     ZRadius: 0.03
     ZBias: 0
   _calfEllipse:
-    XRadius: 0.03
+    XRadius: 0.04684223
     XBias: 0
     ZRadius: 0.03
     ZBias: 0
@@ -1258,23 +1258,23 @@ MonoBehaviour:
     ZRadius: 0.03
     ZBias: 0
   _upperarmEllipse:
-    XRadius: 0.03
-    XBias: 0
+    XRadius: 0.040435072
+    XBias: -0.13703597
     ZRadius: 0.03
     ZBias: 0
   _elbowEllipse:
-    XRadius: 0.03
+    XRadius: 0.033761304
     XBias: 0
     ZRadius: 0.03
     ZBias: 0
   _forearmEllipse:
-    XRadius: 0.03
+    XRadius: 0.033228915
     XBias: 0
     ZRadius: 0.03
     ZBias: 0
   _wristEllipse:
-    XRadius: 0.03
-    XBias: 0
+    XRadius: 0.019303037
+    XBias: -0.29390526
     ZRadius: 0.03
     ZBias: 0
   bulgeBreast:
@@ -2309,7 +2309,7 @@ SkinnedMeshRenderer:
   m_SortingOrder: 0
   serializedVersion: 2
   m_Quality: 0
-  m_UpdateWhenOffscreen: 0
+  m_UpdateWhenOffscreen: 1
   m_SkinnedMotionVectors: 1
   m_Mesh: {fileID: 1941400343871719499, guid: 603fa28e41e4d1e4e935f05e8e122d6e, type: 3}
   m_Bones:

@@ -35,6 +35,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 137fa396011c95f42be6ede06ccac21a, type: 2}
   - {fileID: 11400000, guid: e884f41a8487c37418f05e256cb995e3, type: 2}
   - {fileID: 11400000, guid: 24787696d850158459140bf19281dcc2, type: 2}
+  - {fileID: 11400000, guid: 29ac90868ce86c948bb413acd2d89998, type: 2}
+  - {fileID: 11400000, guid: d711933a52fe17443bab5955c74fb0a7, type: 2}
   _dataCards: []
   _tags: []
   _changeLogs: []
@@ -51,5 +53,7 @@ MonoBehaviour:
   - Avatar  Human (Red)
   - Avatar  Human (White)
   - Avatar  Human (Yellow)
+  - Avatar  Human (Pooey)
+  - Avatar  Human (Intel Man)
   _datacardTitles: []
   _palletDependencies: []
