@@ -1,5 +1,132 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &455167453214613639
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7382390296131003903}
+  - component: {fileID: 6075655882116119488}
+  m_Layer: 0
+  m_Name: templateEvt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &7382390296131003903
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 455167453214613639}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7288767158690219130}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6075655882116119488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 455167453214613639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 289ff940279d54e4e92f632d7d3823dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Event:
+    _PersistentCalls:
+    - _Target: {fileID: 0}
+      _MethodName: SetParent
+      _PersistentArguments:
+      - _Type: 13
+        _Int: 0
+        _String: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 4053253075042585036}
+      - _Type: 1
+        _Int: 1
+        _String: 
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+--- !u!1 &1375188036786679571
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1244773833199376306}
+  - component: {fileID: 8617238517231914192}
+  m_Layer: 0
+  m_Name: templateEvt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1244773833199376306
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375188036786679571}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4584045782573343966}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8617238517231914192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375188036786679571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 289ff940279d54e4e92f632d7d3823dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Event:
+    _PersistentCalls:
+    - _Target: {fileID: 0}
+      _MethodName: get_transform
+      _PersistentArguments: []
+    - _Target: {fileID: 8167645461553963081}
+      _MethodName: set_interactorSource
+      _PersistentArguments:
+      - _Type: 15
+        _Int: 0
+        _String: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
 --- !u!1 &2556372056758833935
 GameObject:
   m_ObjectHideFlags: 0
@@ -61,6 +188,68 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &3249019247343140473
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4584045782573343966}
+  - component: {fileID: 237101557562426426}
+  m_Layer: 0
+  m_Name: varyingEvt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4584045782573343966
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3249019247343140473}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1244773833199376306}
+  m_Father: {fileID: 6173902624828108042}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &237101557562426426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3249019247343140473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 289ff940279d54e4e92f632d7d3823dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Event:
+    _PersistentCalls:
+    - _Target: {fileID: 0}
+      _MethodName: get_transform
+      _PersistentArguments: []
+    - _Target: {fileID: 8167645461553963081}
+      _MethodName: set_interactorSource
+      _PersistentArguments:
+      - _Type: 15
+        _Int: 0
+        _String: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
 --- !u!1 &3361568420748256959
 GameObject:
   m_ObjectHideFlags: 0
@@ -228,6 +417,119 @@ MonoBehaviour:
   trackerSettings:
     layers: 0
     settings: []
+--- !u!1 &3361634719014778062
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6984716343921985022}
+  - component: {fileID: 75808402625339196}
+  m_Layer: 0
+  m_Name: XRInteractorAffordanceStateProvider store
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &6984716343921985022
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361634719014778062}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6173902624828108042}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &75808402625339196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361634719014778062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c5d9d3763b204c449d32ef3ab02d878, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractorSource: {fileID: 0}
+  m_IgnoreHoverEvents: 0
+--- !u!1 &4077660586926316138
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7288767158690219130}
+  - component: {fileID: 1066893085601767394}
+  m_Layer: 0
+  m_Name: varyingEvt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &7288767158690219130
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4077660586926316138}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7382390296131003903}
+  m_Father: {fileID: 6173902624828108042}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1066893085601767394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4077660586926316138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 289ff940279d54e4e92f632d7d3823dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Event:
+    _PersistentCalls:
+    - _Target: {fileID: 0}
+      _MethodName: SetParent
+      _PersistentArguments:
+      - _Type: 13
+        _Int: 0
+        _String: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 4053253075042585036}
+      - _Type: 1
+        _Int: 1
+        _String: 
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
 --- !u!1 &4182598610459341753
 GameObject:
   m_ObjectHideFlags: 0
@@ -241,6 +543,7 @@ GameObject:
   - component: {fileID: 6880471534006601837}
   - component: {fileID: 43308067722178834}
   - component: {fileID: 663197619270249814}
+  - component: {fileID: 106954304804608183}
   m_Layer: 2
   m_Name: CrateSpawner (Button 1.5x)
   m_TagString: Untagged
@@ -259,7 +562,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 6173902624828108042}
   m_Father: {fileID: 2969890308779040677}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -287,7 +591,466 @@ MonoBehaviour:
   useQuery: 0
   manualMode: 0
   onSpawnEvent:
-    _PersistentCalls: []
+    _PersistentCalls:
+    - _Target: {fileID: 75808402625339196}
+      _MethodName: set_interactorSource
+      _PersistentArguments:
+      - _Type: 14
+        _Int: 1
+        _String: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+    - _Target: {fileID: 0}
+      _MethodName: UnityEngine.JsonUtility, UnityEngine.JSONSerializeModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null.ToJson
+      _PersistentArguments:
+      - _Type: 13
+        _Int: -1
+        _String: UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.State.XRInteractorAffordanceStateProvider,
+          Unity.XR.Interaction.Toolkit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 75808402625339196}
+    - _Target: {fileID: 0}
+      _MethodName: System.Text.RegularExpressions.Regex, System, Version=4.0.0.0,
+        Culture=neutral, PublicKeyToken=b77a5c561934e089.Replace
+      _PersistentArguments:
+      - _Type: 15
+        _Int: 1
+        _String: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+      - _Type: 2
+        _Int: 0
+        _String: ^(.*"m_InteractorSource":)
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+      - _Type: 2
+        _Int: 0
+        _String: 
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+    - _Target: {fileID: 0}
+      _MethodName: System.Text.RegularExpressions.Regex, System, Version=4.0.0.0,
+        Culture=neutral, PublicKeyToken=b77a5c561934e089.Replace
+      _PersistentArguments:
+      - _Type: 15
+        _Int: 2
+        _String: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+      - _Type: 2
+        _Int: 0
+        _String: ',"m_I(.)*'
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+      - _Type: 2
+        _Int: 0
+        _String: 
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+    - _Target: {fileID: 0}
+      _MethodName: UnityEngine.JsonUtility, UnityEngine.JSONSerializeModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null.ToJson
+      _PersistentArguments:
+      - _Type: 13
+        _Int: -1
+        _String: UltEvents.UltEventHolder, UltEvents, Version=1.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 8617238517231914192}
+    - _Target: {fileID: 0}
+      _MethodName: System.Text.RegularExpressions.Regex, System, Version=4.0.0.0,
+        Culture=neutral, PublicKeyToken=b77a5c561934e089.Replace
+      _PersistentArguments:
+      - _Type: 15
+        _Int: 4
+        _String: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+      - _Type: 2
+        _Int: 0
+        _String: ^(.*),"_MethodName":"get_transform"
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+      - _Type: 2
+        _Int: 0
+        _String: ',"_MethodName":"get_transform"'
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+    - _Target: {fileID: 0}
+      _MethodName: System.Text.RegularExpressions.Regex, System, Version=4.0.0.0,
+        Culture=neutral, PublicKeyToken=b77a5c561934e089.Replace
+      _PersistentArguments:
+      - _Type: 15
+        _Int: 4
+        _String: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+      - _Type: 2
+        _Int: 0
+        _String: ',"_MethodName":"get_transform".*'
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+      - _Type: 2
+        _Int: 0
+        _String: 
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+    - _Target: {fileID: 0}
+      _MethodName: System.Text.RegularExpressions.Regex, System, Version=4.0.0.0,
+        Culture=neutral, PublicKeyToken=b77a5c561934e089.Replace
+      _PersistentArguments:
+      - _Type: 15
+        _Int: 6
+        _String: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+      - _Type: 2
+        _Int: 0
+        _String: .[^{]+$
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+      - _Type: 2
+        _Int: 0
+        _String: 
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+    - _Target: {fileID: 0}
+      _MethodName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.Concat
+      _PersistentArguments:
+      - _Type: 15
+        _Int: 7
+        _String: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+      - _Type: 15
+        _Int: 3
+        _String: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+      - _Type: 15
+        _Int: 5
+        _String: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+    - _Target: {fileID: 0}
+      _MethodName: UnityEngine.JsonUtility, UnityEngine.JSONSerializeModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null.FromJsonOverwrite
+      _PersistentArguments:
+      - _Type: 15
+        _Int: 8
+        _String: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+      - _Type: 13
+        _Int: -1
+        _String: System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 237101557562426426}
+    - _Target: {fileID: 237101557562426426}
+      _MethodName: Invoke
+      _PersistentArguments: []
+    - _Target: {fileID: 8167645461553963081}
+      _MethodName: get_interactorSource
+      _PersistentArguments: []
+    - _Target: {fileID: 3971646836370554527}
+      _MethodName: set_interactorSource
+      _PersistentArguments:
+      - _Type: 15
+        _Int: 11
+        _String: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+    - _Target: {fileID: 0}
+      _MethodName: UnityEngine.JsonUtility, UnityEngine.JSONSerializeModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null.ToJson
+      _PersistentArguments:
+      - _Type: 13
+        _Int: -1
+        _String: UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.State.XRInteractorAffordanceStateProvider,
+          Unity.XR.Interaction.Toolkit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 3971646836370554527}
+    - _Target: {fileID: 0}
+      _MethodName: System.Text.RegularExpressions.Regex, System, Version=4.0.0.0,
+        Culture=neutral, PublicKeyToken=b77a5c561934e089.Replace
+      _PersistentArguments:
+      - _Type: 15
+        _Int: 13
+        _String: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+      - _Type: 2
+        _Int: 0
+        _String: ^(.*"m_InteractorSource":)
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+      - _Type: 2
+        _Int: 0
+        _String: 
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+    - _Target: {fileID: 0}
+      _MethodName: System.Text.RegularExpressions.Regex, System, Version=4.0.0.0,
+        Culture=neutral, PublicKeyToken=b77a5c561934e089.Replace
+      _PersistentArguments:
+      - _Type: 15
+        _Int: 14
+        _String: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+      - _Type: 2
+        _Int: 0
+        _String: ',"m_I(.)*'
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+      - _Type: 2
+        _Int: 0
+        _String: 
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+    - _Target: {fileID: 0}
+      _MethodName: UnityEngine.JsonUtility, UnityEngine.JSONSerializeModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null.ToJson
+      _PersistentArguments:
+      - _Type: 13
+        _Int: -1
+        _String: UltEvents.UltEventHolder, UltEvents, Version=1.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 6075655882116119488}
+    - _Target: {fileID: 0}
+      _MethodName: System.Text.RegularExpressions.Regex, System, Version=4.0.0.0,
+        Culture=neutral, PublicKeyToken=b77a5c561934e089.Replace
+      _PersistentArguments:
+      - _Type: 15
+        _Int: 16
+        _String: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+      - _Type: 2
+        _Int: 0
+        _String: ^(.*),"_MethodName":"SetParent"
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+      - _Type: 2
+        _Int: 0
+        _String: ',"_MethodName":"SetParent"'
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+    - _Target: {fileID: 0}
+      _MethodName: System.Text.RegularExpressions.Regex, System, Version=4.0.0.0,
+        Culture=neutral, PublicKeyToken=b77a5c561934e089.Replace
+      _PersistentArguments:
+      - _Type: 15
+        _Int: 16
+        _String: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+      - _Type: 2
+        _Int: 0
+        _String: ',"_MethodName":"SetParent".*'
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+      - _Type: 2
+        _Int: 0
+        _String: 
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+    - _Target: {fileID: 0}
+      _MethodName: System.Text.RegularExpressions.Regex, System, Version=4.0.0.0,
+        Culture=neutral, PublicKeyToken=b77a5c561934e089.Replace
+      _PersistentArguments:
+      - _Type: 15
+        _Int: 18
+        _String: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+      - _Type: 2
+        _Int: 0
+        _String: .[^{]+$
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+      - _Type: 2
+        _Int: 0
+        _String: 
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+    - _Target: {fileID: 0}
+      _MethodName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.Concat
+      _PersistentArguments:
+      - _Type: 15
+        _Int: 19
+        _String: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+      - _Type: 15
+        _Int: 15
+        _String: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+      - _Type: 15
+        _Int: 17
+        _String: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+    - _Target: {fileID: 0}
+      _MethodName: UnityEngine.JsonUtility, UnityEngine.JSONSerializeModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null.FromJsonOverwrite
+      _PersistentArguments:
+      - _Type: 15
+        _Int: 20
+        _String: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+      - _Type: 13
+        _Int: -1
+        _String: System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 1066893085601767394}
+    - _Target: {fileID: 1066893085601767394}
+      _MethodName: Invoke
+      _PersistentArguments: []
 --- !u!114 &6880471534006601837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -344,6 +1107,180 @@ MonoBehaviour:
     _PersistentCalls: []
   InputRoseOneShot:
     _PersistentCalls: []
+--- !u!114 &106954304804608183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4182598610459341753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 548d337563b26034abbc6be67b18eea0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BowlName: Bowl
+  EventHolder: {fileID: 4349193544777722165}
+  EventFieldPath: onSpawnEvent
+  BowlEvtHolderType:
+    _assemblyTypeName: SLZ.Marrow.Warehouse.CrateSpawner, SLZ.Marrow, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  _pos: {x: 0, y: 0}
+  _size: {x: 1000, y: 800}
+  NodeDatas:
+  - Name: 
+    ID: ba8e9a35-7cba-43fc-9154-8a9def18193c
+    FlowInputs: []
+    FlowOutputs:
+    - Name: 
+      ID: 55e2b3ce-bd50-4170-b292-fc74f690e786
+    DataInputs: []
+    DataOutputs:
+    - Name: CrateSpawner
+      TargetIds: []
+      Type:
+        _assemblyTypeName: SLZ.Marrow.Warehouse.CrateSpawner, SLZ.Marrow, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      ID: 41ea13ff-2088-46b1-931e-54e3b9fc9662
+    - Name: GameObject
+      TargetIds:
+      - 4676e7b9-6657-4d7f-9300-9c74a02511c5
+      Type:
+        _assemblyTypeName: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      ID: 37741869-34ce-45fd-a666-2968e1f7e6c3
+    NoadType: 0
+    _position: {x: 60, y: 0}
+    LastPosition: {x: 60, y: 0}
+    Book: {fileID: 0}
+    BookTag: 
+  - Name: GameObject.get_transform
+    ID: c55faece-ff35-476d-a8d2-81ccbef8bda0
+    FlowInputs:
+    - Name: Exec
+      SourcesIds:
+      - 55e2b3ce-bd50-4170-b292-fc74f690e786
+      ID: 80382fde-40a1-414e-8146-9a8b7ec5b5e2
+    FlowOutputs:
+    - Name: Done
+      ID: ec56d4ce-1abf-4629-b8f1-012b7fc6bc4e
+    DataInputs:
+    - Name: GameObject
+      Type:
+        _assemblyTypeName: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      ID: 4676e7b9-6657-4d7f-9300-9c74a02511c5
+      UIConst: 0
+      DefaultStringValue: 
+      ValDefs: {x: 0, y: 0, z: 0, w: 0}
+      DefaultObject: {fileID: 0}
+      ConstInput: 0
+      EditorConstName: 
+    DataOutputs:
+    - Name: Transform
+      TargetIds:
+      - b9a8809a-8332-42ff-a9fa-c5169e9137e3
+      Type:
+        _assemblyTypeName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      ID: a0fa609d-3490-47df-b42b-762346c1a7ef
+    NoadType: 1
+    _position: {x: 350.40002, y: 0}
+    LastPosition: {x: 350.40002, y: 0}
+    Book: {fileID: 11400000, guid: fd6f7bcaa596bc640b3d509dada399ba, type: 2}
+    BookTag: '{"_assemblyMethodName":"UnityEngine.GameObject, UnityEngine.CoreModule,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.get_transform","Parameters":[]}'
+  - Name: Transform.SetParent
+    ID: 2a4d8d86-0532-4c03-a8cf-fb513817029d
+    FlowInputs:
+    - Name: Exec
+      SourcesIds:
+      - ec56d4ce-1abf-4629-b8f1-012b7fc6bc4e
+      ID: 413e80a9-e26d-45ea-a09a-8f7c5449c4d5
+    FlowOutputs:
+    - Name: Done
+      ID: 68848ee9-3a40-4b0f-ac58-57faf5eed05b
+    DataInputs:
+    - Name: Transform
+      Type:
+        _assemblyTypeName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      ID: b9a8809a-8332-42ff-a9fa-c5169e9137e3
+      UIConst: 0
+      DefaultStringValue: 
+      ValDefs: {x: 0, y: 0, z: 0, w: 0}
+      DefaultObject: {fileID: 0}
+      ConstInput: 0
+      EditorConstName: 
+    - Name: parent
+      Type:
+        _assemblyTypeName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      ID: 46e9a3ad-3b59-49e0-88ff-7b38e594826e
+      UIConst: 0
+      DefaultStringValue: 
+      ValDefs: {x: 0, y: 0, z: 0, w: 0}
+      DefaultObject: {fileID: 4053253075042585036}
+      ConstInput: 0
+      EditorConstName: 
+    - Name: worldPositionStays
+      Type:
+        _assemblyTypeName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      ID: d0f2c393-12e5-49fa-a656-87c57bf51c98
+      UIConst: 0
+      DefaultStringValue: 
+      ValDefs: {x: 1, y: 0, z: 0, w: 0}
+      DefaultObject: {fileID: 0}
+      ConstInput: 0
+      EditorConstName: 
+    DataOutputs: []
+    NoadType: 1
+    _position: {x: 692, y: 0}
+    LastPosition: {x: 692, y: 0}
+    Book: {fileID: 11400000, guid: fd6f7bcaa596bc640b3d509dada399ba, type: 2}
+    BookTag: '{"_assemblyMethodName":"UnityEngine.Transform, UnityEngine.CoreModule,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.SetParent","Parameters":[{"_assemblyTypeName":"UnityEngine.Transform,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"},{"_assemblyTypeName":"System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"}]}'
+  LastGenerated: {fileID: 4914246943544765525}
+  NoteDatas: []
+--- !u!1 &4914246943544765525
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6173902624828108042}
+  m_Layer: 0
+  m_Name: Bowl_generated
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6173902624828108042
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4914246943544765525}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.6999989, y: -2, z: -2.2999992}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4584045782573343966}
+  - {fileID: 3710360256399493325}
+  - {fileID: 6984716343921985022}
+  - {fileID: 7288767158690219130}
+  - {fileID: 3753865397929214152}
+  m_Father: {fileID: 4053253075042585036}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6319017293049577528
 GameObject:
   m_ObjectHideFlags: 0
@@ -375,6 +1312,98 @@ Transform:
   m_Father: {fileID: 182937128186361900}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6747551785941142223
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3753865397929214152}
+  - component: {fileID: 3971646836370554527}
+  m_Layer: 0
+  m_Name: XRInteractorAffordanceStateProvider store
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &3753865397929214152
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6747551785941142223}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6173902624828108042}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3971646836370554527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6747551785941142223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c5d9d3763b204c449d32ef3ab02d878, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractorSource: {fileID: 0}
+  m_IgnoreHoverEvents: 0
+--- !u!1 &6886056172748427933
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3710360256399493325}
+  - component: {fileID: 8167645461553963081}
+  m_Layer: 0
+  m_Name: retval
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &3710360256399493325
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6886056172748427933}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6173902624828108042}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8167645461553963081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6886056172748427933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c5d9d3763b204c449d32ef3ab02d878, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractorSource: {fileID: 0}
+  m_IgnoreHoverEvents: 0
 --- !u!1 &8317770850402470279
 GameObject:
   m_ObjectHideFlags: 0

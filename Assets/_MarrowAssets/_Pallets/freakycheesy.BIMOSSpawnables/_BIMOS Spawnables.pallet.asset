@@ -45,8 +45,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 0f7c58af4988f2348b4ad44942e9ca84, type: 2}
   - {fileID: 11400000, guid: 777fd531b1bafac49bd451b69d7679ab, type: 2}
   - {fileID: 11400000, guid: 4e536188a74a0e74e95c18fc64883e38, type: 2}
-  _dataCards:
-  - {fileID: 11400000, guid: 1b325a2147cf40f44af9c2f1548f4b89, type: 2}
+  - {fileID: 11400000, guid: 893fd1959e9c0d54ab382d9989b2784e, type: 2}
+  _dataCards: []
   _tags: []
   _changeLogs: []
   _crateTitles:
@@ -72,6 +72,6 @@ MonoBehaviour:
   - Spawnable  Target
   - Spawnable  Tower (Section)
   - Spawnable  Tower
-  _datacardTitles:
-  - BoneTag  Key
+  - Spawnable  Key
+  _datacardTitles: []
   _palletDependencies: []
