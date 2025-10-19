@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEditor;
+using System.Linq;
 public class FixDumbBoxColliderVector3times2 : EditorWindow
 {
     [MenuItem("Marrow uhh/Fix Dumb BoxCollider")]
@@ -9,13 +10,23 @@ public class FixDumbBoxColliderVector3times2 : EditorWindow
 
     private void OnGUI() {
         if (GUILayout.Button("Fix")) {
-            var boxColliders = FindObjectsOfType<BoxCollider>();
-            foreach (var boxCollider in boxColliders) {
-                if (boxCollider.size == Vector3.one * 2) {
-                    boxCollider.size = Vector3.one; 
+            try {
+                var boxColliders = Resources.FindObjectsOfTypeAll<BoxCollider>().ToList();
+                foreach (var boxCollider in boxColliders.ToList()) {
+                    try {
+                        if (boxCollider.size == Vector3.one * 2) {
+                            boxCollider.size = Vector3.one;
+                        }
+                        EditorUtility.SetDirty(boxCollider);
+                        AssetDatabase.SaveAssetIfDirty(boxCollider);
+                    }
+                    catch {
+
+                    }
                 }
-                EditorUtility.SetDirty(boxCollider);
-                AssetDatabase.SaveAssetIfDirty(boxCollider);
+            }
+            catch {
+                
             }
         }
     }
