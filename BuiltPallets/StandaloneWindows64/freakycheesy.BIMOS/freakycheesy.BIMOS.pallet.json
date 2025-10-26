@@ -1,0 +1,1409 @@
+{
+  "version": 2,
+  "root": {
+    "ref": "1",
+    "type": "pallet#0"
+  },
+  "objects": {
+    "1": {
+      "barcode": "freakycheesy.BIMOS",
+      "title": "BIMOS",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "author": "freakycheesy",
+      "version": "0.0.0",
+      "sdkVersion": "1.2.0",
+      "internal": false,
+      "crates": [
+        {
+          "ref": "2",
+          "type": "crate-avatar#0"
+        },
+        {
+          "ref": "3",
+          "type": "crate-avatar#0"
+        },
+        {
+          "ref": "4",
+          "type": "crate-avatar#0"
+        },
+        {
+          "ref": "5",
+          "type": "crate-avatar#0"
+        },
+        {
+          "ref": "6",
+          "type": "crate-avatar#0"
+        },
+        {
+          "ref": "7",
+          "type": "crate-avatar#0"
+        },
+        {
+          "ref": "8",
+          "type": "crate-avatar#0"
+        },
+        {
+          "ref": "9",
+          "type": "crate-avatar#0"
+        },
+        {
+          "ref": "10",
+          "type": "crate-avatar#0"
+        },
+        {
+          "ref": "11",
+          "type": "crate-avatar#0"
+        },
+        {
+          "ref": "12",
+          "type": "crate-avatar#0"
+        },
+        {
+          "ref": "13",
+          "type": "crate-avatar#0"
+        },
+        {
+          "ref": "14",
+          "type": "crate-avatar#0"
+        },
+        {
+          "ref": "15",
+          "type": "crate-avatar#0"
+        },
+        {
+          "ref": "16",
+          "type": "crate-level#0"
+        },
+        {
+          "ref": "17",
+          "type": "crate-level#0"
+        },
+        {
+          "ref": "18",
+          "type": "crate-spawnable#0"
+        },
+        {
+          "ref": "19",
+          "type": "crate-spawnable#0"
+        },
+        {
+          "ref": "20",
+          "type": "crate-spawnable#0"
+        },
+        {
+          "ref": "21",
+          "type": "crate-spawnable#0"
+        },
+        {
+          "ref": "22",
+          "type": "crate-spawnable#0"
+        },
+        {
+          "ref": "23",
+          "type": "crate-spawnable#0"
+        },
+        {
+          "ref": "24",
+          "type": "crate-spawnable#0"
+        },
+        {
+          "ref": "25",
+          "type": "crate-spawnable#0"
+        },
+        {
+          "ref": "26",
+          "type": "crate-spawnable#0"
+        },
+        {
+          "ref": "27",
+          "type": "crate-spawnable#0"
+        },
+        {
+          "ref": "28",
+          "type": "crate-spawnable#0"
+        },
+        {
+          "ref": "29",
+          "type": "crate-spawnable#0"
+        },
+        {
+          "ref": "30",
+          "type": "crate-spawnable#0"
+        },
+        {
+          "ref": "31",
+          "type": "crate-spawnable#0"
+        },
+        {
+          "ref": "32",
+          "type": "crate-spawnable#0"
+        },
+        {
+          "ref": "33",
+          "type": "crate-spawnable#0"
+        },
+        {
+          "ref": "34",
+          "type": "crate-spawnable#0"
+        },
+        {
+          "ref": "35",
+          "type": "crate-spawnable#0"
+        },
+        {
+          "ref": "36",
+          "type": "crate-spawnable#0"
+        },
+        {
+          "ref": "37",
+          "type": "crate-spawnable#0"
+        },
+        {
+          "ref": "38",
+          "type": "crate-spawnable#0"
+        },
+        {
+          "ref": "39",
+          "type": "crate-spawnable#0"
+        },
+        {
+          "ref": "40",
+          "type": "crate-spawnable#0"
+        }
+      ],
+      "dataCards": [
+        {
+          "ref": "41",
+          "type": "datacard-monodisc#0"
+        },
+        {
+          "ref": "42",
+          "type": "datacard-monodisc#0"
+        }
+      ],
+      "tags": [],
+      "changelogs": [],
+      "isa": {
+        "type": "pallet#0"
+      }
+    },
+    "2": {
+      "barcode": "freakycheesy.BIMOS.Avatar.HumanBlack",
+      "title": "Human (Black)",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "633414e8146712246807e48c0e26146e"
+        }
+      ],
+      "mainAsset": "98d031583765d564183b8761239df9e5",
+      "tags": [],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "isa": {
+        "type": "crate-avatar#0"
+      }
+    },
+    "3": {
+      "barcode": "freakycheesy.BIMOS.Avatar.HumanDarkBlue",
+      "title": "Human (Dark Blue)",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "9b2bb9d3cbc4c9a43a5a7cb2ae944c39"
+        }
+      ],
+      "mainAsset": "f299b56b893964844992a820cffe4dd9",
+      "tags": [],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "isa": {
+        "type": "crate-avatar#0"
+      }
+    },
+    "4": {
+      "barcode": "freakycheesy.BIMOS.Avatar.HumanGreen",
+      "title": "Human (Green)",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "0ee19f6ba47eed64b84336fe0e006eda"
+        }
+      ],
+      "mainAsset": "b2546d93c6f25cd40be1f790b945e3fc",
+      "tags": [],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "isa": {
+        "type": "crate-avatar#0"
+      }
+    },
+    "5": {
+      "barcode": "freakycheesy.BIMOS.Avatar.HumanGrey",
+      "title": "Human (Grey)",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "3d0b369409c86e544ba6c1358a4037c8"
+        }
+      ],
+      "mainAsset": "88c14159cdfc9054abf45e7d1c5d9ee4",
+      "tags": [],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "isa": {
+        "type": "crate-avatar#0"
+      }
+    },
+    "6": {
+      "barcode": "freakycheesy.BIMOS.Avatar.HumanIntelMan",
+      "title": "Human (Intel Man)",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "6dc160c82cc967d4baebf5761aca124f"
+        }
+      ],
+      "mainAsset": "16b2319ffe033d74a8d1c126ec0124ff",
+      "tags": [],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "isa": {
+        "type": "crate-avatar#0"
+      }
+    },
+    "7": {
+      "barcode": "freakycheesy.BIMOS.Avatar.HumanLightBlue",
+      "title": "Human (Light Blue)",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "38c02f9b9d249b546b392baa94c675e4"
+        }
+      ],
+      "mainAsset": "ad6f2643d2d85a747a2650de2185d8d2",
+      "tags": [],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "isa": {
+        "type": "crate-avatar#0"
+      }
+    },
+    "8": {
+      "barcode": "freakycheesy.BIMOS.Avatar.HumanOrange",
+      "title": "Human (Orange)",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "84f74333de9de4049991783be000a5ce"
+        }
+      ],
+      "mainAsset": "c6ba264456a62e143939ec32b7b33551",
+      "tags": [],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "isa": {
+        "type": "crate-avatar#0"
+      }
+    },
+    "9": {
+      "barcode": "freakycheesy.BIMOS.Avatar.HumanPink",
+      "title": "Human (Pink)",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "5cbe5e94c15e3374db146262633c1d3b"
+        }
+      ],
+      "mainAsset": "e73642742be88254a85375ccefff1a22",
+      "tags": [],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "isa": {
+        "type": "crate-avatar#0"
+      }
+    },
+    "10": {
+      "barcode": "freakycheesy.BIMOS.Avatar.HumanPooey",
+      "title": "Human (Pooey)",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "93ee92f7fa84f3f4e80e38b93ae1ae61"
+        }
+      ],
+      "mainAsset": "c9dd78f76e7c3ac4a91cbbd73f1f7f26",
+      "tags": [],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "isa": {
+        "type": "crate-avatar#0"
+      }
+    },
+    "11": {
+      "barcode": "freakycheesy.BIMOS.Avatar.HumanPurple",
+      "title": "Human (Purple)",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "d9f576ce5b952c144afd86ae4a5b2a98"
+        }
+      ],
+      "mainAsset": "a1f6774717d73ca40969ca92da211792",
+      "tags": [],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "isa": {
+        "type": "crate-avatar#0"
+      }
+    },
+    "12": {
+      "barcode": "freakycheesy.BIMOS.Avatar.HumanRed",
+      "title": "Human (Red)",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "f0949381d4f6a944081c0debc4ef33a8"
+        }
+      ],
+      "mainAsset": "338a7d1abec456c47abf0f7334d1f87f",
+      "tags": [],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "isa": {
+        "type": "crate-avatar#0"
+      }
+    },
+    "13": {
+      "barcode": "freakycheesy.BIMOS.Avatar.HumanWhite",
+      "title": "Human (White)",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "fad8a274e6229bf48aa0ed576d0a5e44"
+        }
+      ],
+      "mainAsset": "180ec93a6b0ec84478019720d61492d4",
+      "tags": [],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "isa": {
+        "type": "crate-avatar#0"
+      }
+    },
+    "14": {
+      "barcode": "freakycheesy.BIMOS.Avatar.HumanYellow",
+      "title": "Human (Yellow)",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "321bfcc85c9c89c4c830f07f9795487b"
+        }
+      ],
+      "mainAsset": "5bb1a9d6316be3b478363265b669ae20",
+      "tags": [],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "isa": {
+        "type": "crate-avatar#0"
+      }
+    },
+    "15": {
+      "barcode": "freakycheesy.BIMOS.Avatar.Human",
+      "title": "Human",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "27afbaf8ffcdf984486254fe295081f9"
+        }
+      ],
+      "mainAsset": "b35808f10304c0a42a65f10d218585ae",
+      "tags": [],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "isa": {
+        "type": "crate-avatar#0"
+      }
+    },
+    "16": {
+      "barcode": "freakycheesy.BIMOS.Level.Sample",
+      "title": "Sample",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [],
+      "mainAsset": "dfc662b33b1479742878a037c70dff6d",
+      "tags": [],
+      "multiscene": false,
+      "isa": {
+        "type": "crate-level#0"
+      }
+    },
+    "17": {
+      "barcode": "freakycheesy.BIMOS.Level.SnakeEater",
+      "title": "Snake Eater",
+      "description": "",
+      "unlockable": true,
+      "redacted": false,
+      "packedAssets": [],
+      "mainAsset": "b33b7eb3e50b55143b824732b36a6f66",
+      "tags": [],
+      "multiscene": false,
+      "isa": {
+        "type": "crate-level#0"
+      }
+    },
+    "18": {
+      "barcode": "freakycheesy.BIMOS.Spawnable.BallCrate",
+      "title": "Ball Crate",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "d98912de77f331f45b1191a632a23bdc"
+        }
+      ],
+      "mainAsset": "c4ce9293d3513a343854ae797fc10ddc",
+      "tags": [
+        "BIMOS"
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.300000936,
+          "z": 5.96046448E-07
+        },
+        "extents": {
+          "x": 0.500002444,
+          "y": 0.300001472,
+          "z": 0.500003338
+        }
+      },
+      "isa": {
+        "type": "crate-spawnable#0"
+      }
+    },
+    "19": {
+      "barcode": "freakycheesy.BIMOS.Spawnable.BigPooey",
+      "title": "Big Pooey",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "bf96d406dbab1c14d9260d9a4029a2d8"
+        }
+      ],
+      "mainAsset": "e04c3bc4ad41d9142be3ed2b99bbc54f",
+      "tags": [
+        "BIMOS"
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": -9.536743E-07,
+          "y": 2.23642,
+          "z": 0.719843268
+        },
+        "extents": {
+          "x": 1.38844538,
+          "y": 2.23438573,
+          "z": 1.72342563
+        }
+      },
+      "isa": {
+        "type": "crate-spawnable#0"
+      }
+    },
+    "20": {
+      "barcode": "freakycheesy.BIMOS.Spawnable.BlockTower",
+      "title": "Block Tower",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "43d7bb4f1c785734181c6e25cfc80c9d"
+        }
+      ],
+      "mainAsset": "effc1b0f78d8917498e8533a12c3b051",
+      "tags": [
+        "BIMOS"
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.5399996,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.150000066,
+          "y": 0.5399996,
+          "z": 0.150000066
+        }
+      },
+      "isa": {
+        "type": "crate-spawnable#0"
+      }
+    },
+    "21": {
+      "barcode": "freakycheesy.BIMOS.Spawnable.Capsule",
+      "title": "Capsule",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "74c62f06ad556084c8b39329f47c200c"
+        }
+      ],
+      "mainAsset": "570330c8a3b637f40b388efe0343aea4",
+      "tags": [
+        "BIMOS"
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.50000006,
+          "y": 1.0,
+          "z": 0.5
+        }
+      },
+      "isa": {
+        "type": "crate-spawnable#0"
+      }
+    },
+    "22": {
+      "barcode": "freakycheesy.BIMOS.Spawnable.Cube",
+      "title": "Cube",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "a7ae1ffc8ac353f48a5d09e04d59a6ea"
+        }
+      ],
+      "mainAsset": "e0091500ede7ad348bc71f0a356e8bd1",
+      "tags": [
+        "BIMOS"
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.5,
+          "y": 0.5,
+          "z": 0.5
+        }
+      },
+      "isa": {
+        "type": "crate-spawnable#0"
+      }
+    },
+    "23": {
+      "barcode": "freakycheesy.BIMOS.Spawnable.Door",
+      "title": "Door",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "0f0afccc7b96771479c918ce7c1d2d4a"
+        }
+      ],
+      "mainAsset": "8853841a8fa293e42b39789a294e6310",
+      "tags": [
+        "BIMOS"
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.5,
+          "y": 1.0,
+          "z": 0.11
+        }
+      },
+      "isa": {
+        "type": "crate-spawnable#0"
+      }
+    },
+    "24": {
+      "barcode": "freakycheesy.BIMOS.Spawnable.Drawbridge",
+      "title": "Drawbridge",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "484611986e24336408c7e42aa4335d19"
+        }
+      ],
+      "mainAsset": "e13813d918c208c45bcc0c7720b68b57",
+      "tags": [
+        "BIMOS"
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 5.0,
+          "z": -0.05000007
+        },
+        "extents": {
+          "x": 1.0,
+          "y": 5.0,
+          "z": 0.049999997
+        }
+      },
+      "isa": {
+        "type": "crate-spawnable#0"
+      }
+    },
+    "25": {
+      "barcode": "freakycheesy.BIMOS.Spawnable.Hook",
+      "title": "Hook",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "163f398e4e08ea247bc6806000e16be8"
+        }
+      ],
+      "mainAsset": "5ffc2b6068b8342429d6386a90811a9a",
+      "tags": [
+        "BIMOS"
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.5500005,
+          "z": 0.175000653
+        },
+        "extents": {
+          "x": 0.05000005,
+          "y": 0.5500005,
+          "z": 0.2250002
+        }
+      },
+      "isa": {
+        "type": "crate-spawnable#0"
+      }
+    },
+    "26": {
+      "barcode": "freakycheesy.BIMOS.Spawnable.KeyDoor",
+      "title": "Key Door",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "ba64c16ce5917214ea2268ed2f64d791"
+        }
+      ],
+      "mainAsset": "9c178db0d39563b42a274ef940320f00",
+      "tags": [
+        "BIMOS"
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.5,
+          "y": 1.0,
+          "z": 0.11
+        }
+      },
+      "isa": {
+        "type": "crate-spawnable#0"
+      }
+    },
+    "27": {
+      "barcode": "freakycheesy.BIMOS.Spawnable.Key",
+      "title": "Key",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "99e63927f28eda0469205b6387ceab10"
+        }
+      ],
+      "mainAsset": "7073b2e6e3b3f7649abd05e5aefa040a",
+      "tags": [],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": -1.49011612E-08,
+          "z": 0.0297096483
+        },
+        "extents": {
+          "x": 0.005000038,
+          "y": 0.02100016,
+          "z": 0.0507099479
+        }
+      },
+      "isa": {
+        "type": "crate-spawnable#0"
+      }
+    },
+    "28": {
+      "barcode": "freakycheesy.BIMOS.Spawnable.Ladder",
+      "title": "Ladder",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "234f1b243c8132044ad3bca238b00ada"
+        }
+      ],
+      "mainAsset": "fa744641bbf36bd40bcab5a9dfda2050",
+      "tags": [
+        "BIMOS"
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": -0.0500000939,
+          "y": 1.625,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0500000939,
+          "y": 1.625,
+          "z": 0.3500002
+        }
+      },
+      "isa": {
+        "type": "crate-spawnable#0"
+      }
+    },
+    "29": {
+      "barcode": "freakycheesy.BIMOS.Spawnable.LargeSled",
+      "title": "Large Sled",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "9a2b7956b6c5e1042b68126f7608af5c"
+        }
+      ],
+      "mainAsset": "93e976bae0d560f4781d80920be48032",
+      "tags": [
+        "BIMOS"
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 1.50000143,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 2.50000238,
+          "y": 1.50000143,
+          "z": 4.000004
+        }
+      },
+      "isa": {
+        "type": "crate-spawnable#0"
+      }
+    },
+    "30": {
+      "barcode": "freakycheesy.BIMOS.Spawnable.LightCube",
+      "title": "Light Cube",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "d2d70da3e0898c84397ba83a195fd3bf"
+        }
+      ],
+      "mainAsset": "2d13b8eb5888a9748b13279c301c3f54",
+      "tags": [
+        "BIMOS"
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "isa": {
+        "type": "crate-spawnable#0"
+      }
+    },
+    "31": {
+      "barcode": "freakycheesy.BIMOS.Spawnable.LilPooey",
+      "title": "Lil Pooey",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "ee98a0306e4330746abd6dc97f5d41ef"
+        }
+      ],
+      "mainAsset": "807568f13525f5c439ce67723e592748",
+      "tags": [
+        "BIMOS"
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": -6.70552254E-08,
+          "y": 0.149094641,
+          "z": 0.0479895547
+        },
+        "extents": {
+          "x": 0.09256302,
+          "y": 0.148959041,
+          "z": 0.114895053
+        }
+      },
+      "isa": {
+        "type": "crate-spawnable#0"
+      }
+    },
+    "32": {
+      "barcode": "freakycheesy.BIMOS.Spawnable.MovingPlatform",
+      "title": "Moving Platform",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "12fc07a2c9073da4db4ec2155fbcdd85"
+        }
+      ],
+      "mainAsset": "e8009156f08c98844b78c29ef32ee8a5",
+      "tags": [
+        "BIMOS"
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 0.5,
+          "y": 25.0112419,
+          "z": 1.551851
+        },
+        "extents": {
+          "x": 1.50000048,
+          "y": 26.0792274,
+          "z": 3.95185018
+        }
+      },
+      "isa": {
+        "type": "crate-spawnable#0"
+      }
+    },
+    "33": {
+      "barcode": "freakycheesy.BIMOS.Spawnable.PedestalButton",
+      "title": "Pedestal Button",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "688cfa13f8c82d84c8f9e3067b699d44"
+        }
+      ],
+      "mainAsset": "6175c515a643fab449a6a62088377652",
+      "tags": [
+        "BIMOS"
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.5452349,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.1,
+          "y": 0.5452349,
+          "z": 0.1
+        }
+      },
+      "isa": {
+        "type": "crate-spawnable#0"
+      }
+    },
+    "34": {
+      "barcode": "freakycheesy.BIMOS.Spawnable.Pooey",
+      "title": "Pooey",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "24cccf15a0f874d4e802cd53f50aa868"
+        }
+      ],
+      "mainAsset": "cff30cf44f95a134c9042d0b946cd8fa",
+      "tags": [
+        "BIMOS"
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": -1.34110451E-07,
+          "y": 0.298189282,
+          "z": 0.09597911
+        },
+        "extents": {
+          "x": 0.185126036,
+          "y": 0.297918081,
+          "z": 0.2297901
+        }
+      },
+      "isa": {
+        "type": "crate-spawnable#0"
+      }
+    },
+    "35": {
+      "barcode": "freakycheesy.BIMOS.Spawnable.Ragdoll",
+      "title": "Ragdoll",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "c1ba991af252d6a4e94425ead3724f83"
+        }
+      ],
+      "mainAsset": "74a7455d9660df144adc62385230b3b3",
+      "tags": [
+        "BIMOS"
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.8415449,
+          "z": 0.0412192345
+        },
+        "extents": {
+          "x": 1.04722,
+          "y": 0.9343165,
+          "z": 0.180929616
+        }
+      },
+      "isa": {
+        "type": "crate-spawnable#0"
+      }
+    },
+    "36": {
+      "barcode": "freakycheesy.BIMOS.Spawnable.Sphere",
+      "title": "Sphere",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "7c77d62370a4d844f8b22d36792c61d8"
+        }
+      ],
+      "mainAsset": "db2a608140dae46499ee33d1a13d9cde",
+      "tags": [
+        "BIMOS"
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.5,
+          "y": 0.5,
+          "z": 0.5
+        }
+      },
+      "isa": {
+        "type": "crate-spawnable#0"
+      }
+    },
+    "37": {
+      "barcode": "freakycheesy.BIMOS.Spawnable.Table",
+      "title": "Table",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "8339578452d6c6940bf27292ac8d9cc0"
+        }
+      ],
+      "mainAsset": "23551db1864d95d4f9531401c9a0098f",
+      "tags": [
+        "BIMOS"
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.449998677,
+          "z": -5.96046448E-08
+        },
+        "extents": {
+          "x": 1.000001,
+          "y": 0.450000465,
+          "z": 0.5000005
+        }
+      },
+      "isa": {
+        "type": "crate-spawnable#0"
+      }
+    },
+    "38": {
+      "barcode": "freakycheesy.BIMOS.Spawnable.Target",
+      "title": "Target",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "8a79d7e6f299fa84ca4faf5293c1bb58"
+        }
+      ],
+      "mainAsset": "df472f8322ae99a499d0689bd395bdec",
+      "tags": [
+        "BIMOS"
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.75,
+          "z": 0.0291880853
+        },
+        "extents": {
+          "x": 0.25,
+          "y": 0.75,
+          "z": 0.0791880861
+        }
+      },
+      "isa": {
+        "type": "crate-spawnable#0"
+      }
+    },
+    "39": {
+      "barcode": "freakycheesy.BIMOS.Spawnable.TowerSection",
+      "title": "Tower (Section)",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "0404f3dfe9caec1449162eca7bb7f732"
+        }
+      ],
+      "mainAsset": "d25865d107e6fd547a61e4799c8bc598",
+      "tags": [
+        "BIMOS"
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 1.25,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 1.5,
+          "y": 1.25,
+          "z": 1.5
+        }
+      },
+      "isa": {
+        "type": "crate-spawnable#0"
+      }
+    },
+    "40": {
+      "barcode": "freakycheesy.BIMOS.Spawnable.Tower",
+      "title": "Tower",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "f40bdd2448f1afc438995f22f53657c3"
+        }
+      ],
+      "mainAsset": "9f16e15227f82d146ab450d18f5d29ba",
+      "tags": [
+        "BIMOS"
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 4.375,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 1.05,
+          "y": 4.375,
+          "z": 1.05
+        }
+      },
+      "isa": {
+        "type": "crate-spawnable#0"
+      }
+    },
+    "41": {
+      "barcode": "freakycheesy.BIMOS.MonoDisc.SampleMusic",
+      "title": "Sample Music",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "AudioClip",
+          "guid": "694bb430b1382614ab2eb4a0df1317e7"
+        }
+      ],
+      "dataCardAsset": "e74e0cba467629b4aa16455a90b26f84",
+      "isa": {
+        "type": "datacard-monodisc#0"
+      }
+    },
+    "42": {
+      "barcode": "freakycheesy.BIMOSLevels.MonoDisc.whatathrill",
+      "title": "what a thrill",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "AudioClip",
+          "guid": "a5d2367750ebe68439bdeefa2c8e5518"
+        }
+      ],
+      "dataCardAsset": "351cd41b3b008924893aa4b5f32e3156",
+      "isa": {
+        "type": "datacard-monodisc#0"
+      }
+    }
+  }
+}

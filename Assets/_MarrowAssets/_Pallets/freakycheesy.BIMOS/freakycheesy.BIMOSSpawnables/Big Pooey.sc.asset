@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34569ddb84e20304981812b1c448d930, type: 3}
+  m_Name: Big Pooey.sc
+  m_EditorClassIdentifier: 
+  _barcode:
+    _id: freakycheesy.BIMOS.Spawnable.BigPooey
+  _title: Big Pooey
+  _description: 
+  _unlockable: 0
+  _redacted: 0
+  _tags:
+  - BIMOS
+  _boneTags:
+    _tags: []
+  _mainAsset:
+    _assetGUID: e04c3bc4ad41d9142be3ed2b99bbc54f
+    _editorAssetChanged: 0
+  _previewMesh:
+    _assetGUID: bf96d406dbab1c14d9260d9a4029a2d8
+    _editorAssetChanged: 1
+  _customQuality: 0
+  _previewMeshQuality: 0.5
+  _maxLODLevel: 0
+  _colliderBounds:
+    m_Center: {x: -0.0000009536743, y: 2.23642, z: 0.71984327}
+    m_Extent: {x: 1.3884454, y: 2.2343857, z: 1.7234256}

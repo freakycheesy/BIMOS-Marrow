@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: BIMOS_Avatars
+  m_EditorClassIdentifier: 
+  m_GroupName: BIMOS_Avatars
+  m_Data:
+    m_SerializedData: []
+  m_GUID: ffb5002745952ff4eb80b3bbb8cd4a8c
+  m_SerializeEntries:
+  - m_GUID: 98d031583765d564183b8761239df9e5
+    m_Address: Avatar/Human (Black)
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 633414e8146712246807e48c0e26146e
+    m_Address: PreviewMesh/Human (Black)
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f299b56b893964844992a820cffe4dd9
+    m_Address: Avatar/Human (Dark Blue)
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b2bb9d3cbc4c9a43a5a7cb2ae944c39
+    m_Address: PreviewMesh/Human (Dark Blue)
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b2546d93c6f25cd40be1f790b945e3fc
+    m_Address: Avatar/Human (Green)
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0ee19f6ba47eed64b84336fe0e006eda
+    m_Address: PreviewMesh/Human (Green)
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88c14159cdfc9054abf45e7d1c5d9ee4
+    m_Address: Avatar/Human (Grey)
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d0b369409c86e544ba6c1358a4037c8
+    m_Address: PreviewMesh/Human (Grey)
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 16b2319ffe033d74a8d1c126ec0124ff
+    m_Address: Avatar/Human (Intel Man)
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6dc160c82cc967d4baebf5761aca124f
+    m_Address: PreviewMesh/Human (Intel Man)
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad6f2643d2d85a747a2650de2185d8d2
+    m_Address: Avatar/Human (Light Blue)
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 38c02f9b9d249b546b392baa94c675e4
+    m_Address: PreviewMesh/Human (Light Blue)
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6ba264456a62e143939ec32b7b33551
+    m_Address: Avatar/Human (Orange)
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 84f74333de9de4049991783be000a5ce
+    m_Address: PreviewMesh/Human (Orange)
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e73642742be88254a85375ccefff1a22
+    m_Address: Avatar/Human (Pink)
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5cbe5e94c15e3374db146262633c1d3b
+    m_Address: PreviewMesh/Human (Pink)
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9dd78f76e7c3ac4a91cbbd73f1f7f26
+    m_Address: Avatar/Human (Pooey)
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 93ee92f7fa84f3f4e80e38b93ae1ae61
+    m_Address: PreviewMesh/Human (Pooey)
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a1f6774717d73ca40969ca92da211792
+    m_Address: Avatar/Human (Purple)
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d9f576ce5b952c144afd86ae4a5b2a98
+    m_Address: PreviewMesh/Human (Purple)
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 338a7d1abec456c47abf0f7334d1f87f
+    m_Address: Avatar/Human (Red)
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0949381d4f6a944081c0debc4ef33a8
+    m_Address: PreviewMesh/Human (Red)
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 180ec93a6b0ec84478019720d61492d4
+    m_Address: Avatar/Human (White)
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fad8a274e6229bf48aa0ed576d0a5e44
+    m_Address: PreviewMesh/Human (White)
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5bb1a9d6316be3b478363265b669ae20
+    m_Address: Avatar/Human (Yellow)
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 321bfcc85c9c89c4c830f07f9795487b
+    m_Address: PreviewMesh/Human (Yellow)
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b35808f10304c0a42a65f10d218585ae
+    m_Address: Avatar/Human
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27afbaf8ffcdf984486254fe295081f9
+    m_Address: PreviewMesh/Human
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 904d2c56c4a5e1846849c89c16938c9c, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: ba7226e4e261dab448a9bcf9d6e94b12, type: 2}
+    - {fileID: 11400000, guid: fe72890337280d84bb3bcb1c7be449eb, type: 2}
+    - {fileID: 11400000, guid: 17935986fbd4b824c9a853869a27ed80, type: 2}

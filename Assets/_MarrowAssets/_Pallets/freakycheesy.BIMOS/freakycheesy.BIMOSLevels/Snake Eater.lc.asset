@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2505b25ddfc1ccf418da1689d2daf024, type: 3}
+  m_Name: Snake Eater.lc
+  m_EditorClassIdentifier: 
+  _barcode:
+    _id: freakycheesy.BIMOS.Level.SnakeEater
+  _title: Snake Eater
+  _description: 
+  _unlockable: 1
+  _redacted: 0
+  _tags: []
+  _boneTags:
+    _tags: []
+  _mainAsset:
+    _assetGUID: b33b7eb3e50b55143b824732b36a6f66
+    _editorAssetChanged: 0
+  _additionalAssetReferences: []
+  _multiScene: 0
+  _persistentScenes: []
+  _chunkScenes: []
+  _editorScenes: []

@@ -1,5 +1,86 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &696225351
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 696225352}
+  - component: {fileID: 696225354}
+  - component: {fileID: 696225353}
+  - component: {fileID: 696225355}
+  m_Layer: 2
+  m_Name: Player Marker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &696225352
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696225351}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 19.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3335544173001654205}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &696225354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696225351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ea3c14f4494a979246e65ba61c6b39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &696225353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696225351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1c897eac5e3aa21138bc76b7ec0fc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerMarker: {fileID: 696225354}
+  _reloadLevelOnDeath: 0
+  _healthMode: 1
+  deathTime: 3
+  OnPlayerDeath:
+    _PersistentCalls: []
+--- !u!114 &696225355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696225351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bcdcd6b6959634ed2e3500af1b27e68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerMarker: {fileID: 696225354}
+  overrideAvatar:
+    _barcode:
+      _id: freakycheesy.BIMOSAvatars.Avatar.Human
+  preventSwap: 0
 --- !u!1 &3335544172018929936
 GameObject:
   m_ObjectHideFlags: 0
@@ -49,7 +130,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3335544172205595791}
-  m_Layer: 0
+  m_Layer: 26
   m_Name: Stopwatch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87,7 +168,7 @@ GameObject:
   - component: {fileID: 3335544172251992727}
   - component: {fileID: 3335544172251992714}
   - component: {fileID: 7669716026199294769}
-  m_Layer: 29
+  m_Layer: 26
   m_Name: Zone Event (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -214,7 +295,7 @@ GameObject:
   - component: {fileID: 3335544172339527542}
   - component: {fileID: 3335544172339527543}
   - component: {fileID: 3335544172339527528}
-  m_Layer: 29
+  m_Layer: 26
   m_Name: StopwatchTrigger (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -287,6 +368,17 @@ MonoBehaviour:
     - _Target: {fileID: 0}
       _MethodName: StopTimerSession
       _PersistentArguments: []
+    - _Target: {fileID: 0}
+      _MethodName: SetActive
+      _PersistentArguments:
+      - _Type: 1
+        _Int: 0
+        _String: 
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
   onZoneEnterOneShot:
     _PersistentCalls: []
   onZoneExit:
@@ -303,7 +395,7 @@ GameObject:
   - component: {fileID: 3335544172536779802}
   - component: {fileID: 3335544172536779801}
   - component: {fileID: 3335544172536779800}
-  m_Layer: 29
+  m_Layer: 26
   m_Name: KillTrigger (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -395,7 +487,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3335544172582177883}
-  m_Layer: 0
+  m_Layer: 26
   m_Name: KillTriggers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -436,7 +528,7 @@ GameObject:
   - component: {fileID: 3335544172605233533}
   - component: {fileID: 3335544172605233520}
   - component: {fileID: 5164542037907982887}
-  m_Layer: 29
+  m_Layer: 26
   m_Name: Zone Event (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -548,7 +640,18 @@ MonoBehaviour:
   onZoneEnter:
     _PersistentCalls: []
   onZoneEnterOneShot:
-    _PersistentCalls: []
+    _PersistentCalls:
+    - _Target: {fileID: 0}
+      _MethodName: SetActive
+      _PersistentArguments:
+      - _Type: 1
+        _Int: 1
+        _String: 
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
   onZoneExit:
     _PersistentCalls: []
 --- !u!1 &3335544172650665174
@@ -565,7 +668,7 @@ GameObject:
   - component: {fileID: 3335544172650665171}
   - component: {fileID: 3335544172650665183}
   - component: {fileID: 3335544172650665182}
-  m_Layer: 29
+  m_Layer: 26
   m_Name: Main
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -744,7 +847,7 @@ GameObject:
   - component: {fileID: 3335544172703533274}
   - component: {fileID: 3335544172703533275}
   - component: {fileID: 3335544172703533276}
-  m_Layer: 29
+  m_Layer: 26
   m_Name: Cull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -824,7 +927,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3335544172720059677}
-  m_Layer: 0
+  m_Layer: 26
   m_Name: Culls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -858,7 +961,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3335544173603196333}
-  m_Layer: 0
+  m_Layer: 26
   m_Name: Triggers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -917,6 +1020,7 @@ Transform:
   - {fileID: 3335544172698204954}
   - {fileID: 3335544173603196333}
   - {fileID: 3335544172018929951}
+  - {fileID: 696225352}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -932,7 +1036,7 @@ GameObject:
   - component: {fileID: 3335544173144588915}
   - component: {fileID: 3335544173144588913}
   - component: {fileID: 3335544173144588912}
-  m_Layer: 29
+  m_Layer: 26
   m_Name: GravityTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1032,7 +1136,7 @@ GameObject:
   - component: {fileID: 3335544173182487655}
   - component: {fileID: 3335544173182487579}
   - component: {fileID: 5441153419462061017}
-  m_Layer: 29
+  m_Layer: 26
   m_Name: Zone Event
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1159,7 +1263,7 @@ GameObject:
   - component: {fileID: 3335544173334146978}
   - component: {fileID: 3335544173334146976}
   - component: {fileID: 3335544173334146977}
-  m_Layer: 29
+  m_Layer: 26
   m_Name: LevelTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1245,7 +1349,7 @@ GameObject:
   - component: {fileID: 3335544173388059916}
   - component: {fileID: 3335544173388059914}
   - component: {fileID: 3335544173388059915}
-  m_Layer: 29
+  m_Layer: 26
   m_Name: StopwatchTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1334,7 +1438,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3335544173439555736}
-  m_Layer: 0
+  m_Layer: 26
   m_Name: Generic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1368,7 +1472,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3335544173443137027}
-  m_Layer: 0
+  m_Layer: 26
   m_Name: Checkpoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1407,7 +1511,7 @@ GameObject:
   - component: {fileID: 3335544173470150553}
   - component: {fileID: 3335544173470150554}
   - component: {fileID: 3335544173470150555}
-  m_Layer: 29
+  m_Layer: 26
   m_Name: Cull (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1490,7 +1594,7 @@ GameObject:
   - component: {fileID: 3335544173612102486}
   - component: {fileID: 3335544173612102485}
   - component: {fileID: 3335544173612102484}
-  m_Layer: 29
+  m_Layer: 26
   m_Name: KillTrigger (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1584,7 +1688,7 @@ GameObject:
   - component: {fileID: 3335544173743188830}
   - component: {fileID: 3335544173743188828}
   - component: {fileID: 3335544173743188827}
-  m_Layer: 29
+  m_Layer: 26
   m_Name: KillTrigger (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1647,7 +1751,7 @@ GameObject:
   - component: {fileID: 3335544173790296103}
   - component: {fileID: 3335544173790296282}
   - component: {fileID: 7527014901081281560}
-  m_Layer: 29
+  m_Layer: 26
   m_Name: Zone Event (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1774,7 +1878,7 @@ GameObject:
   - component: {fileID: 3335544173790399682}
   - component: {fileID: 3335544173790399681}
   - component: {fileID: 3335544173790399680}
-  m_Layer: 29
+  m_Layer: 26
   m_Name: KillTrigger (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1945,7 +2049,7 @@ GameObject:
   - component: {fileID: 3335544173836366719}
   - component: {fileID: 3335544173836366704}
   - component: {fileID: 3335544173836366705}
-  m_Layer: 29
+  m_Layer: 26
   m_Name: Cull (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2030,7 +2134,7 @@ GameObject:
   - component: {fileID: 3335544173951347732}
   - component: {fileID: 3335544173951347735}
   - component: {fileID: 8756305796847590877}
-  m_Layer: 29
+  m_Layer: 26
   m_Name: Zone Event (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2140,7 +2244,18 @@ MonoBehaviour:
     _operator: 0
     _crates: []
   onZoneEnter:
-    _PersistentCalls: []
+    _PersistentCalls:
+    - _Target: {fileID: 0}
+      _MethodName: set_isKinematic
+      _PersistentArguments:
+      - _Type: 1
+        _Int: 0
+        _String: 
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
   onZoneEnterOneShot:
     _PersistentCalls: []
   onZoneExit:
@@ -2157,7 +2272,7 @@ GameObject:
   - component: {fileID: 3335544174061773576}
   - component: {fileID: 3335544174061773590}
   - component: {fileID: 3335544174061773589}
-  m_Layer: 29
+  m_Layer: 26
   m_Name: RagdollTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2246,7 +2361,7 @@ GameObject:
   - component: {fileID: 3335544174080812149}
   - component: {fileID: 3335544174080812148}
   - component: {fileID: 3335544174080812147}
-  m_Layer: 29
+  m_Layer: 26
   m_Name: KillTrigger (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

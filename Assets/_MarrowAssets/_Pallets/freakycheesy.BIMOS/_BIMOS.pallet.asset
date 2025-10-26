@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bffa63f5a19c394b9f0ab757607a9ea, type: 3}
+  m_Name: _BIMOS.pallet
+  m_EditorClassIdentifier: 
+  _barcode:
+    _id: freakycheesy.BIMOS
+  _title: BIMOS
+  _description: 
+  _unlockable: 0
+  _redacted: 0
+  _author: freakycheesy
+  _version: 0.0.0
+  _sdkVersion: 1.2.0
+  _internal: 0
+  _crates:
+  - {fileID: 11400000, guid: c241e289f527cfd4da581891b7237ac4, type: 2}
+  - {fileID: 11400000, guid: de8ae3529c559644989dd99ff0313732, type: 2}
+  - {fileID: 11400000, guid: 184abf5cdcdf0ca4db169ad695eedbee, type: 2}
+  - {fileID: 11400000, guid: a6cafb3727e91df44bf609249f0964c4, type: 2}
+  - {fileID: 11400000, guid: d711933a52fe17443bab5955c74fb0a7, type: 2}
+  - {fileID: 11400000, guid: 6dc538725e15cbe47bba6fdbd342c5f1, type: 2}
+  - {fileID: 11400000, guid: 878cab0a8286efd41813648679dc695e, type: 2}
+  - {fileID: 11400000, guid: 8cc89c9a17bc10346ab2d5501b1b002b, type: 2}
+  - {fileID: 11400000, guid: 29ac90868ce86c948bb413acd2d89998, type: 2}
+  - {fileID: 11400000, guid: fb57930d5bd25474aa18b19547dde515, type: 2}
+  - {fileID: 11400000, guid: 137fa396011c95f42be6ede06ccac21a, type: 2}
+  - {fileID: 11400000, guid: e884f41a8487c37418f05e256cb995e3, type: 2}
+  - {fileID: 11400000, guid: 24787696d850158459140bf19281dcc2, type: 2}
+  - {fileID: 11400000, guid: cd229900d3eb245458d1f276e39e1cb8, type: 2}
+  - {fileID: 11400000, guid: 02cbd6ee0b841af4e90a9a0f6151c55a, type: 2}
+  - {fileID: 11400000, guid: 1db8b3195a5b57b489b86d88aa158956, type: 2}
+  - {fileID: 11400000, guid: 7189d4d0160a12a4f900745932497d9a, type: 2}
+  - {fileID: 11400000, guid: 9f1a3fe8c21cdb24584ad39370af75e3, type: 2}
+  - {fileID: 11400000, guid: 92358814f3f97fe40bfe38a88eb2f908, type: 2}
+  - {fileID: 11400000, guid: bc97fb63294c1b34f9a71c0555612aa8, type: 2}
+  - {fileID: 11400000, guid: 230b11ec9036f894bb9b30bb77e07b45, type: 2}
+  - {fileID: 11400000, guid: 313986abc464a914294cd6879489e2db, type: 2}
+  - {fileID: 11400000, guid: 1964b4904709cfe428ffb558cee624c9, type: 2}
+  - {fileID: 11400000, guid: 09c2e4a533afaa24599115a530403ae8, type: 2}
+  - {fileID: 11400000, guid: d92e7dab2e6a66642bc246559578875f, type: 2}
+  - {fileID: 11400000, guid: 893fd1959e9c0d54ab382d9989b2784e, type: 2}
+  - {fileID: 11400000, guid: e4b6d89b8290aa547a542d4fb3bf63ec, type: 2}
+  - {fileID: 11400000, guid: 0cf1eacd376ee4c44a75aac6c25cf1ba, type: 2}
+  - {fileID: 11400000, guid: 7b4aabf31a5809342ad9fdbeadc97e74, type: 2}
+  - {fileID: 11400000, guid: 52d9406905999b84eafe95b8dbeb5e94, type: 2}
+  - {fileID: 11400000, guid: 90aa7ccb7fe880f4b821b1c4ecc4d2e6, type: 2}
+  - {fileID: 11400000, guid: 8efa91d13b7ddde41bc19260acdef172, type: 2}
+  - {fileID: 11400000, guid: ff88829e661c5d4479154b2bf533f140, type: 2}
+  - {fileID: 11400000, guid: a0bcfa4e042d6414e86a2b3f4b0abcec, type: 2}
+  - {fileID: 11400000, guid: 8a9a9faf6fef9c44e84364684f02869a, type: 2}
+  - {fileID: 11400000, guid: 45a035f37f7aaf2499b74726ad3c9124, type: 2}
+  - {fileID: 11400000, guid: 0f7c58af4988f2348b4ad44942e9ca84, type: 2}
+  - {fileID: 11400000, guid: 777fd531b1bafac49bd451b69d7679ab, type: 2}
+  - {fileID: 11400000, guid: 4e536188a74a0e74e95c18fc64883e38, type: 2}
+  _dataCards:
+  - {fileID: 11400000, guid: e74e0cba467629b4aa16455a90b26f84, type: 2}
+  - {fileID: 11400000, guid: 351cd41b3b008924893aa4b5f32e3156, type: 2}
+  _tags: []
+  _changeLogs: []
+  _crateTitles:
+  - Avatar  Human (Black)
+  - Avatar  Human (Dark Blue)
+  - Avatar  Human (Green)
+  - Avatar  Human (Grey)
+  - Avatar  Human (Intel Man)
+  - Avatar  Human (Light Blue)
+  - Avatar  Human (Orange)
+  - Avatar  Human (Pink)
+  - Avatar  Human (Pooey)
+  - Avatar  Human (Purple)
+  - Avatar  Human (Red)
+  - Avatar  Human (White)
+  - Avatar  Human (Yellow)
+  - Avatar  Human
+  - Level  Sample
+  - Level  Snake Eater
+  - Spawnable  Ball Crate
+  - Spawnable  Big Pooey
+  - Spawnable  Block Tower
+  - Spawnable  Capsule
+  - Spawnable  Cube
+  - Spawnable  Door
+  - Spawnable  Drawbridge
+  - Spawnable  Hook
+  - Spawnable  Key Door
+  - Spawnable  Key
+  - Spawnable  Ladder
+  - Spawnable  Large Sled
+  - Spawnable  Light Cube
+  - Spawnable  Lil Pooey
+  - Spawnable  Moving Platform
+  - Spawnable  Pedestal Button
+  - Spawnable  Pooey
+  - Spawnable  Ragdoll
+  - Spawnable  Sphere
+  - Spawnable  Table
+  - Spawnable  Target
+  - Spawnable  Tower (Section)
+  - Spawnable  Tower
+  _datacardTitles:
+  - MonoDisc  Sample Music
+  - MonoDisc  what a thrill
+  _palletDependencies: []
